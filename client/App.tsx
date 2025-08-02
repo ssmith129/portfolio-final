@@ -14,7 +14,6 @@ import ComputisCaseStudy from "./pages/ComputisCaseStudy";
 import EzEMRxCaseStudy from "./pages/EzEMRxCaseStudy";
 import MedicoCaseStudy from "./pages/MedicoCaseStudy";
 import MoneyFarmCaseStudy from "./pages/MoneyFarmCaseStudy";
-import DataDirectCaseStudy from "./pages/DataDirectCaseStudy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,7 +33,6 @@ const App = () => (
           <Route path="/case-studies/ezemrx-redesigning-ehr" element={<EzEMRxCaseStudy />} />
           <Route path="/case-studies/medico-hospital-management-system" element={<MedicoCaseStudy />} />
           <Route path="/case-studies/moneyfarm-ai-powered-personal-finance" element={<MoneyFarmCaseStudy />} />
-          <Route path="/case-studies/data-direct-ai-powered-public-health" element={<DataDirectCaseStudy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

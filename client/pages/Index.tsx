@@ -162,36 +162,6 @@ export default function Index() {
             </div>
             <div 
               className="relative group"
-              onMouseEnter={() => setHoveredImage(6)}
-              onMouseLeave={() => setHoveredImage(null)}
-              onClick={() => navigate('/case-studies/data-direct-ai-powered-public-health')}
-            >
-              <img
-                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="Data Direct - AI-Powered Public Health Platform"
-                className={`w-full aspect-square object-cover rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] transition-all duration-500 cursor-pointer ${
-                  hoveredImage === 6 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
-                }`}
-              />
-              {/* Title Overlay */}
-              <div className={`absolute inset-0 bg-black/40 rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] flex items-center justify-center transition-all duration-500 ${
-                hoveredImage === 6 ? 'opacity-100' : 'opacity-0'
-              }`}>
-                <div className="text-center text-white transform transition-all duration-500">
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-medium mb-2 tracking-[-0.5px]">
-                    Data Direct
-                  </h3>
-                  <p className="text-sm sm:text-base font-normal opacity-90 tracking-[-0.2px]">
-                    AI-Powered Public Health Platform
-                  </p>
-                  <div className="mt-2 text-xs font-medium opacity-75">
-                    Click to view case study →
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div 
-              className="relative group"
               onMouseEnter={() => setHoveredImage(7)}
               onMouseLeave={() => setHoveredImage(null)}
               onClick={() => navigate('/case-studies/moneyfarm-ai-powered-personal-finance')}
