@@ -45,7 +45,7 @@ export default function Index() {
       </nav>
 
       {/* Main Content */}
-      <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] space-y-16 sm:space-y-32 lg:space-y-[246px] pb-16">
+      <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] space-y-8 sm:space-y-16 lg:space-y-24 pb-16">
         {/* Hero Section */}
         <section className="flex flex-col lg:flex-row justify-between items-start pt-5 gap-8 lg:gap-0 animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-300">
 
