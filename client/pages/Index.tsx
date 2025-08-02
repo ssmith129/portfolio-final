@@ -275,6 +275,36 @@ export default function Index() {
               <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] transition-all duration-300 hover:text-[#9FA0A3] hover:tracking-[-0.1px] cursor-pointer">
                 Knight Frank
               </p>
+              <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] transition-all duration-300 hover:text-[#9FA0A3] hover:tracking-[-0.1px] cursor-pointer">
+                Volkswagen
+              </p>
+            </div>
+          </div>
+
+          <div className="w-full lg:max-w-[1118px] lg:flex-1 lg:ml-[440px] order-1 lg:order-2 animate-in fade-in-0 slide-in-from-right-8 duration-1000 delay-2000">
+            <div className="relative mb-[30px]">
+              <h2 className="text-2xl sm:text-3xl lg:text-[48px] font-normal text-[#131417] leading-[150%] tracking-[-0.48px] transition-all duration-500 hover:tracking-[-0.3px]">
+                Studied Web Development at London App Brewery And have been
+                working in the development industry for over a decade.
+              </h2>
+              <div className="hidden lg:block absolute top-[3px] left-[635px] w-[483px] h-[70px] border border-[#131417] rounded-[50px] transition-all duration-500 hover:scale-105 hover:border-[#9FA0A3]"></div>
+            </div>
+
+            <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px] max-w-[787px] mb-8 lg:mb-[68px] transition-all duration-300 hover:text-[#2a2a2a] hover:tracking-[-0.15px]">
+              My passion for development & design started when I was young, and
+              I have pursued this passion by working with a variety of clients
+              and projects over the years. I have worked with startups, small
+              businesses, and large corporations, creating user interfaces for
+              websites, software applications, and mobile apps.
+            </p>
+
+            <button className="text-[18px] font-normal text-[#9FA0A3] leading-[100%] tracking-[-0.18px] hover:text-[#131417] transition-all duration-300 hover:tracking-[-0.1px] hover:scale-105 group">
+              <span className="border-b border-transparent group-hover:border-[#131417] transition-all duration-300">
+              Read More
+              </span>
+            </button>
+          </div>
+        </section>
       </div>
 
       {/* Awards Section */}
