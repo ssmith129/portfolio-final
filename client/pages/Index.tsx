@@ -202,7 +202,7 @@ export default function Index() {
               Portfolio 2023 - 2024
             </span>
             <span className="text-[20px] font-semibold leading-[20px] tracking-[-0.2px] transition-all duration-300 hover:tracking-[-0.1px] hover:scale-105">
-              Henry James
+              Sean Smith
             </span>
             <span className="text-[18px] font-medium leading-[20px] tracking-[-0.18px] text-center sm:text-right transition-all duration-300 hover:text-[#9FA0A3] hover:tracking-[-0.1px]">
               51.5074° N, 0.1278° W
