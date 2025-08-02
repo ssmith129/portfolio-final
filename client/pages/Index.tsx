@@ -131,6 +131,36 @@ export default function Index() {
                 </div>
               </div>
             </div>
+            <div 
+              className="relative group"
+              onMouseEnter={() => setHoveredImage(5)}
+              onMouseLeave={() => setHoveredImage(null)}
+              onClick={() => navigate('/case-studies/medico-hospital-management-system')}
+            >
+              <img
+                src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Medico - Hospital Management System"
+                className={`w-full h-[400px] sm:h-[500px] lg:h-[700px] object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
+                  hoveredImage === 5 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
+                }`}
+              />
+              {/* Title Overlay */}
+              <div className={`absolute inset-0 bg-black/40 rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] flex items-center justify-center transition-all duration-500 ${
+                hoveredImage === 5 ? 'opacity-100' : 'opacity-0'
+              }`}>
+                <div className="text-center text-white transform transition-all duration-500">
+                  <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium mb-2 tracking-[-0.5px]">
+                    Medico
+                  </h3>
+                  <p className="text-lg sm:text-xl font-normal opacity-90 tracking-[-0.2px]">
+                    Hospital Management System
+                  </p>
+                  <div className="mt-4 text-sm font-medium opacity-75">
+                    Click to view case study →
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="space-y-8 sm:space-y-12 lg:space-y-[50px] animate-in fade-in-0 slide-in-from-right-8 duration-1000 delay-1400">
             <div 
@@ -186,6 +216,36 @@ export default function Index() {
                   </h3>
                   <p className="text-lg sm:text-xl font-normal opacity-90 tracking-[-0.2px]">
                     AI-Enhanced Data Platform
+                  </p>
+                  <div className="mt-4 text-sm font-medium opacity-75">
+                    Click to view case study →
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div 
+              className="relative group"
+              onMouseEnter={() => setHoveredImage(6)}
+              onMouseLeave={() => setHoveredImage(null)}
+              onClick={() => navigate('/case-studies/moneyfarm-ai-powered-personal-finance')}
+            >
+              <img
+                src="https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="MoneyFarm - AI-Powered Personal Finance Manager"
+                className={`w-full h-[400px] sm:h-[500px] lg:h-[700px] object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
+                  hoveredImage === 6 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
+                }`}
+              />
+              {/* Title Overlay */}
+              <div className={`absolute inset-0 bg-black/40 rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] flex items-center justify-center transition-all duration-500 ${
+                hoveredImage === 6 ? 'opacity-100' : 'opacity-0'
+              }`}>
+                <div className="text-center text-white transform transition-all duration-500">
+                  <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium mb-2 tracking-[-0.5px]">
+                    MoneyFarm
+                  </h3>
+                  <p className="text-lg sm:text-xl font-normal opacity-90 tracking-[-0.2px]">
+                    AI-Powered Personal Finance Manager
                   </p>
                   <div className="mt-4 text-sm font-medium opacity-75">
                     Click to view case study →
