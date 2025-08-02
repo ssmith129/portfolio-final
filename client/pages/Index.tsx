@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Index() {
   const [hoveredImage, setHoveredImage] = useState<number | null>(null);
+  const navigate = useNavigate();
 
   return (
     <div className="min-h-screen bg-[#F5F5F5]">
@@ -70,6 +72,7 @@ export default function Index() {
             <img
               onMouseEnter={() => setHoveredImage(1)}
               onMouseLeave={() => setHoveredImage(null)}
+              onClick={() => navigate('/case-studies/computis-crypto-tax-engine')}
               src="https://api.builder.io/api/v1/image/assets/TEMP/437ebf05fba1fe900a48cf92b7c64f206c1d4dd4?width=1900"
               alt="Project showcase 1"
               className={`w-full h-[400px] sm:h-[500px] lg:h-[700px] object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
