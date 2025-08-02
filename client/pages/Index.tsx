@@ -52,29 +52,29 @@ export default function Index() {
         </section>
 
         {/* Works Section */}
-        <section className="grid grid-cols-2 gap-[50px] h-[1450px]">
-          <div className="space-y-[50px]">
-            <img 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/437ebf05fba1fe900a48cf92b7c64f206c1d4dd4?width=1900" 
-              alt="Project showcase 1" 
-              className="w-full h-[700px] object-cover rounded-[50px]"
+        <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-[50px]">
+          <div className="space-y-8 sm:space-y-12 lg:space-y-[50px]">
+            <img
+              src="https://api.builder.io/api/v1/image/assets/TEMP/437ebf05fba1fe900a48cf92b7c64f206c1d4dd4?width=1900"
+              alt="Project showcase 1"
+              className="w-full h-[400px] sm:h-[500px] lg:h-[700px] object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px]"
             />
-            <img 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/37af1375fa98d83c59ef3e2518f99b22a76e895b?width=1900" 
-              alt="Project showcase 3" 
-              className="w-full h-[700px] object-cover rounded-[50px]"
+            <img
+              src="https://api.builder.io/api/v1/image/assets/TEMP/37af1375fa98d83c59ef3e2518f99b22a76e895b?width=1900"
+              alt="Project showcase 3"
+              className="w-full h-[400px] sm:h-[500px] lg:h-[700px] object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px]"
             />
           </div>
-          <div className="space-y-[50px]">
-            <img 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/726a68012d94e5c06eb87fe03d7555c4a8b3fe84?width=1440" 
-              alt="Project showcase 2" 
-              className="w-full h-[700px] object-cover rounded-[50px]"
+          <div className="space-y-8 sm:space-y-12 lg:space-y-[50px]">
+            <img
+              src="https://api.builder.io/api/v1/image/assets/TEMP/726a68012d94e5c06eb87fe03d7555c4a8b3fe84?width=1440"
+              alt="Project showcase 2"
+              className="w-full h-[400px] sm:h-[500px] lg:h-[700px] object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px]"
             />
-            <img 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/3137aafb62fed94bbbffa6c0c0f8215cf67ddef8?width=1440" 
-              alt="Project showcase 4" 
-              className="w-full h-[700px] object-cover rounded-[50px]"
+            <img
+              src="https://api.builder.io/api/v1/image/assets/TEMP/3137aafb62fed94bbbffa6c0c0f8215cf67ddef8?width=1440"
+              alt="Project showcase 4"
+              className="w-full h-[400px] sm:h-[500px] lg:h-[700px] object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px]"
             />
           </div>
         </section>
