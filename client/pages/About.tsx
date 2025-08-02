@@ -327,15 +327,6 @@ export default function About() {
         </section>
       </div>
 
-      {/* Image Section */}
-      <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] pb-16 lg:pb-[100px] animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1500">
-        <img
-          src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-          alt="Workspace setup"
-          className="w-full h-[400px] lg:h-[720px] object-cover rounded-[25px] lg:rounded-[50px] transition-all duration-500 hover:scale-[1.02] hover:shadow-xl"
-        />
-      </div>
-
       {/* Footer */}
       <footer className="bg-[#131417] text-white animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1700">
         <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] py-16 lg:py-[134px]">
