@@ -193,15 +193,6 @@ export default function Index() {
         </section>
       </div>
 
-      {/* Awards Section */}
-      <section className="bg-[#F5F5F5] rounded-b-[25px] sm:rounded-b-[35px] lg:rounded-b-[50px] pb-16 lg:pb-[100px] animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2200">
-        <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] pt-16 lg:pt-[150px] animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2400">
-          <p className="text-[18px] font-normal text-[#9FA0A3] leading-[20px] tracking-[-0.18px] mb-8 lg:mb-[50px] transition-all duration-300 hover:text-[#131417]">
-            Awards & Recognitions
-          </p>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="bg-[#131417] text-white animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2800">
         <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] py-16 lg:py-[134px] animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-3000">
