@@ -165,36 +165,6 @@ export default function Index() {
           <div className="space-y-8 sm:space-y-12 lg:space-y-[50px] animate-in fade-in-0 slide-in-from-right-8 duration-1000 delay-1400">
             <div 
               className="relative group"
-              onMouseEnter={() => setHoveredImage(2)}
-              onMouseLeave={() => setHoveredImage(null)}
-              onClick={() => navigate('/case-studies/ezemrx-redesigning-ehr')}
-            >
-              <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/726a68012d94e5c06eb87fe03d7555c4a8b3fe84?width=1440"
-                alt="ezEMRx - EHR for Public Health"
-                className={`w-full h-[400px] sm:h-[500px] lg:h-[700px] object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
-                  hoveredImage === 2 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
-                }`}
-              />
-              {/* Title Overlay */}
-              <div className={`absolute inset-0 bg-black/40 rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] flex items-center justify-center transition-all duration-500 ${
-                hoveredImage === 2 ? 'opacity-100' : 'opacity-0'
-              }`}>
-                <div className="text-center text-white transform transition-all duration-500">
-                  <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium mb-2 tracking-[-0.5px]">
-                    ezEMRx
-                  </h3>
-                  <p className="text-lg sm:text-xl font-normal opacity-90 tracking-[-0.2px]">
-                    EHR for Public Health
-                  </p>
-                  <div className="mt-4 text-sm font-medium opacity-75">
-                    Click to view case study →
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div 
-              className="relative group"
               onMouseEnter={() => setHoveredImage(4)}
               onMouseLeave={() => setHoveredImage(null)}
               onClick={() => navigate('/case-studies/data-direct-ai-enhanced-platform')}
