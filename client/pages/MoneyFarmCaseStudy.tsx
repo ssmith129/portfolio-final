@@ -247,8 +247,148 @@ export default function MoneyFarmCaseStudy() {
           </div>
         </section>
 
-        {/* Research & Insights */}
+        {/* Process & Timeline */}
         <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1500">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
+            <div className="w-full lg:w-[200px]">
+              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
+                Process & Timeline
+              </h2>
+            </div>
+            <div className="flex-1 space-y-6">
+              <p className="text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px]">
+                A structured 10-month design process focused on user-centered discovery, iterative design, and continuous validation to ensure MoneyFarm met real user needs.
+              </p>
+              
+              {/* Timeline Visualization */}
+              <div className="bg-white rounded-[25px] p-8 shadow-sm hover:shadow-md transition-all duration-300">
+                <h3 className="text-[20px] font-medium text-[#131417] mb-6">Project Timeline</h3>
+                
+                {/* Timeline Container */}
+                <div className="space-y-4">
+                  {/* Month Labels */}
+                  <div className="flex justify-between text-[12px] font-medium text-[#9FA0A3] mb-2">
+                    <span>Month 1</span>
+                    <span>Month 2</span>
+                    <span>Month 3</span>
+                    <span>Month 4</span>
+                    <span>Month 5</span>
+                    <span>Month 6</span>
+                    <span>Month 7</span>
+                    <span>Month 8</span>
+                    <span>Month 9</span>
+                    <span>Month 10</span>
+                  </div>
+                  
+                  {/* Timeline Grid */}
+                  <div className="relative h-[200px] bg-gray-50 rounded-lg p-4">
+                    {/* Grid Lines */}
+                    <div className="absolute inset-4 flex justify-between">
+                      {Array.from({ length: 10 }, (_, i) => (
+                        <div key={i} className="w-px bg-gray-200 h-full" />
+                      ))}
+                    </div>
+                    
+                    {/* Discovery Phase - Month 1 */}
+                    <div className="absolute top-4 left-4 w-[8%] h-6 bg-blue-500 rounded-md flex items-center justify-center">
+                      <span className="text-white text-[10px] font-medium">Discovery</span>
+                    </div>
+                    
+                    {/* Define Phase - Month 2 */}
+                    <div className="absolute top-12 left-[12%] w-[8%] h-6 bg-green-500 rounded-md flex items-center justify-center">
+                      <span className="text-white text-[10px] font-medium">Define</span>
+                    </div>
+                    
+                    {/* Design Phase - Months 3-6 */}
+                    <div className="absolute top-20 left-[20%] w-[32%] h-6 bg-purple-500 rounded-md flex items-center justify-center">
+                      <span className="text-white text-[12px] font-medium">Design</span>
+                    </div>
+                    
+                    {/* Validate Phase - Months 5-7 */}
+                    <div className="absolute top-28 left-[36%] w-[24%] h-6 bg-orange-500 rounded-md flex items-center justify-center">
+                      <span className="text-white text-[11px] font-medium">Validate</span>
+                    </div>
+                    
+                    {/* Delivery Phase - Months 7-10 */}
+                    <div className="absolute top-36 left-[60%] w-[32%] h-6 bg-red-500 rounded-md flex items-center justify-center">
+                      <span className="text-white text-[12px] font-medium">Delivery</span>
+                    </div>
+                  </div>
+                  
+                  {/* Phase Legend */}
+                  <div className="grid grid-cols-2 sm:grid-cols-5 gap-4 mt-6">
+                    <div className="flex items-center gap-2">
+                      <div className="w-4 h-4 bg-blue-500 rounded-sm"></div>
+                      <span className="text-[14px] text-[#131417]">Discovery</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-4 h-4 bg-green-500 rounded-sm"></div>
+                      <span className="text-[14px] text-[#131417]">Define</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-4 h-4 bg-purple-500 rounded-sm"></div>
+                      <span className="text-[14px] text-[#131417]">Design</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-4 h-4 bg-orange-500 rounded-sm"></div>
+                      <span className="text-[14px] text-[#131417]">Validate</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-4 h-4 bg-red-500 rounded-sm"></div>
+                      <span className="text-[14px] text-[#131417]">Delivery</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Phase Details */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-[15px] border border-blue-200 transition-all duration-300 hover:border-blue-300">
+                  <h4 className="text-[16px] font-medium text-[#131417] mb-2 flex items-center gap-2">
+                    <div className="w-3 h-3 bg-blue-500 rounded-sm"></div>
+                    Discovery
+                  </h4>
+                  <p className="text-[14px] text-[#131417]">User interviews, market research, competitive analysis</p>
+                </div>
+                
+                <div className="bg-green-50 p-4 rounded-[15px] border border-green-200 transition-all duration-300 hover:border-green-300">
+                  <h4 className="text-[16px] font-medium text-[#131417] mb-2 flex items-center gap-2">
+                    <div className="w-3 h-3 bg-green-500 rounded-sm"></div>
+                    Define
+                  </h4>
+                  <p className="text-[14px] text-[#131417]">Problem definition, user personas, feature prioritization</p>
+                </div>
+                
+                <div className="bg-purple-50 p-4 rounded-[15px] border border-purple-200 transition-all duration-300 hover:border-purple-300">
+                  <h4 className="text-[16px] font-medium text-[#131417] mb-2 flex items-center gap-2">
+                    <div className="w-3 h-3 bg-purple-500 rounded-sm"></div>
+                    Design
+                  </h4>
+                  <p className="text-[14px] text-[#131417]">Wireframing, prototyping, visual design, component library</p>
+                </div>
+                
+                <div className="bg-orange-50 p-4 rounded-[15px] border border-orange-200 transition-all duration-300 hover:border-orange-300">
+                  <h4 className="text-[16px] font-medium text-[#131417] mb-2 flex items-center gap-2">
+                    <div className="w-3 h-3 bg-orange-500 rounded-sm"></div>
+                    Validate
+                  </h4>
+                  <p className="text-[14px] text-[#131417]">User testing, iterations, stakeholder feedback</p>
+                </div>
+                
+                <div className="bg-red-50 p-4 rounded-[15px] border border-red-200 transition-all duration-300 hover:border-red-300 sm:col-span-2 lg:col-span-1">
+                  <h4 className="text-[16px] font-medium text-[#131417] mb-2 flex items-center gap-2">
+                    <div className="w-3 h-3 bg-red-500 rounded-sm"></div>
+                    Delivery
+                  </h4>
+                  <p className="text-[14px] text-[#131417]">Handoff documentation, developer collaboration, launch</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Research & Insights */}
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1700">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
             <div className="w-full lg:w-[200px]">
               <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
