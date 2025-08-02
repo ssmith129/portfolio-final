@@ -199,62 +199,6 @@ export default function Index() {
           <p className="text-[18px] font-normal text-[#9FA0A3] leading-[20px] tracking-[-0.18px] mb-8 lg:mb-[50px] transition-all duration-300 hover:text-[#131417]">
             Awards & Recognitions
           </p>
-
-          <div className="max-w-[1118px] lg:ml-[602px] space-y-8 lg:space-y-[50px] animate-in fade-in-0 slide-in-from-right-8 duration-1000 delay-2600">
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0 transition-all duration-300 hover:border-[#131417] group cursor-pointer">
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] transition-all duration-300 group-hover:tracking-[-0.2px] group-hover:text-[#2a2a2a]">
-                The Ultra Index® ⏤ For storytelling experience
-              </span>
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] transition-all duration-300 group-hover:text-[#9FA0A3]">
-                2023
-              </span>
-            </div>
-
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0 transition-all duration-300 hover:border-[#131417] group cursor-pointer">
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] transition-all duration-300 group-hover:tracking-[-0.2px] group-hover:text-[#2a2a2a]">
-                Awwwards ⏤ Site of the Day (x12)
-              </span>
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] transition-all duration-300 group-hover:text-[#9FA0A3]">
-                2023
-              </span>
-            </div>
-
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0 transition-all duration-300 hover:border-[#131417] group cursor-pointer">
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] transition-all duration-300 group-hover:tracking-[-0.2px] group-hover:text-[#2a2a2a]">
-                Designer of the Year ⏤ Nominee
-              </span>
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] transition-all duration-300 group-hover:text-[#9FA0A3]">
-                2022
-              </span>
-            </div>
-
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0 transition-all duration-300 hover:border-[#131417] group cursor-pointer">
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] transition-all duration-300 group-hover:tracking-[-0.2px] group-hover:text-[#2a2a2a]">
-                2021 Figma Community Award ⏤ Nominee
-              </span>
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] transition-all duration-300 group-hover:text-[#9FA0A3]">
-                2021
-              </span>
-            </div>
-
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0 transition-all duration-300 hover:border-[#131417] group cursor-pointer">
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] transition-all duration-300 group-hover:tracking-[-0.2px] group-hover:text-[#2a2a2a]">
-                CSSAwards ⏤ Featured of the Day (x20+)
-              </span>
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] transition-all duration-300 group-hover:text-[#9FA0A3]">
-                2020
-              </span>
-            </div>
-
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0 transition-all duration-300 hover:border-[#131417] group cursor-pointer">
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] transition-all duration-300 group-hover:tracking-[-0.2px] group-hover:text-[#2a2a2a]">
-                Awwwards ⏤ Developer Award (x6)
-              </span>
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] transition-all duration-300 group-hover:text-[#9FA0A3]">
-                2019
-              </span>
-            </div>
-          </div>
         </div>
       </section>
 
