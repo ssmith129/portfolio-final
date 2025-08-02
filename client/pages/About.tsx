@@ -4,424 +4,379 @@ export default function About() {
   return (
     <div className="min-h-screen bg-[#F5F5F5]">
       {/* Navigation */}
-      <nav className="flex flex-col md:flex-row justify-between items-center px-4 sm:px-8 lg:px-[100px] py-6 max-w-[1920px] mx-auto gap-4 md:gap-0">
+      <nav className="flex flex-col md:flex-row justify-between items-center px-4 sm:px-8 lg:px-[100px] py-6 max-w-[1920px] mx-auto gap-4 md:gap-0 animate-in fade-in-0 slide-in-from-top-4 duration-700">
         <div className="flex flex-col">
-          <h1 className="text-[20px] font-medium text-[#131417] leading-normal tracking-[-0.2px]">
-            Henry James
+          <h1 className="text-[20px] font-medium text-[#131417] leading-normal tracking-[-0.2px] transition-all duration-300 hover:tracking-[-0.1px]">
+            Sean Smith
           </h1>
-          <p className="text-[16px] font-medium text-[#9FA0A3] leading-normal tracking-[-0.16px]">
-            London, England
+          <p className="text-[16px] font-medium text-[#9FA0A3] leading-normal tracking-[-0.16px] transition-colors duration-300 hover:text-[#131417]">
+            San Francisco, CA
           </p>
         </div>
 
-        <div className="bg-white rounded-[50px] p-[5px] flex items-center flex-wrap gap-1">
+        <div className="bg-white rounded-[50px] p-[5px] flex items-center flex-wrap gap-1 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
           <Link
             to="/"
-            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors"
+            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-all duration-300 hover:scale-105 hover:tracking-[-0.1px]"
           >
             Home
           </Link>
           <Link
             to="/case-studies"
-            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors"
+            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-all duration-300 hover:scale-105 hover:tracking-[-0.1px]"
           >
             Case Studies
           </Link>
-          <div className="bg-[#131417] text-white px-4 sm:px-[25px] py-[13px] rounded-[50px] text-sm sm:text-[18px] font-medium tracking-[-0.18px]">
+          <div className="bg-[#131417] text-white px-4 sm:px-[25px] py-[13px] rounded-[50px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] transition-all duration-300 hover:bg-[#2a2a2a] hover:scale-105">
             About
           </div>
           <Link
             to="/contacts"
-            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors"
+            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-all duration-300 hover:scale-105 hover:tracking-[-0.1px]"
           >
             Contacts
           </Link>
         </div>
-
-        {/* Social Links - Desktop */}
-        <div className="hidden lg:flex flex-col items-end">
-          <p className="text-[16px] font-medium text-[#9FA0A3] leading-normal tracking-[-0.16px] mb-2">
-            Social
-          </p>
-          <div className="text-[20px] font-medium text-[#131417] leading-normal tracking-[-0.2px] space-x-4">
-            <span>TW</span>
-            <span>IG</span>
-            <span>BE</span>
-            <span>DRIB</span>
-          </div>
-        </div>
       </nav>
 
       {/* Header */}
-      <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] pt-16 lg:pt-[150px]">
-        <h1 className="text-2xl sm:text-4xl lg:text-[48px] font-normal text-[#131417] leading-[150%] tracking-[-0.96px] max-w-[1720px] mb-16 lg:mb-[160px]">
-          Hi, I'm Henry James. I am a developer based in London, UK focused on
-          creating interactive digital experiences on the web, working with
-          brands and industry leaders such as DISNEY, Volkswagen, Rag & Bone,
-          and Knight Frank amongst others to achieve this. Have been working in
-          the development industry for over a decade.
+      <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] pt-16 lg:pt-[150px] animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-300">
+        <h1 className="text-2xl sm:text-4xl lg:text-[48px] font-normal text-[#131417] leading-[150%] tracking-[-0.96px] max-w-[1720px] mb-16 lg:mb-[160px] transition-all duration-500 hover:tracking-[-0.8px]">
+          Senior Product Designer with 6+ years of experience creating intuitive, scalable UX for complex SaaS and enterprise platforms. I specialize in AI-integrated systems that streamline workflows, simplify data, and drive decisions.
         </h1>
       </div>
 
       {/* Main Content */}
       <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] pb-16 space-y-16 lg:space-y-[150px]">
-        {/* About Section */}
-        <section className="flex flex-col lg:flex-row gap-8 lg:gap-[440px]">
-          {/* Left Content */}
-          <div className="w-full lg:w-[162px] space-y-8 lg:space-y-[100px]">
-            {/* Clients */}
-            <div>
-              <p className="text-[18px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.18px] mb-6">
-                Some of the clients:
-              </p>
-              <div className="space-y-[5px]">
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
-                  Rag & Bone
-                </p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
-                  Aimfox
-                </p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
-                  Disney
-                </p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
-                  Knight Frank
-                </p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
-                  Volkswagen
-                </p>
-              </div>
-            </div>
-
-            {/* Hard Skills */}
-            <div>
-              <p className="text-[18px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.18px] mb-6">
-                Hard Skills
-              </p>
-              <div className="space-y-[5px]">
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
-                  Figma
-                </p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
-                  After Effects
-                </p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
-                  ProtoPie
-                </p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
-                  Webflow
-                </p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
-                  Photoshop
-                </p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
-                  Illustrator
-                </p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
-                  ES6 Scripts
-                </p>
-              </div>
-            </div>
+        
+        {/* Professional Summary Section */}
+        <section className="flex flex-col lg:flex-row gap-8 lg:gap-[440px] animate-in fade-in-0 slide-in-from-bottom-6 duration-1000 delay-500">
+          <div className="w-full lg:w-[200px]">
+            <p className="text-[18px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.18px] transition-all duration-300 hover:text-[#131417]">
+              Professional Summary
+            </p>
           </div>
 
-          {/* Right Content */}
           <div className="flex-1 space-y-8">
-            {/* Heading with highlighted words */}
             <div className="mb-8">
-              <div className="flex flex-wrap items-center gap-2 text-2xl sm:text-[32px] font-normal text-[#131417] leading-[32px] tracking-[-0.32px]">
-                <span>Passion for Design: From</span>
-                <span className="border border-[#131417] rounded-[50px] px-5 py-2">
-                  Startups
+              <div className="flex flex-wrap items-center gap-2 text-2xl sm:text-[32px] font-normal text-[#131417] leading-[32px] tracking-[-0.32px] mb-8">
+                <span>Passionate about creating</span>
+                <span className="border border-[#131417] rounded-[50px] px-5 py-2 transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  Intuitive
+                </span>
+                <span>experiences from</span>
+                <span className="border border-[#131417] rounded-[50px] px-5 py-2 transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  Concept
                 </span>
                 <span>to</span>
-                <span className="border border-[#131417] rounded-[50px] px-5 py-2">
-                  Corporations
+                <span className="border border-[#131417] rounded-[50px] px-5 py-2 transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  Launch
                 </span>
-                <span>, My Journey So Far.</span>
               </div>
             </div>
 
-            {/* Paragraphs */}
             <div className="space-y-8">
-              <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px]">
-                I hold a Bachelor's degree in Graphic Design and have been
-                working in the design industry for over a decade. During this
-                time, I have honed my skills in design principles, user
-                experience, and front-end development. I'm proficient in design
-                tools such as Adobe Creative Suite, Sketch, Adobe Xd and Figma,
-                and have a deep understanding of front-end development languages
-                like HTML, CSS, JavaScript & different types of frameworks.
+              <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px] transition-all duration-300 hover:text-[#2a2a2a]">
+                Product Designer with 6+ years of experience delivering intuitive, high-impact experiences across crypto, fintech, and B2B SaaS platforms. I specialize in AI-integrated systems that streamline workflows, simplify data, and drive decisions.
               </p>
 
-              <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px]">
-                My passion for development & design started when I was young,
-                and I have pursued this passion by working with a variety of
-                clients and projects over the years. I have worked with
-                startups, small businesses, and large corporations, creating
-                user interfaces & front-end development for websites, software
-                applications, and mobile apps.
+              <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px] transition-all duration-300 hover:text-[#2a2a2a]">
+                Proven ability to simplify complexity through thoughtful UX and rapid prototyping — from backend scripts to trusted enterprise SaaS. Comfortable owning ambiguous problems from concept to launch and working directly with founders, engineers, and legal teams to ship production-ready features in weekly cycles.
               </p>
 
-              <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px]">
-                As a Senior Developer & UI Designer, my focus is on creating
-                engaging and intuitive user interfaces that provide an
-                exceptional user experience. I believe that design should be
-                user-centric, and my approach to design reflects this belief. I
-                work closely with my clients to understand their users' needs,
-                conduct user research, and create wireframes and prototypes to
-                ensure that the final design meets both user and business goals
-                and also focus on developing.
+              <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px] transition-all duration-300 hover:text-[#2a2a2a]">
+                Passionate about building magical interfaces that make cutting-edge technology accessible to everyday users. I believe the best design is invisible — it just works.
               </p>
+            </div>
+          </div>
+        </section>
 
-              <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px]">
-                In my spare time, I enjoy exploring new design trends and
-                technologies, attending design conferences and workshops, and
-                sharing my knowledge with the design community. And also trying
-                to learn more frameworks and libraries of javascripts like
-                react.js, next.js, three.js or GSAP etc. I'm always excited to
-                collaborate on new projects and would love to hear from you.
-                Please feel free to get in touch if you have any questions or if
-                you'd like to work together.
+        {/* Work Experience Section */}
+        <section className="flex flex-col lg:flex-row gap-8 lg:gap-[440px] animate-in fade-in-0 slide-in-from-bottom-6 duration-1000 delay-700">
+          <div className="w-full lg:w-[200px]">
+            <p className="text-[18px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.18px] transition-all duration-300 hover:text-[#131417]">
+              Work Experience
+            </p>
+          </div>
+
+          <div className="flex-1 space-y-8 lg:space-y-[50px]">
+            {/* Computis */}
+            <div className="border-b border-[#9FA0A3] pb-6 lg:pb-[50px] transition-all duration-300 hover:border-[#131417]">
+              <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 gap-2 sm:gap-0">
+                <h3 className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] transition-all duration-300 hover:tracking-[-0.2px]">
+                  Senior Product Designer
+                </h3>
+                <span className="text-lg sm:text-[20px] font-normal text-[#9FA0A3] leading-[32px] tracking-[-0.2px] transition-all duration-300 hover:text-[#131417]">
+                  2023 - Present
+                </span>
+              </div>
+              <p className="text-[16px] font-medium text-[#9FA0A3] mb-3 transition-all duration-300 hover:text-[#131417]">
+                Computis • Custom Data Processing, Inc.
+              </p>
+              <p className="text-[18px] font-normal text-[#131417] leading-[28px] tracking-[-0.18px] max-w-[600px] transition-all duration-300 hover:text-[#2a2a2a]">
+                Spearheaded end-to-end UX for regulated sectors using tools for complex blockchain and financial data. Designed explainable AI features and self-serve workflows for CPAs, DAOs, and crypto hedge funds.
+              </p>
+              <div className="flex flex-wrap gap-4 mt-4">
+                <span className="bg-[#131417] text-white px-3 py-1 rounded-[15px] text-[12px] font-medium transition-all duration-300 hover:bg-[#2a2a2a] hover:scale-105">
+                  ↓ 45% Onboarding Time
+                </span>
+                <span className="bg-[#131417] text-white px-3 py-1 rounded-[15px] text-[12px] font-medium transition-all duration-300 hover:bg-[#2a2a2a] hover:scale-105">
+                  ↑ 32% Conversion
+                </span>
+                <span className="bg-[#131417] text-white px-3 py-1 rounded-[15px] text-[12px] font-medium transition-all duration-300 hover:bg-[#2a2a2a] hover:scale-105">
+                  ↓ 85% Dev Reliance
+                </span>
+              </div>
+            </div>
+
+            {/* Previous Role */}
+            <div className="border-b border-[#9FA0A3] pb-6 lg:pb-[50px] transition-all duration-300 hover:border-[#131417]">
+              <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 gap-2 sm:gap-0">
+                <h3 className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] transition-all duration-300 hover:tracking-[-0.2px]">
+                  Founding Product Designer
+                </h3>
+                <span className="text-lg sm:text-[20px] font-normal text-[#9FA0A3] leading-[32px] tracking-[-0.2px] transition-all duration-300 hover:text-[#131417]">
+                  2018 - 2023
+                </span>
+              </div>
+              <p className="text-[16px] font-medium text-[#9FA0A3] mb-3 transition-all duration-300 hover:text-[#131417]">
+                Computis
+              </p>
+              <p className="text-[18px] font-normal text-[#131417] leading-[28px] tracking-[-0.18px] max-w-[600px] transition-all duration-300 hover:text-[#2a2a2a]">
+                Led product design for a crypto tax automation platform, translating technical financial rules into clear, consumer-facing UX. Designed and launched $1M+ SaaS features for accountants, analysts, and legal teams working with blockchain data.
               </p>
             </div>
 
-            {/* Image */}
-            <div className="mt-16">
-              <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/c9c43357d2dfc89ea4d27b18702ac548f1b2f304?width=2236"
-                alt="Workspace setup"
-                className="w-full h-[400px] lg:h-[720px] object-cover rounded-[25px] lg:rounded-[50px]"
-              />
+            {/* Earlier Role */}
+            <div className="border-b border-[#9FA0A3] pb-6 lg:pb-[50px] transition-all duration-300 hover:border-[#131417]">
+              <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 gap-2 sm:gap-0">
+                <h3 className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] transition-all duration-300 hover:tracking-[-0.2px]">
+                  UX Designer
+                </h3>
+                <span className="text-lg sm:text-[20px] font-normal text-[#9FA0A3] leading-[32px] tracking-[-0.2px] transition-all duration-300 hover:text-[#131417]">
+                  2016 - 2018
+                </span>
+              </div>
+              <p className="text-[16px] font-medium text-[#9FA0A3] mb-3 transition-all duration-300 hover:text-[#131417]">
+                Various Startups
+              </p>
+              <p className="text-[18px] font-normal text-[#131417] leading-[28px] tracking-[-0.18px] max-w-[600px] transition-all duration-300 hover:text-[#2a2a2a]">
+                Partnered directly with founders, engineers, and executive leadership to drive product decisions and execute go-to-market launches across fintech, healthcare, and productivity tools.
+              </p>
             </div>
           </div>
         </section>
 
         {/* Education Section */}
-        <section className="flex flex-col lg:flex-row gap-8 lg:gap-[502px]">
+        <section className="flex flex-col lg:flex-row gap-8 lg:gap-[502px] animate-in fade-in-0 slide-in-from-bottom-6 duration-1000 delay-900">
           <div className="w-full lg:w-[89px]">
-            <p className="text-[18px] font-normal text-[#9FA0A3] leading-[20px] tracking-[-0.18px]">
-              Education:
+            <p className="text-[18px] font-normal text-[#9FA0A3] leading-[20px] tracking-[-0.18px] transition-all duration-300 hover:text-[#131417]">
+              Education
             </p>
           </div>
 
           <div className="flex-1 space-y-8 lg:space-y-[50px]">
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                Google Data Analytics Professional Certificate.
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0 transition-all duration-300 hover:border-[#131417]">
+              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] transition-all duration-300 hover:tracking-[-0.2px]">
+                M.S. - Human-Computer Interaction
               </span>
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                2023
-              </span>
-            </div>
-
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                Mastering frontend languages
-              </span>
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                2022
-              </span>
-            </div>
-
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                Webflow Developer
-              </span>
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                2021
-              </span>
-            </div>
-
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                Visual Communications and Solutions
-              </span>
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
+              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#9FA0A3] leading-[32px] tracking-[-0.28px] transition-all duration-300 hover:text-[#131417]">
                 2018
               </span>
             </div>
 
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                Frontend Development Course London App Brewery
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0 transition-all duration-300 hover:border-[#131417]">
+              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] transition-all duration-300 hover:tracking-[-0.2px]">
+                San Francisco State University
               </span>
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                2017
+              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#9FA0A3] leading-[32px] tracking-[-0.28px] transition-all duration-300 hover:text-[#131417]">
+                San Francisco, CA
               </span>
             </div>
           </div>
         </section>
 
+        {/* Skills & Expertise Section */}
+        <section className="flex flex-col lg:flex-row gap-8 lg:gap-[440px] animate-in fade-in-0 slide-in-from-bottom-6 duration-1000 delay-1100">
+          <div className="w-full lg:w-[200px]">
+            <p className="text-[18px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.18px] transition-all duration-300 hover:text-[#131417]">
+              Skills & Expertise
+            </p>
+          </div>
+
+          <div className="flex-1 space-y-8 lg:space-y-[50px]">
+            {/* Design & Prototyping */}
+            <div className="border-b border-[#9FA0A3] pb-6 lg:pb-[50px] transition-all duration-300 hover:border-[#131417]">
+              <h3 className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] mb-4 transition-all duration-300 hover:tracking-[-0.2px]">
+                Design & Prototyping
+              </h3>
+              <div className="flex flex-wrap gap-3 mb-4">
+                <span className="bg-white border border-[#131417] text-[#131417] px-4 py-2 rounded-[25px] text-[14px] font-medium transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  Figma
+                </span>
+                <span className="bg-white border border-[#131417] text-[#131417] px-4 py-2 rounded-[25px] text-[14px] font-medium transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  Component Libraries
+                </span>
+                <span className="bg-white border border-[#131417] text-[#131417] px-4 py-2 rounded-[25px] text-[14px] font-medium transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  Design Tokens
+                </span>
+                <span className="bg-white border border-[#131417] text-[#131417] px-4 py-2 rounded-[25px] text-[14px] font-medium transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  Rapid Prototyping
+                </span>
+                <span className="bg-white border border-[#131417] text-[#131417] px-4 py-2 rounded-[25px] text-[14px] font-medium transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  Interactive Flows
+                </span>
+                <span className="bg-white border border-[#131417] text-[#131417] px-4 py-2 rounded-[25px] text-[14px] font-medium transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  Mobile & Web UX
+                </span>
+              </div>
+              <p className="text-[18px] font-normal text-[#131417] leading-[28px] tracking-[-0.18px] max-w-[573px] transition-all duration-300 hover:text-[#2a2a2a]">
+                Expert in translating complex technical requirements into intuitive user experiences. Built tokenized Figma systems that reduced design and dev cycle times by 40% across multiple product surfaces.
+              </p>
+            </div>
+
+            {/* Product Domains */}
+            <div className="border-b border-[#9FA0A3] pb-6 lg:pb-[50px] transition-all duration-300 hover:border-[#131417]">
+              <h3 className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] mb-4 transition-all duration-300 hover:tracking-[-0.2px]">
+                Product Domains
+              </h3>
+              <div className="flex flex-wrap gap-3 mb-4">
+                <span className="bg-white border border-[#131417] text-[#131417] px-4 py-2 rounded-[25px] text-[14px] font-medium transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  Crypto & Fintech UX
+                </span>
+                <span className="bg-white border border-[#131417] text-[#131417] px-4 py-2 rounded-[25px] text-[14px] font-medium transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  Full-Lifecycle Design
+                </span>
+                <span className="bg-white border border-[#131417] text-[#131417] px-4 py-2 rounded-[25px] text-[14px] font-medium transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  Prototyping in Figma & Code
+                </span>
+                <span className="bg-white border border-[#131417] text-[#131417] px-4 py-2 rounded-[25px] text-[14px] font-medium transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  Cross-Functional Collaboration
+                </span>
+              </div>
+              <p className="text-[18px] font-normal text-[#131417] leading-[28px] tracking-[-0.18px] max-w-[573px] transition-all duration-300 hover:text-[#2a2a2a]">
+                Proven track record designing consumer-friendly interfaces around complex blockchain and financial systems. Comfortable working ambiguous problems from concept to launch and collaborating tightly with founders and engineers.
+              </p>
+            </div>
+
+            {/* Technical Skills */}
+            <div className="border-b border-[#9FA0A3] pb-6 lg:pb-[50px] transition-all duration-300 hover:border-[#131417]">
+              <h3 className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] mb-4 transition-all duration-300 hover:tracking-[-0.2px]">
+                Collaboration & Process
+              </h3>
+              <div className="flex flex-wrap gap-3 mb-4">
+                <span className="bg-white border border-[#131417] text-[#131417] px-4 py-2 rounded-[25px] text-[14px] font-medium transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  SaaS
+                </span>
+                <span className="bg-white border border-[#131417] text-[#131417] px-4 py-2 rounded-[25px] text-[14px] font-medium transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  Cross-Functional Teams
+                </span>
+                <span className="bg-white border border-[#131417] text-[#131417] px-4 py-2 rounded-[25px] text-[14px] font-medium transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  Founder-Led Startups
+                </span>
+                <span className="bg-white border border-[#131417] text-[#131417] px-4 py-2 rounded-[25px] text-[14px] font-medium transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  Lean/Agile Environments
+                </span>
+                <span className="bg-white border border-[#131417] text-[#131417] px-4 py-2 rounded-[25px] text-[14px] font-medium transition-all duration-300 hover:bg-[#131417] hover:text-white hover:scale-105">
+                  Jira/Confluence
+                </span>
+              </div>
+              <p className="text-[18px] font-normal text-[#131417] leading-[28px] tracking-[-0.18px] max-w-[573px] transition-all duration-300 hover:text-[#2a2a2a]">
+                Builds and scales reusable UI patterns to support fast-moving teams and maintain visual consistency. Developed scalable design systems and modular components in Figma, enabling rapid iteration and polished releases.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Approach Section */}
-        <section className="flex flex-col lg:flex-row gap-8 lg:gap-[522px]">
+        <section className="flex flex-col lg:flex-row gap-8 lg:gap-[522px] animate-in fade-in-0 slide-in-from-bottom-6 duration-1000 delay-1300">
           <div className="w-full lg:w-[80px]">
-            <p className="text-[18px] font-normal text-[#9FA0A3] leading-[20px] tracking-[-0.18px]">
+            <p className="text-[18px] font-normal text-[#9FA0A3] leading-[20px] tracking-[-0.18px] transition-all duration-300 hover:text-[#131417]">
               Approach
             </p>
           </div>
 
           <div className="flex-1 space-y-8 lg:space-y-[50px]">
-            <div className="border-b border-[#9FA0A3] pb-6 lg:pb-[50px]">
-              <h3 className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] mb-4">
-                Wireframes
+            <div className="border-b border-[#9FA0A3] pb-6 lg:pb-[50px] transition-all duration-300 hover:border-[#131417]">
+              <h3 className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] mb-4 transition-all duration-300 hover:tracking-[-0.2px]">
+                User-Centered Discovery
               </h3>
-              <p className="text-[18px] font-normal text-[#131417] leading-[28px] tracking-[-0.18px] max-w-[573px]">
-                Wireframes are a crucial tool in the design process, providing a
-                blueprint for the layout and functionality of a digital product.
-                To create effective wireframes, it's important to understand the
-                user's needs and goals, as well as the requirements and
-                constraints of the project.
+              <p className="text-[18px] font-normal text-[#131417] leading-[28px] tracking-[-0.18px] max-w-[573px] transition-all duration-300 hover:text-[#2a2a2a]">
+                Conducting continuous user research and testing to uncover insights about user preferences and pain points. I believe in validating assumptions early and often through user interviews, usability testing, and data analysis.
               </p>
             </div>
 
-            <div className="border-b border-[#9FA0A3] pb-6 lg:pb-[50px]">
-              <h3 className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] mb-4">
-                Digital Design
+            <div className="border-b border-[#9FA0A3] pb-6 lg:pb-[50px] transition-all duration-300 hover:border-[#131417]">
+              <h3 className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] mb-4 transition-all duration-300 hover:tracking-[-0.2px]">
+                Rapid Prototyping
               </h3>
-              <p className="text-[18px] font-normal text-[#131417] leading-[28px] tracking-[-0.18px] max-w-[573px]">
-                To create effective designs, it's important to understand the
-                needs, goals, and behaviors of the target audience. This can be
-                achieved through user research and testing, which can uncover
-                insights about user preferences and pain points. Once this
-                information is gathered, designers can create wireframes and
-                prototypes to iterate and refine the design.
+              <p className="text-[18px] font-normal text-[#131417] leading-[28px] tracking-[-0.18px] max-w-[573px] transition-all duration-300 hover:text-[#2a2a2a]">
+                Rapidly creating interactive prototypes and production-ready designs; familiar with React, Next.js, and Tailwind CSS. This allows me to work shoulder-to-shoulder with developers and iterate quickly on live features.
               </p>
             </div>
 
-            <div className="border-b border-[#9FA0A3] pb-6 lg:pb-[50px]">
-              <h3 className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] mb-4">
-                Webflow Development
+            <div className="border-b border-[#9FA0A3] pb-6 lg:pb-[50px] transition-all duration-300 hover:border-[#131417]">
+              <h3 className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] mb-4 transition-all duration-300 hover:tracking-[-0.2px]">
+                Design Systems Leadership
               </h3>
-              <p className="text-[18px] font-normal text-[#131417] leading-[28px] tracking-[-0.18px] max-w-[573px]">
-                Webflow provides extensive design control, allowing users to
-                customize every aspect of their websites. From typography and
-                layouts to animations and interactions, users have the
-                flexibility to create unique and visually appealing designs.
+              <p className="text-[18px] font-normal text-[#131417] leading-[28px] tracking-[-0.18px] max-w-[573px] transition-all duration-300 hover:text-[#2a2a2a]">
+                Building tokenized Figma systems that reduce design and dev cycle times by 40% across multiple product surfaces. I focus on creating scalable, maintainable design systems that grow with the product.
               </p>
             </div>
           </div>
         </section>
       </div>
 
-      {/* Awards Section */}
-      <section className="bg-[#F5F5F5] rounded-b-[25px] sm:rounded-b-[35px] lg:rounded-b-[50px] pb-16 lg:pb-[100px]">
-        <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] pt-16 lg:pt-[150px]">
-          <p className="text-[18px] font-normal text-[#9FA0A3] leading-[20px] tracking-[-0.18px] mb-8 lg:mb-[50px]">
-            Awards & Recognitions
-          </p>
-
-          <div className="max-w-[1118px] lg:ml-[602px] space-y-8 lg:space-y-[50px]">
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                The Ultra Index® ⏤ For storytelling experience
-              </span>
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                2023
-              </span>
-            </div>
-
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                Awwwards ⏤ Site of the Day (x12)
-              </span>
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                2023
-              </span>
-            </div>
-
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                Designer of the Year ⏤ Nominee
-              </span>
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                2022
-              </span>
-            </div>
-
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                2022 Figma Community Award ⏤ Nominee
-              </span>
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                2021
-              </span>
-            </div>
-
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                CSSAwards ⏤ Featured of the Day (x20+)
-              </span>
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                2020
-              </span>
-            </div>
-
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                Awwwards ⏤ Developer Award (x6)
-              </span>
-              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
-                2019
-              </span>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Image Section */}
+      <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] pb-16 lg:pb-[100px] animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1500">
+        <img
+          src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Workspace setup"
+          className="w-full h-[400px] lg:h-[720px] object-cover rounded-[25px] lg:rounded-[50px] transition-all duration-500 hover:scale-[1.02] hover:shadow-xl"
+        />
+      </div>
 
       {/* Footer */}
-      <footer className="bg-[#131417] text-white">
+      <footer className="bg-[#131417] text-white animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1700">
         <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] py-16 lg:py-[134px]">
-          {/* Footer Header */}
-          <div className="flex flex-col sm:flex-row justify-between items-center mb-16 lg:mb-[256px] gap-4 sm:gap-0">
-            <span className="text-[18px] font-medium leading-[20px] tracking-[-0.18px]">
-              Portfolio 2023 - 2024
-            </span>
-            <span className="text-[20px] font-semibold leading-[20px] tracking-[-0.2px]">
-              Henry James
-            </span>
-            <span className="text-[18px] font-medium leading-[20px] tracking-[-0.18px] text-center sm:text-right">
-              51.5074° N, 0.1278° W
-            </span>
-          </div>
-
           {/* Get in Touch */}
-          <div className="text-center mb-16 lg:mb-[270px]">
-            <p className="text-[18px] font-medium text-[#9FA0A3] leading-[20px] tracking-[-0.18px] mb-[20px]">
+          <div className="text-center mb-16 lg:mb-[270px] animate-in fade-in-0 zoom-in-95 duration-1000 delay-1900">
+            <p className="text-[18px] font-medium text-[#9FA0A3] leading-[20px] tracking-[-0.18px] mb-[20px] transition-all duration-300 hover:text-white">
               Have a nice project?
             </p>
-            <h2 className="text-3xl sm:text-5xl lg:text-[72px] font-medium leading-[72px] tracking-[-0.72px]">
+            <h2 className="text-3xl sm:text-5xl lg:text-[72px] font-medium leading-[72px] tracking-[-0.72px] transition-all duration-500 hover:tracking-[-0.5px] hover:scale-105 cursor-pointer">
               Get in Touch
             </h2>
           </div>
 
           {/* Footer Bottom */}
-          <div className="flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-0">
-            <span className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] order-3 lg:order-1">
+          <div className="flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-0 animate-in fade-in-0 slide-in-from-bottom-4 duration-1000 delay-2100">
+            <span className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] order-3 lg:order-1 transition-all duration-300 hover:text-[#9FA0A3]">
               © All rights reserved.
             </span>
 
             <div className="flex flex-wrap justify-center gap-4 sm:gap-8 lg:gap-[44px] order-1 lg:order-2">
               <a
                 href="#"
-                className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors"
+                className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-all duration-300 hover:scale-110 hover:tracking-[-0.1px]"
               >
                 Twitter
               </a>
               <a
                 href="#"
-                className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors"
+                className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-all duration-300 hover:scale-110 hover:tracking-[-0.1px]"
               >
                 Behance
               </a>
               <a
                 href="#"
-                className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors"
+                className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-all duration-300 hover:scale-110 hover:tracking-[-0.1px]"
               >
                 Instagram
               </a>
               <a
                 href="#"
-                className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors"
+                className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-all duration-300 hover:scale-110 hover:tracking-[-0.1px]"
               >
                 Dribble
               </a>
@@ -430,13 +385,13 @@ export default function About() {
             <div className="flex gap-4 sm:gap-8 lg:gap-[40px] order-2 lg:order-3">
               <a
                 href="#"
-                className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] hover:text-[#9FA0A3] transition-colors"
+                className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] hover:text-[#9FA0A3] transition-all duration-300 hover:scale-105"
               >
                 License
               </a>
               <a
                 href="#"
-                className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] hover:text-[#9FA0A3] transition-colors"
+                className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] hover:text-[#9FA0A3] transition-all duration-300 hover:scale-105"
               >
                 Terms of Use
               </a>
