@@ -56,8 +56,17 @@ export default function Index() {
           </div>
         </section>
 
+        {/* About Section */}
+        <section className="flex justify-center animate-in fade-in-0 slide-in-from-bottom-6 duration-800 delay-700">
+          <div className="max-w-3xl text-center">
+            <p className="text-lg sm:text-xl font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.2px] transition-all duration-300 hover:text-[#131417]">
+              Senior Product Designer with 6+ years of experience creating intuitive, scalable UX for complex SaaS and enterprise platforms. I specialize in AI-integrated systems that streamline workflows, simplify data, and drive decisions.
+            </p>
+          </div>
+        </section>
+
         {/* Works Section */}
-        <section className="grid grid-cols-2 gap-4 sm:gap-6 lg:gap-8 animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1000">
+        <section className="grid grid-cols-2 gap-4 sm:gap-6 lg:gap-8 animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-900">
             <div 
               className="relative group"
               onMouseEnter={() => setHoveredImage(1)}
@@ -182,15 +191,6 @@ export default function Index() {
             </div>
         </section>
 
-        {/* About Section */}
-        <section className="flex justify-center animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1600">
-          <div className="max-w-4xl text-center animate-in fade-in-0 slide-in-from-left-8 duration-1000 delay-1800">
-            <p className="text-[18px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.18px] mb-[20px] transition-all duration-300 hover:text-[#131417]">
-              Senior Product Designer with 6+ years of experience creating intuitive, scalable UX for complex SaaS and enterprise platforms. I specialize in AI-integrated systems that streamline workflows, simplify data, and drive decisions.
-            </p>
-          </div>
-
-        </section>
       </div>
 
       {/* Footer */}
