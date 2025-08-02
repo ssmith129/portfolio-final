@@ -188,23 +188,6 @@ export default function Index() {
             <p className="text-[18px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.18px] mb-[20px] transition-all duration-300 hover:text-[#131417]">
               Senior Product Designer with 6+ years of experience creating intuitive, scalable UX for complex SaaS and enterprise platforms. I specialize in AI-integrated systems that streamline workflows, simplify data, and drive decisions.
             </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] transition-all duration-300 hover:text-[#9FA0A3] hover:tracking-[-0.1px] cursor-pointer">
-                Rag & Bone
-              </p>
-              <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] transition-all duration-300 hover:text-[#9FA0A3] hover:tracking-[-0.1px] cursor-pointer">
-                Aimfox
-              </p>
-              <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] transition-all duration-300 hover:text-[#9FA0A3] hover:tracking-[-0.1px] cursor-pointer">
-                Disney
-              </p>
-              <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] transition-all duration-300 hover:text-[#9FA0A3] hover:tracking-[-0.1px] cursor-pointer">
-                Knight Frank
-              </p>
-              <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] transition-all duration-300 hover:text-[#9FA0A3] hover:tracking-[-0.1px] cursor-pointer">
-                Volkswagen
-              </p>
-            </div>
           </div>
 
         </section>
