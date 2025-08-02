@@ -64,7 +64,7 @@ export default function MedicoCaseStudy() {
             Medico – Hospital Management System
           </h1>
           <p className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.28px] max-w-[900px] transition-all duration-300 hover:text-[#131417]">
-            Redesigning a hospital management system to streamline clinical operations, enhance emergency response, and unify patient data workflows across web and mobile
+            Transforming siloed hospital workflows into a real-time, mobile-first clinical operations platform
           </p>
         </div>
       </div>
@@ -90,8 +90,8 @@ export default function MedicoCaseStudy() {
                   <p className="text-[18px] font-medium text-[#131417]">Confidential Healthcare Client</p>
                 </div>
                 <div className="bg-white p-6 rounded-[25px] shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
-                  <p className="text-[14px] font-medium text-[#9FA0A3] mb-2">Type</p>
-                  <p className="text-[18px] font-medium text-[#131417]">Hospital Management System – Enterprise SaaS</p>
+                  <p className="text-[14px] font-medium text-[#9FA0A3] mb-2">Platform</p>
+                  <p className="text-[18px] font-medium text-[#131417]">Web & Mobile SaaS</p>
                 </div>
                 <div className="bg-white p-6 rounded-[25px] shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
                   <p className="text-[14px] font-medium text-[#9FA0A3] mb-2">Duration</p>
@@ -108,7 +108,7 @@ export default function MedicoCaseStudy() {
                   </div>
                   <div>
                     <p className="text-[16px] font-medium text-[#131417] mb-2">Team:</p>
-                    <p className="text-[16px] text-[#131417]">2 Developers, 1 PM, QA Analyst, Medical Stakeholders</p>
+                    <p className="text-[16px] text-[#131417]">PM, 2 Engineers, QA Analyst, Medical Stakeholders</p>
                   </div>
                 </div>
               </div>
@@ -122,20 +122,16 @@ export default function MedicoCaseStudy() {
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-blue-600 font-bold">↑ 40%</span>
-                    <span className="text-[16px] text-[#131417]">emergency response efficiency</span>
+                    <span className="text-[16px] text-[#131417]">faster emergency response</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-purple-600 font-bold">↓ 50%</span>
-                    <span className="text-[16px] text-[#131417]">time spent scheduling & tracking patients</span>
+                    <span className="text-[16px] text-[#131417]">time spent scheduling and tracking patients</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-orange-600 font-bold">↑ 90%</span>
-                    <span className="text-[16px] text-[#131417]">mobile usability satisfaction</span>
+                    <span className="text-[16px] text-[#131417]">staff satisfaction with mobile experience</span>
                   </div>
-                </div>
-                <div className="mt-4 flex items-center gap-2">
-                  <span className="text-indigo-600 font-bold">📄 20+</span>
-                  <span className="text-[16px] text-[#131417]">responsive screens delivered across web and mobile</span>
                 </div>
               </div>
             </div>
@@ -151,48 +147,92 @@ export default function MedicoCaseStudy() {
               </h2>
             </div>
             <div className="flex-1 space-y-6">
-              <p className="text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px]">
-                Medico is a hospital management platform designed to centralize core operations for hospitals and medical centers—from patient records to emergency workflows. Before our redesign, data was siloed, emergency actions were delayed, and mobile workflows were nearly impossible.
-              </p>
-              <p className="text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px]">
-                We created a unified, intuitive experience optimized for clinical roles—nurses, doctors, admins—across desktop and mobile. From emergency response to patient records, every touchpoint was reimagined for real-time access and mobile-first utility.
-              </p>
+              <div className="bg-red-50 p-6 rounded-[25px] border border-red-200 transition-all duration-300 hover:border-red-300 hover:scale-[1.02]">
+                <h3 className="text-[20px] font-medium text-[#131417] mb-4">❗ The Problem</h3>
+                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                  Medico was a legacy desktop-only system relying on paper workflows, siloed records, and fragmented emergency handling. There was no centralized data visibility or mobile access for nurses or doctors on the move.
+                </p>
+              </div>
+
+              <div className="bg-blue-50 p-6 rounded-[25px] border border-blue-200 transition-all duration-300 hover:border-blue-300 hover:scale-[1.02]">
+                <h3 className="text-[20px] font-medium text-[#131417] mb-4">🎯 The Opportunity</h3>
+                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                  Hospitals needed a modern, secure, and mobile-first HMS to empower staff in real-time—especially for critical events like emergency triage and patient handoffs.
+                </p>
+              </div>
+
               <blockquote className="bg-[#131417] text-white p-8 rounded-[25px] italic text-[20px] leading-[150%] tracking-[-0.2px] transition-all duration-300 hover:scale-[1.02]">
-                "Medico wasn't just a UI update—it became a nerve center for time-critical, hospital-wide operations."
+                "How might we reimagine outdated hospital workflows into a real-time, multi-role platform that improves care quality and staff coordination across devices?"
               </blockquote>
             </div>
           </div>
         </section>
 
-        {/* My Role */}
+        {/* Strategic Design Goals */}
         <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1100">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
             <div className="w-full lg:w-[200px]">
               <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
-                My Role
+                Strategic Design Goals
               </h2>
             </div>
             <div className="flex-1 space-y-6">
               <ul className="space-y-3">
                 <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
                   <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  Led end-to-end UX design, from research to rollout
+                  <strong>Mobile-first operations</strong> for nurses and on-the-go staff
                 </li>
                 <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
                   <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  Conducted stakeholder interviews and process mapping
+                  <strong>Real-time emergency handling</strong> with alerts and status routing
                 </li>
                 <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
                   <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  Designed mobile and desktop flows for emergency, scheduling, records
+                  <strong>Unified patient data access</strong> across departments and devices
                 </li>
                 <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
                   <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  Built responsive design system and component library
+                  <strong>Modular, role-based UI</strong> with secure access controls
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* My Role & Responsibilities */}
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1300">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
+            <div className="w-full lg:w-[200px]">
+              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
+                My Role & Responsibilities
+              </h2>
+            </div>
+            <div className="flex-1 space-y-6">
+              <div className="bg-gray-50 p-6 rounded-[25px] transition-all duration-300 hover:bg-gray-100">
+                <p className="text-[18px] font-medium text-[#131417] mb-4">Title: Lead Product Designer</p>
+                <p className="text-[16px] font-normal text-[#131417] mb-4">Scope: Product strategy, end-to-end UX/UI, dev handoff, mobile optimization</p>
+              </div>
+
+              <ul className="space-y-3">
+                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                  Mapped cross-role workflows (doctors, nurses, admins)
                 </li>
                 <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
                   <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  Delivered annotated specs and interactive prototypes in Figma
+                  Designed mobile-first and responsive interfaces
+                </li>
+                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                  Delivered modular UI system with role-based layouts
+                </li>
+                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                  Created interaction specs, states, and QA-ready redlines
+                </li>
+                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                  Facilitated user validation and stakeholder demos
                 </li>
               </ul>
             </div>
@@ -200,7 +240,7 @@ export default function MedicoCaseStudy() {
         </section>
 
         {/* Problem & Opportunity */}
-        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1300">
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1500">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
             <div className="w-full lg:w-[200px]">
               <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
@@ -209,45 +249,184 @@ export default function MedicoCaseStudy() {
             </div>
             <div className="flex-1 space-y-6">
               <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300 overflow-x-auto">
+                <h3 className="text-[20px] font-medium text-[#131417] mb-4">Initial State</h3>
                 <table className="w-full min-w-[500px]">
-                  <thead>
-                    <tr className="border-b border-gray-200">
-                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Problem</th>
-                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Impact</th>
-                    </tr>
-                  </thead>
                   <tbody>
                     <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Paper-based patient tracking</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Errors, missing history, manual searching</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Paper-based records and scheduling</td>
                     </tr>
                     <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Emergency delays</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">No real-time coordination or mobile alerts</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">No mobile access or notifications</td>
                     </tr>
                     <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Inconsistent UI across devices</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Nurses couldn't reliably use phones/tablets</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Emergency workflows managed via phone/email</td>
                     </tr>
                     <tr className="hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Siloed departments</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Patient data didn't flow between roles</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">No unified view of patients across roles</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-              <div className="bg-blue-50 p-6 rounded-[25px] border border-blue-200 transition-all duration-300 hover:border-blue-300 hover:scale-[1.02]">
-                <h3 className="text-[20px] font-medium text-[#131417] mb-4">🎯 Design Opportunity:</h3>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
-                  Deliver a cloud-based, mobile-first HMS with real-time access, role-based workflows, and centralized patient care coordination.
+
+              <div className="bg-red-50 p-6 rounded-[25px] border border-red-200 transition-all duration-300 hover:border-red-300 hover:scale-[1.02]">
+                <h3 className="text-[20px] font-medium text-[#131417] mb-4">Real Problem Faced</h3>
+                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] mb-4">
+                  Staff couldn't access or act on critical patient data fast enough—especially in emergency or mobile scenarios.
+                </p>
+                <p className="text-[16px] font-medium text-[#131417] mb-2">Resolution:</p>
+                <p className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px]">
+                  We redesigned Medico to support fully responsive, role-based workflows with centralized dashboards, real-time alerts, and structured patient records accessible from any device.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
+        {/* Design Process */}
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1700">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
+            <div className="w-full lg:w-[200px]">
+              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
+                Design Process
+              </h2>
+            </div>
+            <div className="flex-1 space-y-6">
+              <div className="space-y-6">
+                <div className="bg-blue-50 p-6 rounded-[25px] border border-blue-200 transition-all duration-300 hover:border-blue-300 hover:scale-[1.02]">
+                  <h3 className="text-[20px] font-medium text-[#131417] mb-3">1. Discovery</h3>
+                  <ul className="space-y-2">
+                    <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                      Shadowed nurses, admins, ER teams
+                    </li>
+                    <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                      Interviewed stakeholders and reviewed SOPs
+                    </li>
+                    <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                      Assessed emergency, triage, and scheduling gaps
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-green-50 p-6 rounded-[25px] border border-green-200 transition-all duration-300 hover:border-green-300 hover:scale-[1.02]">
+                  <h3 className="text-[20px] font-medium text-[#131417] mb-3">2. Define</h3>
+                  <ul className="space-y-2">
+                    <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                      Personas and user journeys across departments
+                    </li>
+                    <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                      Information architecture spanning dashboards, modules, records
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-purple-50 p-6 rounded-[25px] border border-purple-200 transition-all duration-300 hover:border-purple-300 hover:scale-[1.02]">
+                  <h3 className="text-[20px] font-medium text-[#131417] mb-3">3. Design</h3>
+                  <ul className="space-y-2">
+                    <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                      Created 20+ mobile & desktop UI screens
+                    </li>
+                    <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                      Designed component library (WCAG 2.1 AA, mobile-first)
+                    </li>
+                    <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                      Included emergency states, scheduling tags, error alerts
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-orange-50 p-6 rounded-[25px] border border-orange-200 transition-all duration-300 hover:border-orange-300 hover:scale-[1.02]">
+                  <h3 className="text-[20px] font-medium text-[#131417] mb-3">4. Validate</h3>
+                  <ul className="space-y-2">
+                    <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                      Usability tests with nurses and admins
+                    </li>
+                    <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                      Focused on tap targets, color coding, mobile flow speed
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-teal-50 p-6 rounded-[25px] border border-teal-200 transition-all duration-300 hover:border-teal-300 hover:scale-[1.02]">
+                  <h3 className="text-[20px] font-medium text-[#131417] mb-3">5. Deliver</h3>
+                  <ul className="space-y-2">
+                    <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                      Specs, redlines, QA iterations
+                    </li>
+                    <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                      Integrated feedback loops and mobile bug tracking
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Timeline */}
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1900">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
+            <div className="w-full lg:w-[200px]">
+              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
+                Timeline
+              </h2>
+            </div>
+            <div className="flex-1 space-y-6">
+              <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300 overflow-x-auto">
+                <table className="w-full min-w-[600px]">
+                  <thead>
+                    <tr className="border-b border-gray-200">
+                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Phase</th>
+                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Duration</th>
+                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Activities</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Discovery</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Month 1</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">User research, SOP reviews, emergency shadowing</td>
+                    </tr>
+                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Define</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Month 2</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Personas, IA, role-based dashboards</td>
+                    </tr>
+                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Design</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Months 3–4</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Wireframes, responsive layouts, design system</td>
+                    </tr>
+                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Validate</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Month 5</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Mobile testing, feedback integration</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Delivery</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Month 6</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">QA-ready assets, stakeholder demos, dev syncs</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Research & Insights */}
-        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1500">
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2100">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
             <div className="w-full lg:w-[200px]">
               <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
@@ -256,51 +435,176 @@ export default function MedicoCaseStudy() {
             </div>
             <div className="flex-1 space-y-6">
               <div className="bg-gray-50 p-6 rounded-[25px] transition-all duration-300 hover:bg-gray-100">
-                <h3 className="text-[20px] font-medium text-[#131417] mb-4">Approach:</h3>
+                <h3 className="text-[20px] font-medium text-[#131417] mb-4">Methods</h3>
                 <ul className="space-y-2">
                   <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
                     <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
-                    Shadowed nurses, ER staff, and front-desk admins
+                    On-site workflow shadowing
                   </li>
                   <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
                     <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
-                    Reviewed internal SOPs and patient record flows
+                    Cross-role interviews (nurses, ER, admins)
                   </li>
                   <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
                     <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
-                    Identified failure points in emergency and scheduling
-                  </li>
-                  <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
-                    <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
-                    Ran mobile usability tests in clinical settings
+                    Review of emergency SOPs and scheduling logs
                   </li>
                 </ul>
               </div>
 
+              <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300">
+                <h3 className="text-[20px] font-medium text-[#131417] mb-4">Key Insights</h3>
+                <ul className="space-y-3">
+                  <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                    <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                    <strong>Real-time access matters:</strong> Staff must act fast—especially in emergencies
+                  </li>
+                  <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                    <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                    <strong>Mobile is essential:</strong> Nurses need bedside-friendly UI
+                  </li>
+                  <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                    <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                    <strong>Scheduling is high-friction:</strong> Too many taps, no bulk actions
+                  </li>
+                  <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                    <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                    <strong>Patient data is scattered:</strong> Context switching delays treatment
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* User Personas */}
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2300">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
+            <div className="w-full lg:w-[200px]">
+              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
+                User Personas
+              </h2>
+            </div>
+            <div className="flex-1 space-y-6">
+              <div className="grid grid-cols-1 gap-6">
+                <div className="bg-blue-50 p-6 rounded-[25px] border border-blue-200 transition-all duration-300 hover:border-blue-300 hover:scale-[1.02]">
+                  <h3 className="text-[20px] font-medium text-[#131417] mb-4">👩‍⚕️ Sam – ER Nurse</h3>
+                  <div className="space-y-3">
+                    <div>
+                      <p className="text-[16px] font-medium text-[#131417] mb-1">Goals:</p>
+                      <p className="text-[16px] text-[#131417]">Respond to emergencies quickly, update patient statuses</p>
+                    </div>
+                    <div>
+                      <p className="text-[16px] font-medium text-[#131417] mb-1">Pain Points:</p>
+                      <p className="text-[16px] text-[#131417]">No mobile alerts, confusing emergency protocols</p>
+                    </div>
+                    <div>
+                      <p className="text-[16px] font-medium text-[#131417] mb-1">Needs:</p>
+                      <p className="text-[16px] text-[#131417]">Real-time forms, color-coded priority alerts, bedside access</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-green-50 p-6 rounded-[25px] border border-green-200 transition-all duration-300 hover:border-green-300 hover:scale-[1.02]">
+                  <h3 className="text-[20px] font-medium text-[#131417] mb-4">👨‍⚕️ Dr. Rosa – Hospital Physician</h3>
+                  <div className="space-y-3">
+                    <div>
+                      <p className="text-[16px] font-medium text-[#131417] mb-1">Goals:</p>
+                      <p className="text-[16px] text-[#131417]">Access full patient history, schedule follow-ups</p>
+                    </div>
+                    <div>
+                      <p className="text-[16px] font-medium text-[#131417] mb-1">Pain Points:</p>
+                      <p className="text-[16px] text-[#131417]">Data split across systems, no quick lookup</p>
+                    </div>
+                    <div>
+                      <p className="text-[16px] font-medium text-[#131417] mb-1">Needs:</p>
+                      <p className="text-[16px] text-[#131417]">Unified patient view, search, note-taking tools</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-purple-50 p-6 rounded-[25px] border border-purple-200 transition-all duration-300 hover:border-purple-300 hover:scale-[1.02]">
+                  <h3 className="text-[20px] font-medium text-[#131417] mb-4">👩‍💼 Mia – Admin Coordinator</h3>
+                  <div className="space-y-3">
+                    <div>
+                      <p className="text-[16px] font-medium text-[#131417] mb-1">Goals:</p>
+                      <p className="text-[16px] text-[#131417]">Manage appointments, billing, and resource allocation</p>
+                    </div>
+                    <div>
+                      <p className="text-[16px] font-medium text-[#131417] mb-1">Pain Points:</p>
+                      <p className="text-[16px] text-[#131417]">Paper tracking, no cross-team visibility</p>
+                    </div>
+                    <div>
+                      <p className="text-[16px] font-medium text-[#131417] mb-1">Needs:</p>
+                      <p className="text-[16px] text-[#131417]">Bulk scheduling, real-time expense tracking, reporting exports</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* User Journey Map */}
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2500">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
+            <div className="w-full lg:w-[200px]">
+              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
+                User Journey Map
+              </h2>
+            </div>
+            <div className="flex-1 space-y-6">
               <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300 overflow-x-auto">
-                <table className="w-full min-w-[600px]">
+                <h3 className="text-[20px] font-medium text-[#131417] mb-4">Sam's Emergency Flow</h3>
+                <table className="w-full min-w-[500px]">
                   <thead>
                     <tr className="border-b border-gray-200">
-                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Insight</th>
-                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Design Response</th>
+                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Stage</th>
+                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">UX Opportunity</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Nurses needed on-the-go access</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Designed mobile-first interfaces for key tasks</td>
+                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Alert</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Push notification + triage dashboard</td>
                     </tr>
                     <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Emergency comms lacked urgency</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Added push alerts, emergency triage tools</td>
+                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Triage</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">One-tap priority tagging + form entry</td>
                     </tr>
                     <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Admins overwhelmed by scheduling</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Introduced filters, color tagging, bulk actions</td>
+                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Assign</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Doctor routing + status confirmation</td>
                     </tr>
                     <tr className="hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Doctors needed fast patient lookup</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Created unified profiles with quick-search</td>
+                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Update</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Patient profile auto-updates + alert logs</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300 overflow-x-auto">
+                <h3 className="text-[20px] font-medium text-[#131417] mb-4">Mia's Appointment Flow</h3>
+                <table className="w-full min-w-[500px]">
+                  <thead>
+                    <tr className="border-b border-gray-200">
+                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Stage</th>
+                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">UX Opportunity</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Schedule</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Calendar filters + bulk confirm</td>
+                    </tr>
+                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Track</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Visual appointment statuses by patient</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Report</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Expense/export dashboards with filters</td>
                     </tr>
                   </tbody>
                 </table>
@@ -309,41 +613,15 @@ export default function MedicoCaseStudy() {
           </div>
         </section>
 
-        {/* Market & Competitive Analysis */}
-        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1700">
+        {/* Competitive Analysis */}
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2700">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
             <div className="w-full lg:w-[200px]">
               <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
-                Market & Competitive Analysis
+                Competitive Analysis
               </h2>
             </div>
             <div className="flex-1 space-y-6">
-              <div className="bg-gray-50 p-6 rounded-[25px] transition-all duration-300 hover:bg-gray-100">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <h3 className="text-[18px] font-medium text-[#131417] mb-3">Users:</h3>
-                    <p className="text-[16px] text-[#131417]">Hospital admins, doctors, nurses, emergency response teams</p>
-                  </div>
-                  <div>
-                    <h3 className="text-[18px] font-medium text-[#131417] mb-3">Pain Points Across Tools:</h3>
-                    <ul className="space-y-1">
-                      <li className="text-[16px] text-[#131417] flex items-start gap-2">
-                        <span className="w-1 h-1 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
-                        Outdated UIs
-                      </li>
-                      <li className="text-[16px] text-[#131417] flex items-start gap-2">
-                        <span className="w-1 h-1 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
-                        Poor mobile support
-                      </li>
-                      <li className="text-[16px] text-[#131417] flex items-start gap-2">
-                        <span className="w-1 h-1 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
-                        Fragmented modules with no interoperability
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
               <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300 overflow-x-auto">
                 <table className="w-full min-w-[600px]">
                   <thead>
@@ -362,7 +640,7 @@ export default function MedicoCaseStudy() {
                       <td className="py-4 px-4 text-yellow-500 text-[18px]">⚠️</td>
                     </tr>
                     <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Mobile-first UX</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Mobile-first Responsive Design</td>
                       <td className="py-4 px-4 text-green-600 text-[18px]">✅</td>
                       <td className="py-4 px-4 text-yellow-500 text-[18px]">⚠️</td>
                       <td className="py-4 px-4 text-red-500 text-[18px]">❌</td>
@@ -374,17 +652,17 @@ export default function MedicoCaseStudy() {
                       <td className="py-4 px-4 text-green-600 text-[18px]">✅</td>
                     </tr>
                     <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Role-Based Dashboards</td>
+                      <td className="py-4 px-4 text-green-600 text-[18px]">✅</td>
+                      <td className="py-4 px-4 text-green-600 text-[18px]">✅</td>
+                      <td className="py-4 px-4 text-yellow-500 text-[18px]">⚠️</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50 transition-colors duration-300">
                       <td className="py-4 px-4 text-[16px] text-[#131417]">Real-Time Alerts & Routing</td>
                       <td className="py-4 px-4 text-green-600 text-[18px]">✅</td>
                       <td className="py-4 px-4 text-red-500 text-[18px]">❌</td>
                       <td className="py-4 px-4 text-red-500 text-[18px]">❌</td>
                     </tr>
-                    <tr className="hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Role-Based Access</td>
-                      <td className="py-4 px-4 text-green-600 text-[18px]">✅</td>
-                      <td className="py-4 px-4 text-green-600 text-[18px]">✅</td>
-                      <td className="py-4 px-4 text-yellow-500 text-[18px]">⚠️</td>
-                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -392,171 +670,43 @@ export default function MedicoCaseStudy() {
           </div>
         </section>
 
-        {/* User Flows */}
-        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1900">
+        {/* Core Features & Innovations */}
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2900">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
             <div className="w-full lg:w-[200px]">
               <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
-                User Flows
-              </h2>
-            </div>
-            <div className="flex-1 space-y-6">
-              <div className="grid grid-cols-1 gap-6">
-                <div className="bg-blue-50 p-6 rounded-[25px] border border-blue-200 transition-all duration-300 hover:border-blue-300 hover:scale-[1.02]">
-                  <h3 className="text-[20px] font-medium text-[#131417] mb-4">Dr. Rosa (General Physician):</h3>
-                  <p className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px]">
-                    Dashboard → Patient Search → View Profile → Add Notes → Schedule Follow-Up
-                  </p>
-                </div>
-                <div className="bg-green-50 p-6 rounded-[25px] border border-green-200 transition-all duration-300 hover:border-green-300 hover:scale-[1.02]">
-                  <h3 className="text-[20px] font-medium text-[#131417] mb-4">Nurse Sam:</h3>
-                  <p className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px]">
-                    Emergency Alert → Triage Form → Assign to Doctor → Notify ER → Update Patient Status
-                  </p>
-                </div>
-                <div className="bg-purple-50 p-6 rounded-[25px] border border-purple-200 transition-all duration-300 hover:border-purple-300 hover:scale-[1.02]">
-                  <h3 className="text-[20px] font-medium text-[#131417] mb-4">Admin Mia:</h3>
-                  <p className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px]">
-                    Login → Appointments → Filter by Status → Bulk Confirm → Review Expenses
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Design Concepts */}
-        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2100">
-          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
-            <div className="w-full lg:w-[200px]">
-              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
-                Design Concepts
-              </h2>
-            </div>
-            <div className="flex-1 space-y-6">
-              <ul className="space-y-3">
-                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                  <span className="text-green-600 text-[20px] mt-1">✅</span>
-                  Centralized dashboard with modular widgets
-                </li>
-                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                  <span className="text-green-600 text-[20px] mt-1">✅</span>
-                  Emergency workflows with color-coded alerts and forms
-                </li>
-                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                  <span className="text-green-600 text-[20px] mt-1">✅</span>
-                  Role-specific layouts with permissions and data visibility
-                </li>
-                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                  <span className="text-green-600 text-[20px] mt-1">✅</span>
-                  Visual tags for patient statuses (New, In Treatment, Recovered)
-                </li>
-                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                  <span className="text-green-600 text-[20px] mt-1">✅</span>
-                  Multi-device scheduling interface with drag-and-drop
-                </li>
-              </ul>
-
-              <div className="bg-[#131417] text-white p-8 rounded-[25px] transition-all duration-300 hover:scale-[1.02]">
-                <h3 className="text-[20px] font-medium text-white mb-4">Guiding Principles:</h3>
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                  <div className="text-center">
-                    <p className="text-[18px] font-medium text-white">Speed {'>'} Feature Density</p>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-[18px] font-medium text-white">Mobile-First {'>'} Desktop-Only</p>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-[18px] font-medium text-white">Clarity {'>'} Complexity</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Prototyping & System Design */}
-        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2300">
-          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
-            <div className="w-full lg:w-[200px]">
-              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
-                Prototyping & System Design
+                Core Features & Innovations
               </h2>
             </div>
             <div className="flex-1 space-y-6">
               <ul className="space-y-3">
                 <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
                   <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  20+ annotated wireframes across web and mobile
+                  <strong>Emergency Triage Flow:</strong> Color-coded mobile alerts + priority forms
                 </li>
                 <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
                   <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  Designed a responsive component library (Inter font, soft color gradients)
+                  <strong>Unified Patient Profiles:</strong> History, prescriptions, lab results
                 </li>
                 <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
                   <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  Built scalable, accessible UI system (WCAG 2.1 AA)
+                  <strong>Mobile Scheduling UI:</strong> Calendar view, filters, multi-action bulk tool
                 </li>
                 <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
                   <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  Delivered dynamic states for scheduling, emergency, and patient modules
+                  <strong>Admin Dashboard:</strong> Billing reports, export features, appointment logs
                 </li>
                 <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
                   <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  Integrated click-through prototype in Figma for developer handoff
+                  <strong>Cross-Device Support:</strong> Seamless access via desktop, tablet, and mobile
                 </li>
               </ul>
-            </div>
-          </div>
-        </section>
-
-        {/* Core Features & UI */}
-        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2500">
-          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
-            <div className="w-full lg:w-[200px]">
-              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
-                Core Features & UI
-              </h2>
-            </div>
-            <div className="flex-1 space-y-6">
-              <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300 overflow-x-auto">
-                <table className="w-full min-w-[600px]">
-                  <thead>
-                    <tr className="border-b border-gray-200">
-                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Module</th>
-                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Key Feature</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Patient Records</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Unified profiles, history, lab results, prescriptions</td>
-                    </tr>
-                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Emergency Engine</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Mobile alerts, real-time forms, status routing</td>
-                    </tr>
-                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Appointments</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Calendar view, bulk actions, color-coded status tags</td>
-                    </tr>
-                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Doctor Roster</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Scheduling dashboard, profile cards, contact integration</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Admin Reporting</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Revenue/expense summaries, CSV export, filters</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
             </div>
           </div>
         </section>
 
         {/* Results & Impact */}
-        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2700">
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-3100">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
             <div className="w-full lg:w-[200px]">
               <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
@@ -565,83 +715,71 @@ export default function MedicoCaseStudy() {
             </div>
             <div className="flex-1 space-y-8">
               <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300 overflow-x-auto">
+                <h3 className="text-[20px] font-medium text-[#131417] mb-4">Quantitative Gains</h3>
                 <table className="w-full min-w-[500px]">
                   <thead>
                     <tr className="border-b border-gray-200">
                       <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Metric</th>
-                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Before</th>
-                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">After</th>
-                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Delta</th>
+                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Change</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Manual Record Errors</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Frequent</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Rare</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Manual Recordkeeping Errors</td>
                       <td className="py-4 px-4 text-[16px] font-medium text-green-600">↓ 60%</td>
                     </tr>
                     <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
                       <td className="py-4 px-4 text-[16px] text-[#131417]">Emergency Response Time</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">~5–10 min</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">~2–3 min</td>
                       <td className="py-4 px-4 text-[16px] font-medium text-blue-600">↑ 40%</td>
                     </tr>
                     <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Mobile Usability (Staff)</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Low adoption</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">High usage</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Staff Satisfaction (Mobile)</td>
                       <td className="py-4 px-4 text-[16px] font-medium text-orange-600">↑ 90%</td>
                     </tr>
                     <tr className="hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Appointment Workflow Time</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">20 mins</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">10 mins</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Scheduling Time per Session</td>
                       <td className="py-4 px-4 text-[16px] font-medium text-purple-600">↓ 50%</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-
-              <div className="space-y-4">
-                <blockquote className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-[25px] italic text-[18px] leading-[150%] tracking-[-0.18px] transition-all duration-300 hover:scale-[1.02]">
-                  "We can finally manage our patients and emergencies on the go—without logging into 5 systems."
-                </blockquote>
-              </div>
             </div>
           </div>
         </section>
 
-        {/* Final Takeaways */}
-        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2900">
+        {/* Final Reflections */}
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-3300">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
             <div className="w-full lg:w-[200px]">
               <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
-                Final Takeaways
+                Final Reflections
               </h2>
             </div>
             <div className="flex-1 space-y-6">
-              <ul className="space-y-3">
-                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  <strong>Design is a lifeline</strong> in high-stakes environments like hospitals
-                </li>
-                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  <strong>Mobile-first isn't optional—it's foundational</strong> for modern clinical ops
-                </li>
-                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  <strong>Emergency UX needs to prioritize speed, clarity, and accessibility</strong>
-                </li>
-                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  <strong>Unifying modules creates visibility across patient journeys</strong>
-                </li>
-              </ul>
+              <div className="bg-gray-50 p-6 rounded-[25px] transition-all duration-300 hover:bg-gray-100">
+                <h3 className="text-[20px] font-medium text-[#131417] mb-4">What I Learned</h3>
+                <ul className="space-y-3">
+                  <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                    <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                    <strong>Speed is safety:</strong> Emergency UX must prioritize real-time action
+                  </li>
+                  <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                    <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                    <strong>Mobile is not a nice-to-have—it's essential</strong> for clinical tools
+                  </li>
+                  <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                    <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                    <strong>Unified design systems reduce fragmentation across teams</strong>
+                  </li>
+                  <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                    <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                    <strong>Healthcare UX requires empathy, precision, and clear feedback loops</strong>
+                  </li>
+                </ul>
+              </div>
 
               <blockquote className="bg-[#131417] text-white p-8 rounded-[25px] italic text-[20px] leading-[150%] tracking-[-0.2px] transition-all duration-300 hover:scale-[1.02]">
-                "The Medico redesign didn't just modernize a tool—it improved how we care for patients, in real time, from anywhere."
+                "Designing Medico showed me that every second we save in UX is a second earned in patient care."
               </blockquote>
             </div>
           </div>
@@ -649,7 +787,7 @@ export default function MedicoCaseStudy() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-[#131417] text-white animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-3100">
+      <footer className="bg-[#131417] text-white animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-3500">
         <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] py-16 lg:py-[134px]">
           {/* Footer Header */}
           <div className="flex flex-col sm:flex-row justify-between items-center mb-16 lg:mb-[270px] gap-4 sm:gap-0">
