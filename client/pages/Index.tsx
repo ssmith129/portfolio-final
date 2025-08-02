@@ -83,15 +83,18 @@ export default function Index() {
                 }`}
               />
               {/* Title Overlay */}
-              <div className={`absolute inset-0 bg-black/40 rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] flex items-center justify-center transition-all duration-500 ${
+              <div 
+                className={`absolute inset-0 bg-black/40 rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] flex items-center justify-center transition-all duration-500 cursor-pointer ${
                 hoveredImage === 1 ? 'opacity-100' : 'opacity-0'
-              }`}>
+                }`}
+                onClick={() => navigate('/case-studies/data-direct-ai-enhanced-platform')}
+              >
                 <div className="text-center text-white transform transition-all duration-500">
                   <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium mb-2 tracking-[-0.5px]">
-                    Computis
+                    Data Direct
                   </h3>
                   <p className="text-lg sm:text-xl font-normal opacity-90 tracking-[-0.2px]">
-                    Crypto Tax Engine
+                    AI-Enhanced Data Platform
                   </p>
                   <div className="mt-4 text-sm font-medium opacity-75">
                     Click to view case study →
