@@ -50,7 +50,7 @@ export default function Index() {
         <section className="flex flex-col lg:flex-row justify-between items-start pt-5 gap-8 lg:gap-0 animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-300">
 
           <div className="w-full order-1 animate-in fade-in-0 slide-in-from-right-8 duration-1000 delay-500">
-            <h1 className="text-4xl sm:text-6xl lg:text-[94px] font-medium text-[#131417] leading-[120%] tracking-[-1.88px] transition-all duration-500 hover:tracking-[-1.5px]">
+            <h1 className="text-4xl sm:text-6xl lg:text-[94px] font-medium text-[#131417] leading-[120%] tracking-[-1.88px] transition-all duration-500 hover:tracking-[-1.5px] text-center">
               UX/Product Designer currently based in San Francisco
             </h1>
           </div>
