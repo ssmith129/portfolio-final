@@ -78,7 +78,7 @@ export default function Index() {
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/437ebf05fba1fe900a48cf92b7c64f206c1d4dd4?width=1900"
                 alt="Computis - Crypto Tax Engine"
-                className={`w-full h-[400px] sm:h-[500px] lg:h-[700px] object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
+                className={`w-full aspect-square object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
                   hoveredImage === 1 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
                 }`}
               />
@@ -110,7 +110,7 @@ export default function Index() {
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/37af1375fa98d83c59ef3e2518f99b22a76e895b?width=1900"
                 alt="ezEMRx - EHR for Public Health"
-                className={`w-full h-[400px] sm:h-[500px] lg:h-[700px] object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
+                className={`w-full aspect-square object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
                 hoveredImage === 3 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
               }`}
               />
@@ -140,7 +140,7 @@ export default function Index() {
               <img
                 src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="Medico - Hospital Management System"
-                className={`w-full h-[400px] sm:h-[500px] lg:h-[700px] object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
+                className={`w-full aspect-square object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
                   hoveredImage === 5 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
                 }`}
               />
@@ -172,7 +172,7 @@ export default function Index() {
               <img
                 src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="Data Direct - AI-Powered Public Health Platform"
-                className={`w-full h-[400px] sm:h-[500px] lg:h-[700px] object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
+                className={`w-full aspect-square object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
                   hoveredImage === 6 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
                 }`}
               />
@@ -202,7 +202,7 @@ export default function Index() {
               <img
                 src="https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="MoneyFarm - AI-Powered Personal Finance Manager"
-                className={`w-full h-[400px] sm:h-[500px] lg:h-[700px] object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
+                className={`w-full aspect-square object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
                   hoveredImage === 7 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
                 }`}
               />
