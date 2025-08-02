@@ -205,7 +205,7 @@ export default function Index() {
               Sean Smith
             </span>
             <span className="text-[18px] font-medium leading-[20px] tracking-[-0.18px] text-center sm:text-right transition-all duration-300 hover:text-[#9FA0A3] hover:tracking-[-0.1px]">
-              51.5074° N, 0.1278° W
+              UX/UI Design, Product Design
             </span>
           </div>
 
