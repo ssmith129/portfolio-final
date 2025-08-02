@@ -183,14 +183,14 @@ export default function Index() {
               }`}>
                 <div className="text-center text-white transform transition-all duration-500">
                   <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium mb-2 tracking-[-0.5px]">
-                    Data Direct
-                  </h3>
-                  <p className="text-lg sm:text-xl font-normal opacity-90 tracking-[-0.2px]">
-                    AI-Enhanced Data Platform
-                  </p>
-                  <div className="mt-4 text-sm font-medium opacity-75">
-                    Click to view case study →
-                  </div>
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium mb-2 tracking-[-0.5px]">
+                  Data Direct
+                </h3>
+                <p className="text-lg sm:text-xl font-normal opacity-90 tracking-[-0.2px]">
+                  AI-Enhanced Data Platform
+                </p>
+                <div className="mt-4 text-sm font-medium opacity-75">
+                  Click to view case study →
                 </div>
               </div>
             </div>
