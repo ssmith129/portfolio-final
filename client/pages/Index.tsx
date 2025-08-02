@@ -67,7 +67,7 @@ export default function Index() {
         </section>
 
         {/* Works Section */}
-        <section className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1000">
+        <section className="grid grid-cols-2 gap-4 sm:gap-6 lg:gap-8 animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1000">
             <div 
               className="relative group"
               onMouseEnter={() => setHoveredImage(1)}
