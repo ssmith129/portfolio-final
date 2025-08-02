@@ -61,10 +61,10 @@ export default function EzEMRxCaseStudy() {
             UX Case Study
           </span>
           <h1 className="text-4xl sm:text-6xl lg:text-[72px] font-medium text-[#131417] leading-[120%] tracking-[-1.44px] mb-6 transition-all duration-500 hover:tracking-[-1.2px]">
-            ezEMRx – Redesigning EHR for Real-World Public Health
+            ezEMRx – Public Health EHR Platform
           </h1>
           <p className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.28px] max-w-[900px] transition-all duration-300 hover:text-[#131417]">
-            Transforming a legacy EHR system into an AI-augmented platform that enhances efficiency, compliance, and collaboration for public health agencies.
+            Transforming a legacy EHR into an AI-augmented platform that boosts efficiency, compliance, and collaboration for clinics and health agencies.
           </p>
         </div>
       </div>
@@ -82,10 +82,6 @@ export default function EzEMRxCaseStudy() {
             <div className="flex-1 space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className="bg-white p-6 rounded-[25px] shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
-                  <p className="text-[14px] font-medium text-[#9FA0A3] mb-2">Platform</p>
-                  <p className="text-[18px] font-medium text-[#131417]">Web EHR</p>
-                </div>
-                <div className="bg-white p-6 rounded-[25px] shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
                   <p className="text-[14px] font-medium text-[#9FA0A3] mb-2">Role</p>
                   <p className="text-[18px] font-medium text-[#131417]">Lead UX/Product Designer</p>
                 </div>
@@ -94,29 +90,54 @@ export default function EzEMRxCaseStudy() {
                   <p className="text-[18px] font-medium text-[#131417]">Custom Data Processing Inc.</p>
                 </div>
                 <div className="bg-white p-6 rounded-[25px] shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
-                  <p className="text-[14px] font-medium text-[#9FA0A3] mb-2">Tools</p>
-                  <p className="text-[18px] font-medium text-[#131417]">Figma, Miro, Jira</p>
+                  <p className="text-[14px] font-medium text-[#9FA0A3] mb-2">Type</p>
+                  <p className="text-[18px] font-medium text-[#131417]">Public Health EHR</p>
+                </div>
+                <div className="bg-white p-6 rounded-[25px] shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
+                  <p className="text-[14px] font-medium text-[#9FA0A3] mb-2">Duration</p>
+                  <p className="text-[18px] font-medium text-[#131417]">9 months</p>
                 </div>
               </div>
               
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
-                <div className="bg-green-50 p-6 rounded-[25px] border border-green-200 hover:border-green-300 transition-all duration-300 hover:scale-[1.02]">
-                  <p className="text-[24px] font-bold text-green-600 mb-2">↓ 20%</p>
-                  <p className="text-[16px] font-medium text-[#131417]">Documentation time</p>
-                </div>
-                <div className="bg-blue-50 p-6 rounded-[25px] border border-blue-200 hover:border-blue-300 transition-all duration-300 hover:scale-[1.02]">
-                  <p className="text-[24px] font-bold text-blue-600 mb-2">↑ 70%</p>
-                  <p className="text-[16px] font-medium text-[#131417]">Compliance pass rate</p>
-                </div>
-                <div className="bg-purple-50 p-6 rounded-[25px] border border-purple-200 hover:border-purple-300 transition-all duration-300 hover:scale-[1.02]">
-                  <p className="text-[24px] font-bold text-purple-600 mb-2">↑ 2.3×</p>
-                  <p className="text-[16px] font-medium text-[#131417]">Shared notes volume</p>
+              <div className="bg-white p-6 rounded-[25px] shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
+                <p className="text-[14px] font-medium text-[#9FA0A3] mb-4">Tools & Team</p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <p className="text-[16px] font-medium text-[#131417] mb-2">Tools:</p>
+                    <p className="text-[16px] text-[#131417]">Figma, Miro, Jira, Notion, Confluence</p>
+                  </div>
+                  <div>
+                    <p className="text-[16px] font-medium text-[#131417] mb-2">Team:</p>
+                    <p className="text-[16px] text-[#131417]">PM, AI Strategist, 3 Engineers, Clinical Informatics Lead</p>
+                  </div>
                 </div>
               </div>
 
-              <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] mt-6">
-                Redesigned legacy EHR into AI-augmented public health platform for WIC, immunization clinics, and local health departments.
-              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+                <div className="bg-green-50 p-6 rounded-[25px] border border-green-200 hover:border-green-300 transition-all duration-300 hover:scale-[1.02]">
+                  <p className="text-[24px] font-bold text-green-600 mb-2">↓ 20%</p>
+                  <p className="text-[16px] font-medium text-[#131417]">Clinician documentation time</p>
+                </div>
+                <div className="bg-blue-50 p-6 rounded-[25px] border border-blue-200 hover:border-blue-300 transition-all duration-300 hover:scale-[1.02]">
+                  <p className="text-[24px] font-bold text-blue-600 mb-2">↑ 70%</p>
+                  <p className="text-[16px] font-medium text-[#131417]">Compliance checklist pass rate</p>
+                </div>
+                <div className="bg-purple-50 p-6 rounded-[25px] border border-purple-200 hover:border-purple-300 transition-all duration-300 hover:scale-[1.02]">
+                  <p className="text-[24px] font-bold text-purple-600 mb-2">↑ 130%</p>
+                  <p className="text-[16px] font-medium text-[#131417]">Shared case-notes volume</p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+                <div className="bg-orange-50 p-6 rounded-[25px] border border-orange-200 hover:border-orange-300 transition-all duration-300 hover:scale-[1.02]">
+                  <p className="text-[24px] font-bold text-orange-600 mb-2">↓ 35%</p>
+                  <p className="text-[16px] font-medium text-[#131417]">Referral processing time</p>
+                </div>
+                <div className="bg-indigo-50 p-6 rounded-[25px] border border-indigo-200 hover:border-indigo-300 transition-all duration-300 hover:scale-[1.02]">
+                  <p className="text-[24px] font-bold text-indigo-600 mb-2">📄 5</p>
+                  <p className="text-[16px] font-medium text-[#131417]">Modules launched with audit trails</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -131,13 +152,10 @@ export default function EzEMRxCaseStudy() {
             </div>
             <div className="flex-1 space-y-6">
               <p className="text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px]">
-                ezEMRx was originally built for WIC, immunization clinics, and local health departments. The legacy system suffered from cluttered forms, manual referrals, siloed collaboration, and poor mobile responsiveness.
-              </p>
-              <p className="text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px]">
-                Clinicians spent more time fighting the tool than helping patients.
+                ezEMRx was a legacy EHR used by WIC clinics, immunization sites, and local health departments—plagued by manual data entry, siloed notes, and compliance bottlenecks. We reimagined it as an AI-augmented, role-based platform that streamlines charting, audits, referrals, and collaboration in one unified interface.
               </p>
               <blockquote className="bg-[#131417] text-white p-8 rounded-[25px] italic text-[20px] leading-[150%] tracking-[-0.2px] transition-all duration-300 hover:scale-[1.02]">
-                "How might we reduce clinician documentation fatigue while ensuring compliance and collaboration?"
+                "We weren't just updating forms—we were embedding trust and efficiency into every workflow."
               </blockquote>
             </div>
           </div>
@@ -155,201 +173,177 @@ export default function EzEMRxCaseStudy() {
               <ul className="space-y-3">
                 <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
                   <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  Led full 0–1 UX/Product design and strategy
+                  Defined UX strategy, information architecture, and AI explainability flow
                 </li>
                 <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
                   <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  Defined user flows and information architecture
+                  Designed low- to high-fidelity screens and interactive AI prototypes in Figma
                 </li>
                 <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
                   <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  Created low- to high-fidelity designs and AI explainability prototypes
+                  Facilitated stakeholder workshops and multisite usability tests
                 </li>
                 <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
                   <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  Conducted interviews and multisite usability testing
+                  Built WCAG-compliant design system; delivered annotated redlines and QA specs
                 </li>
                 <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
                   <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                  Delivered design system, annotated redlines, and QA specs
+                  Led dev handoff and iterative QA collaboration
                 </li>
               </ul>
-              <div className="bg-gray-50 p-6 rounded-[25px] mt-6 transition-all duration-300 hover:bg-gray-100">
-                <p className="text-[16px] font-medium text-[#9FA0A3] mb-2">Collaboration:</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Problem & Opportunity */}
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1300">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
+            <div className="w-full lg:w-[200px]">
+              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
+                Problem & Opportunity
+              </h2>
+            </div>
+            <div className="flex-1 space-y-6">
+              <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300 overflow-x-auto">
+                <table className="w-full min-w-[500px]">
+                  <thead>
+                    <tr className="border-b border-gray-200">
+                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Problem</th>
+                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Impact</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Manual, repetitive charting</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">↑ documentation time & error risk</td>
+                    </tr>
+                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">No automated compliance checks</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Audit anxiety & regulatory risk</td>
+                    </tr>
+                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Siloed case notes</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Poor cross-team collaboration</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Complex referral workflows</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Delayed patient care and follow-up</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div className="bg-blue-50 p-6 rounded-[25px] border border-blue-200 transition-all duration-300 hover:border-blue-300 hover:scale-[1.02]">
+                <h3 className="text-[20px] font-medium text-[#131417] mb-4">Design Opportunity:</h3>
                 <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
-                  AI strategists, PM, engineers, and clinical informatics leads
+                  Create an AI-powered EHR that automates charting, simplifies compliance, and fosters seamless collaboration.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Design Process */}
-        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1300">
-          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
-            <div className="w-full lg:w-[200px]">
-              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
-                Design Process
-              </h2>
-            </div>
-            <div className="flex-1 space-y-6">
-              <div className="grid grid-cols-1 gap-4">
-                <div className="bg-white p-6 rounded-[25px] shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className="text-[24px]">🧭</span>
-                    <h3 className="text-[20px] font-medium text-[#131417]">Discovery</h3>
-                  </div>
-                  <p className="text-[16px] text-[#131417]">Clinician & admin interviews, current-state workflow mapping</p>
-                </div>
-                <div className="bg-white p-6 rounded-[25px] shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className="text-[24px]">🔍</span>
-                    <h3 className="text-[20px] font-medium text-[#131417]">Define</h3>
-                  </div>
-                  <p className="text-[16px] text-[#131417]">Personas, information architecture, journey maps</p>
-                </div>
-                <div className="bg-white p-6 rounded-[25px] shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className="text-[24px]">✍</span>
-                    <h3 className="text-[20px] font-medium text-[#131417]">Design</h3>
-                  </div>
-                  <p className="text-[16px] text-[#131417]">Wireframes, high-fi mocks, AI prototype exploration</p>
-                </div>
-                <div className="bg-white p-6 rounded-[25px] shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className="text-[24px]">✅</span>
-                    <h3 className="text-[20px] font-medium text-[#131417]">Validate</h3>
-                  </div>
-                  <p className="text-[16px] text-[#131417]">Usability tests with five clinics across three states</p>
-                </div>
-                <div className="bg-white p-6 rounded-[25px] shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className="text-[24px]">🚀</span>
-                    <h3 className="text-[20px] font-medium text-[#131417]">Deliver</h3>
-                  </div>
-                  <p className="text-[16px] text-[#131417]">Tokenized design system, handoff integration, QA support</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Research Insights */}
+        {/* Research & Insights */}
         <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1500">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
             <div className="w-full lg:w-[200px]">
               <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
-                Research Insights
+                Research & Insights
               </h2>
             </div>
             <div className="flex-1 space-y-6">
-              <div className="bg-red-50 p-6 rounded-[25px] border border-red-200 transition-all duration-300 hover:border-red-300 hover:scale-[1.02]">
-                <h3 className="text-[20px] font-medium text-[#131417] mb-4">Key Pain Points:</h3>
+              <div className="bg-gray-50 p-6 rounded-[25px] transition-all duration-300 hover:bg-gray-100">
+                <h3 className="text-[20px] font-medium text-[#131417] mb-4">Methods:</h3>
                 <ul className="space-y-2">
-                  <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3">
-                    <span className="w-2 h-2 bg-red-500 rounded-full mt-3 flex-shrink-0"></span>
-                    Repetitive charting across multiple forms caused clinician frustration
+                  <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
+                    <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                    1:1 interviews with clinicians & program admins
                   </li>
-                  <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3">
-                    <span className="w-2 h-2 bg-red-500 rounded-full mt-3 flex-shrink-0"></span>
-                    Referral ambiguity led to delays and patient confusion
+                  <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
+                    <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                    Workflow shadowing across five clinics
                   </li>
-                  <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3">
-                    <span className="w-2 h-2 bg-red-500 rounded-full mt-3 flex-shrink-0"></span>
-                    Audit anxiety from manual compliance checks
+                  <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
+                    <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                    Analytics review (GA, Mixpanel)
                   </li>
-                  <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3">
-                    <span className="w-2 h-2 bg-red-500 rounded-full mt-3 flex-shrink-0"></span>
-                    Siloed notes hindered cross-team collaboration
+                  <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
+                    <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                    Prototype testing via Maze
                   </li>
                 </ul>
+              </div>
+
+              <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300 overflow-x-auto">
+                <h3 className="text-[20px] font-medium text-[#131417] mb-4">Insights → Features:</h3>
+                <table className="w-full min-w-[600px]">
+                  <thead>
+                    <tr className="border-b border-gray-200">
+                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Insight</th>
+                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Design Response</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Charting fatigue from redundant forms</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Smart Charting: AI pre-fill with confidence badges</td>
+                    </tr>
+                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Manual compliance audits</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">One-click audit drawer with color-coded checklist</td>
+                    </tr>
+                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Notes siloed by department</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Collaborative case notes with threading & versioning</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Referral ambiguity</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Smart Referral Routing with contextual suggestions</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Personas */}
+        {/* Market & Competitor Analysis */}
         <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1700">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
             <div className="w-full lg:w-[200px]">
               <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
-                Personas
+                Market & Competitor Analysis
               </h2>
             </div>
             <div className="flex-1 space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-blue-50 p-6 rounded-[25px] border border-blue-200 transition-all duration-300 hover:border-blue-300 hover:scale-[1.02]">
-                  <h3 className="text-[20px] font-medium text-[#131417] mb-4">Claire (WIC Clinician)</h3>
-                  <p className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px]">
-                    Seeks efficient charting with clear compliance guidance
-                  </p>
-                </div>
-                <div className="bg-green-50 p-6 rounded-[25px] border border-green-200 transition-all duration-300 hover:border-green-300 hover:scale-[1.02]">
-                  <h3 className="text-[20px] font-medium text-[#131417] mb-4">Mark (Program Administrator)</h3>
-                  <p className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px]">
-                    Needs audit readiness oversight and streamlined collaboration
-                  </p>
+              <div className="bg-gray-50 p-6 rounded-[25px] transition-all duration-300 hover:bg-gray-100">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <h3 className="text-[18px] font-medium text-[#131417] mb-3">Users:</h3>
+                    <p className="text-[16px] text-[#131417]">Clinicians, Program Administrators, Public Health Agencies</p>
+                  </div>
+                  <div>
+                    <h3 className="text-[18px] font-medium text-[#131417] mb-3">Trends:</h3>
+                    <ul className="space-y-1">
+                      <li className="text-[16px] text-[#131417] flex items-start gap-2">
+                        <span className="w-1 h-1 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                        Shift toward interoperable, digital records
+                      </li>
+                      <li className="text-[16px] text-[#131417] flex items-start gap-2">
+                        <span className="w-1 h-1 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                        Rising demand for AI-driven efficiency
+                      </li>
+                      <li className="text-[16px] text-[#131417] flex items-start gap-2">
+                        <span className="w-1 h-1 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
+                        Increased regulatory and audit pressures
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
 
-        {/* Core Features */}
-        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1900">
-          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
-            <div className="w-full lg:w-[200px]">
-              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
-                Core Features
-              </h2>
-            </div>
-            <div className="flex-1 space-y-6">
-              <ul className="space-y-4">
-                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                  <span className="text-green-600 text-[20px] mt-1">✅</span>
-                  <div>
-                    <strong>Smart Charting:</strong> AI pre-fills fields with confidence badges and hover-to-explain tooltips
-                  </div>
-                </li>
-                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                  <span className="text-green-600 text-[20px] mt-1">✅</span>
-                  <div>
-                    <strong>Smart Referral Routing:</strong> Suggests destinations based on condition, coverage, location, and past success
-                  </div>
-                </li>
-                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                  <span className="text-green-600 text-[20px] mt-1">✅</span>
-                  <div>
-                    <strong>One-Click Compliance Audit:</strong> Drawer with real-time color-coded checklists
-                  </div>
-                </li>
-                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                  <span className="text-green-600 text-[20px] mt-1">✅</span>
-                  <div>
-                    <strong>Collaborative Case Notes:</strong> Threaded, taggable notes with version history and approvals
-                  </div>
-                </li>
-                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                  <span className="text-green-600 text-[20px] mt-1">✅</span>
-                  <div>
-                    <strong>Patient Timeline View:</strong> Vertical feed of visits, labs, immunizations, and notes for quick context
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        {/* Competitive Advantage */}
-        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2100">
-          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
-            <div className="w-full lg:w-[200px]">
-              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
-                Competitive Advantage
-              </h2>
-            </div>
-            <div className="flex-1">
               <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300 overflow-x-auto">
+                <h3 className="text-[20px] font-medium text-[#131417] mb-4">Competitive Differentiator:</h3>
                 <table className="w-full min-w-[600px]">
                   <thead>
                     <tr className="border-b border-gray-200">
@@ -361,34 +355,189 @@ export default function EzEMRxCaseStudy() {
                   </thead>
                   <tbody>
                     <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Smart Charting</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">AI Smart Charting</td>
                       <td className="py-4 px-4 text-green-600 text-[18px]">✅</td>
                       <td className="py-4 px-4 text-red-500 text-[18px]">❌</td>
-                      <td className="py-4 px-4 text-yellow-500 text-[18px]">⚠️</td>
-                    </tr>
-                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">AI-Driven Referrals</td>
-                      <td className="py-4 px-4 text-green-600 text-[18px]">✅</td>
-                      <td className="py-4 px-4 text-red-500 text-[18px]">❌</td>
-                      <td className="py-4 px-4 text-yellow-500 text-[18px]">⚠️</td>
+                      <td className="py-4 px-4 text-yellow-500 text-[18px]">⚠</td>
                     </tr>
                     <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
                       <td className="py-4 px-4 text-[16px] text-[#131417]">Real-Time Compliance Audit</td>
                       <td className="py-4 px-4 text-green-600 text-[18px]">✅</td>
                       <td className="py-4 px-4 text-red-500 text-[18px]">❌</td>
-                      <td className="py-4 px-4 text-yellow-500 text-[18px]">⚠️</td>
+                      <td className="py-4 px-4 text-yellow-500 text-[18px]">⚠</td>
                     </tr>
                     <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
                       <td className="py-4 px-4 text-[16px] text-[#131417]">Collaborative Case Notes</td>
                       <td className="py-4 px-4 text-green-600 text-[18px]">✅</td>
                       <td className="py-4 px-4 text-red-500 text-[18px]">❌</td>
-                      <td className="py-4 px-4 text-yellow-500 text-[18px]">⚠️</td>
+                      <td className="py-4 px-4 text-yellow-500 text-[18px]">⚠</td>
                     </tr>
-                    <tr className="hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Patient Timeline View</td>
+                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Smart Referral Routing</td>
                       <td className="py-4 px-4 text-green-600 text-[18px]">✅</td>
                       <td className="py-4 px-4 text-red-500 text-[18px]">❌</td>
                       <td className="py-4 px-4 text-red-500 text-[18px]">❌</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Patient Timeline Overview</td>
+                      <td className="py-4 px-4 text-green-600 text-[18px]">✅</td>
+                      <td className="py-4 px-4 text-red-500 text-[18px]">❌</td>
+                      <td className="py-4 px-4 text-red-500 text-[18px]">❌</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* User Flows */}
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1900">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
+            <div className="w-full lg:w-[200px]">
+              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
+                User Flows
+              </h2>
+            </div>
+            <div className="flex-1 space-y-6">
+              <div className="grid grid-cols-1 gap-6">
+                <div className="bg-blue-50 p-6 rounded-[25px] border border-blue-200 transition-all duration-300 hover:border-blue-300 hover:scale-[1.02]">
+                  <h3 className="text-[20px] font-medium text-[#131417] mb-4">Claire (Clinician):</h3>
+                  <p className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] mb-3">
+                    <strong>Flow:</strong> Intake → Smart Charting → Compliance Audit → Referral Routing → Case Notes → Patient Timeline
+                  </p>
+                  <p className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px]">
+                    <strong>Needs:</strong> AI pre-fill, real-time audit checks, and clear referral guidance.
+                  </p>
+                </div>
+                <div className="bg-green-50 p-6 rounded-[25px] border border-green-200 transition-all duration-300 hover:border-green-300 hover:scale-[1.02]">
+                  <h3 className="text-[20px] font-medium text-[#131417] mb-4">Mark (Program Admin):</h3>
+                  <p className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] mb-3">
+                    <strong>Flow:</strong> Dashboard → Audit Overview → Notes Review → Reporting
+                  </p>
+                  <p className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px]">
+                    <strong>Needs:</strong> High-level compliance insights and collaboration oversight.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Design Concepts */}
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2100">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
+            <div className="w-full lg:w-[200px]">
+              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
+                Design Concepts
+              </h2>
+            </div>
+            <div className="flex-1 space-y-6">
+              <ul className="space-y-3">
+                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                  AI-augmented charting with hover-to-explain confidence badges
+                </li>
+                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                  Transparent referral routing using patient context filters
+                </li>
+                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                  Color-coded audit drawer for instant compliance feedback
+                </li>
+                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                  Threaded, taggable case notes for real-time team collaboration
+                </li>
+              </ul>
+
+              <div className="bg-[#131417] text-white p-8 rounded-[25px] transition-all duration-300 hover:scale-[1.02]">
+                <h3 className="text-[20px] font-medium text-white mb-4">Design Principles:</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                  <div className="text-center">
+                    <p className="text-[18px] font-medium text-white">Clarity > Clutter</p>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-[18px] font-medium text-white">Trust through Transparency</p>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-[18px] font-medium text-white">Efficiency with AI</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Prototyping & System Design */}
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2300">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
+            <div className="w-full lg:w-[200px]">
+              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
+                Prototyping & System Design
+              </h2>
+            </div>
+            <div className="flex-1 space-y-6">
+              <ul className="space-y-3">
+                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                  5 modules & 25+ wireframes covering desktop and tablet
+                </li>
+                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                  Figma component library with WCAG 2.1 AA tokens
+                </li>
+                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                  12-column responsive grid for desktop & tablet
+                </li>
+                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                  Interactive prototypes tested with 30 clinicians via Maze
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Core Features & UI */}
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2500">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
+            <div className="w-full lg:w-[200px]">
+              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
+                Core Features & UI
+              </h2>
+            </div>
+            <div className="flex-1 space-y-6">
+              <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300 overflow-x-auto">
+                <table className="w-full min-w-[600px]">
+                  <thead>
+                    <tr className="border-b border-gray-200">
+                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Module</th>
+                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Key Feature</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Smart Charting</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">AI pre-fill fields with confidence badges & explain tooltips</td>
+                    </tr>
+                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Compliance Audit</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Real-time color-coded checklist drawer & PDF export</td>
+                    </tr>
+                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Collaborative Case Notes</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Threaded notes with tags, version history, and approval workflows</td>
+                    </tr>
+                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Smart Referral Routing</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Contextual suggestions based on condition, coverage, and location</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50 transition-colors duration-300">
+                      <td className="py-4 px-4 text-[16px] font-medium text-[#131417]">Patient Timeline Overview</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Unified feed of visits, labs, immunizations, and notes for context</td>
                     </tr>
                   </tbody>
                 </table>
@@ -398,7 +547,7 @@ export default function EzEMRxCaseStudy() {
         </section>
 
         {/* Results & Impact */}
-        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2300">
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2700">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
             <div className="w-full lg:w-[200px]">
               <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
@@ -407,33 +556,39 @@ export default function EzEMRxCaseStudy() {
             </div>
             <div className="flex-1 space-y-8">
               <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300 overflow-x-auto">
-                <table className="w-full min-w-[400px]">
+                <table className="w-full min-w-[500px]">
                   <thead>
                     <tr className="border-b border-gray-200">
                       <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Metric</th>
-                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Impact</th>
+                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Before</th>
+                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">After</th>
+                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Change</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
                       <td className="py-4 px-4 text-[16px] text-[#131417]">Documentation Time</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">45 min/patient</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">36 min/patient</td>
                       <td className="py-4 px-4 text-[16px] font-medium text-green-600">↓ 20%</td>
                     </tr>
                     <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
                       <td className="py-4 px-4 text-[16px] text-[#131417]">Compliance Pass Rate</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">50%</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">85%</td>
                       <td className="py-4 px-4 text-[16px] font-medium text-blue-600">↑ 70%</td>
                     </tr>
                     <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Shared Notes Volume</td>
-                      <td className="py-4 px-4 text-[16px] font-medium text-purple-600">↑ 2.3×</td>
-                    </tr>
-                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Referral Generation Time</td>
-                      <td className="py-4 px-4 text-[16px] font-medium text-orange-600">↓ 35%</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Case-Notes Shared Volume</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">1 share/note</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">2.3 shares/note</td>
+                      <td className="py-4 px-4 text-[16px] font-medium text-purple-600">↑ 130%</td>
                     </tr>
                     <tr className="hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">AI Transparency Rating</td>
-                      <td className="py-4 px-4 text-[16px] font-medium text-indigo-600">92% Clear</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">Referral Processing Time</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">20 hrs/week</td>
+                      <td className="py-4 px-4 text-[16px] text-[#131417]">13 hrs/week</td>
+                      <td className="py-4 px-4 text-[16px] font-medium text-orange-600">↓ 35%</td>
                     </tr>
                   </tbody>
                 </table>
@@ -441,53 +596,50 @@ export default function EzEMRxCaseStudy() {
 
               <div className="space-y-4">
                 <blockquote className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-[25px] italic text-[18px] leading-[150%] tracking-[-0.18px] transition-all duration-300 hover:scale-[1.02]">
-                  "The AI suggestions actually make sense and save me time without feeling intrusive." — WIC Clinician
+                  "ezEMRx feels intuitive—it knows what I need before I do."
                 </blockquote>
                 <blockquote className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-[25px] italic text-[18px] leading-[150%] tracking-[-0.18px] transition-all duration-300 hover:scale-[1.02]">
-                  "Compliance audits went from dreaded to routine. The real-time checks are a game-changer." — Program Administrator
+                  "The audit drawer saved me hours each week."
                 </blockquote>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Final Takeaway */}
-        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2500">
+        {/* Final Takeaways */}
+        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2900">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
             <div className="w-full lg:w-[200px]">
               <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
-                Final Takeaway
+                Final Takeaways
               </h2>
             </div>
             <div className="flex-1 space-y-6">
-              <blockquote className="bg-[#131417] text-white p-8 rounded-[25px] italic text-[20px] leading-[150%] tracking-[-0.2px] transition-all duration-300 hover:scale-[1.02]">
-                "Design isn't just about screens — it's about giving public health teams the trust and efficiency they need to serve communities."
-              </blockquote>
+              <ul className="space-y-3">
+                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                  AI transparency builds clinician trust
+                </li>
+                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                  Modular architecture scales across diverse agencies
+                </li>
+                <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
+                  <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
+                  Human-in-the-loop automation reduces manual burden
+                </li>
+              </ul>
 
-              <div className="bg-gray-50 p-6 rounded-[25px] mt-8 transition-all duration-300 hover:bg-gray-100">
-                <h3 className="text-[20px] font-medium text-[#131417] mb-4">Key Learnings:</h3>
-                <ul className="space-y-2">
-                  <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
-                    <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
-                    AI transparency builds trust in healthcare workflows
-                  </li>
-                  <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
-                    <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
-                    Real-time compliance reduces audit anxiety
-                  </li>
-                  <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
-                    <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
-                    Collaborative tools improve patient outcomes
-                  </li>
-                </ul>
-              </div>
+              <blockquote className="bg-[#131417] text-white p-8 rounded-[25px] italic text-[20px] leading-[150%] tracking-[-0.2px] transition-all duration-300 hover:scale-[1.02]">
+                "Design is about empowering users, not replacing them."
+              </blockquote>
             </div>
           </div>
         </section>
       </div>
 
       {/* Footer */}
-      <footer className="bg-[#131417] text-white animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2700">
+      <footer className="bg-[#131417] text-white animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-3100">
         <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] py-16 lg:py-[134px]">
           {/* Footer Header */}
           <div className="flex flex-col sm:flex-row justify-between items-center mb-16 lg:mb-[270px] gap-4 sm:gap-0">
