@@ -293,6 +293,164 @@ export default function ComputisCaseStudy() {
           </div>
         </section>
 
+        {/* Process & Timeline Section */}
+        <section className="flex flex-col lg:flex-row gap-8 lg:gap-[440px] animate-in fade-in-0 slide-in-from-bottom-6 duration-1000 delay-1300">
+          <div className="w-full lg:w-[200px]">
+            <p className="text-[18px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.18px] transition-all duration-300 hover:text-[#131417]">
+              Process & Timeline
+            </p>
+          </div>
+
+          <div className="flex-1 space-y-8 lg:space-y-[50px]">
+            {/* Timeline Title */}
+            <div className="mb-8">
+              <h3 className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] mb-4 transition-all duration-300 hover:tracking-[-0.2px]">
+                10-Month Development Cycle
+              </h3>
+              <p className="text-[18px] font-normal text-[#131417] leading-[28px] tracking-[-0.18px] max-w-[600px] transition-all duration-300 hover:text-[#2a2a2a]">
+                A comprehensive approach to rebuilding Computis's crypto tax automation platform with enhanced user experience and regulatory compliance.
+              </p>
+            </div>
+
+            {/* Timeline Chart */}
+            <div className="bg-white rounded-lg p-6 border border-gray-100 shadow-sm">
+              {/* Month Headers */}
+              <div className="flex justify-between mb-4 text-sm text-[#9FA0A3] font-medium">
+                {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((month) => (
+                  <div key={month} className="flex-1 text-center">
+                    M{month}
+                  </div>
+                ))}
+              </div>
+
+              {/* Timeline Bars */}
+              <div className="space-y-3">
+                {/* Discovery - Month 1 */}
+                <div className="relative h-8 bg-gray-50 rounded-md overflow-hidden">
+                  <div 
+                    className="absolute top-0 left-0 h-full bg-blue-500 rounded-md transition-all duration-500 hover:bg-blue-600"
+                    style={{ width: '10%' }}
+                  ></div>
+                  <span className="absolute left-2 top-1/2 transform -translate-y-1/2 text-xs font-medium text-white">
+                    Discovery
+                  </span>
+                </div>
+
+                {/* Define - Month 2 */}
+                <div className="relative h-8 bg-gray-50 rounded-md overflow-hidden">
+                  <div 
+                    className="absolute top-0 h-full bg-green-500 rounded-md transition-all duration-500 hover:bg-green-600"
+                    style={{ left: '10%', width: '10%' }}
+                  ></div>
+                  <span className="absolute left-[12%] top-1/2 transform -translate-y-1/2 text-xs font-medium text-white">
+                    Define
+                  </span>
+                </div>
+
+                {/* Design - Months 3-6 */}
+                <div className="relative h-8 bg-gray-50 rounded-md overflow-hidden">
+                  <div 
+                    className="absolute top-0 h-full bg-purple-500 rounded-md transition-all duration-500 hover:bg-purple-600"
+                    style={{ left: '20%', width: '40%' }}
+                  ></div>
+                  <span className="absolute left-[35%] top-1/2 transform -translate-y-1/2 text-xs font-medium text-white">
+                    Design
+                  </span>
+                </div>
+
+                {/* Validate - Months 5-7 */}
+                <div className="relative h-8 bg-gray-50 rounded-md overflow-hidden">
+                  <div 
+                    className="absolute top-0 h-full bg-orange-500 rounded-md transition-all duration-500 hover:bg-orange-600"
+                    style={{ left: '40%', width: '30%' }}
+                  ></div>
+                  <span className="absolute left-[50%] top-1/2 transform -translate-y-1/2 text-xs font-medium text-white">
+                    Validate
+                  </span>
+                </div>
+
+                {/* Delivery - Months 7-10 */}
+                <div className="relative h-8 bg-gray-50 rounded-md overflow-hidden">
+                  <div 
+                    className="absolute top-0 h-full bg-red-500 rounded-md transition-all duration-500 hover:bg-red-600"
+                    style={{ left: '60%', width: '40%' }}
+                  ></div>
+                  <span className="absolute left-[75%] top-1/2 transform -translate-y-1/2 text-xs font-medium text-white">
+                    Delivery
+                  </span>
+                </div>
+              </div>
+
+              {/* Legend */}
+              <div className="flex flex-wrap gap-4 mt-6 pt-4 border-t border-gray-100">
+                <div className="flex items-center gap-2">
+                  <div className="w-4 h-4 bg-blue-500 rounded"></div>
+                  <span className="text-sm text-[#131417]">Discovery</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-4 h-4 bg-green-500 rounded"></div>
+                  <span className="text-sm text-[#131417]">Define</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-4 h-4 bg-purple-500 rounded"></div>
+                  <span className="text-sm text-[#131417]">Design</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-4 h-4 bg-orange-500 rounded"></div>
+                  <span className="text-sm text-[#131417]">Validate</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-4 h-4 bg-red-500 rounded"></div>
+                  <span className="text-sm text-[#131417]">Delivery</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Phase Details */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {/* Discovery Phase */}
+              <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg transition-all duration-300 hover:shadow-md hover:scale-105">
+                <h4 className="font-medium text-[#131417] mb-2">Discovery (Month 1)</h4>
+                <p className="text-sm text-[#9FA0A3] leading-relaxed">
+                  User research, stakeholder interviews, and competitive analysis to understand crypto tax complexity.
+                </p>
+              </div>
+
+              {/* Define Phase */}
+              <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg transition-all duration-300 hover:shadow-md hover:scale-105">
+                <h4 className="font-medium text-[#131417] mb-2">Define (Month 2)</h4>
+                <p className="text-sm text-[#9FA0A3] leading-relaxed">
+                  Problem definition, user personas, and technical requirements for automated tax reporting.
+                </p>
+              </div>
+
+              {/* Design Phase */}
+              <div className="bg-purple-50 border-l-4 border-purple-500 p-4 rounded-r-lg transition-all duration-300 hover:shadow-md hover:scale-105">
+                <h4 className="font-medium text-[#131417] mb-2">Design (Months 3-6)</h4>
+                <p className="text-sm text-[#9FA0A3] leading-relaxed">
+                  UI/UX design, prototyping, and system architecture for scalable crypto tax automation.
+                </p>
+              </div>
+
+              {/* Validate Phase */}
+              <div className="bg-orange-50 border-l-4 border-orange-500 p-4 rounded-r-lg transition-all duration-300 hover:shadow-md hover:scale-105">
+                <h4 className="font-medium text-[#131417] mb-2">Validate (Months 5-7)</h4>
+                <p className="text-sm text-[#9FA0A3] leading-relaxed">
+                  User testing with CPAs and crypto traders to validate compliance and usability.
+                </p>
+              </div>
+
+              {/* Delivery Phase */}
+              <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg transition-all duration-300 hover:shadow-md hover:scale-105">
+                <h4 className="font-medium text-[#131417] mb-2">Delivery (Months 7-10)</h4>
+                <p className="text-sm text-[#9FA0A3] leading-relaxed">
+                  Development, testing, and deployment of the production-ready crypto tax platform.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Research & Insights */}
         <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1500">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
