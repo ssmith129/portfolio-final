@@ -15,16 +15,25 @@ export default function CaseStudies() {
         </div>
 
         <div className="bg-white rounded-[50px] p-[5px] flex items-center flex-wrap gap-1">
-          <Link to="/" className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors">
+          <Link
+            to="/"
+            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors"
+          >
             Home
           </Link>
           <div className="bg-[#131417] text-white px-4 sm:px-[25px] py-[13px] rounded-[50px] text-sm sm:text-[18px] font-medium tracking-[-0.18px]">
             Case Studies
           </div>
-          <Link to="/about" className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors">
+          <Link
+            to="/about"
+            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors"
+          >
             About
           </Link>
-          <Link to="/contacts" className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors">
+          <Link
+            to="/contacts"
+            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors"
+          >
             Contacts
           </Link>
         </div>
@@ -37,7 +46,8 @@ export default function CaseStudies() {
             Case Studies
           </h1>
           <p className="text-lg sm:text-[20px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.2px] max-w-[600px] mx-auto">
-            This page is currently being developed. Please continue prompting to fill in the content for this page.
+            This page is currently being developed. Please continue prompting to
+            fill in the content for this page.
           </p>
         </div>
       </div>

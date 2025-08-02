@@ -7,11 +7,11 @@ export default function Contacts() {
     email: "",
     project: "",
     budget: "",
-    deadline: ""
+    deadline: "",
   });
 
   const handleInputChange = (field: string, value: string) => {
-    setFormData(prev => ({ ...prev, [field]: value }));
+    setFormData((prev) => ({ ...prev, [field]: value }));
   };
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -32,18 +32,27 @@ export default function Contacts() {
             London, England
           </p>
         </div>
-        
+
         <div className="bg-white rounded-[50px] p-[5px] flex items-center flex-wrap gap-1">
           <div className="bg-[#131417] text-white px-4 sm:px-[25px] py-[13px] rounded-[50px] text-sm sm:text-[18px] font-medium tracking-[-0.18px]">
             Home
           </div>
-          <Link to="/case-studies" className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors">
+          <Link
+            to="/case-studies"
+            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors"
+          >
             Case Studies
           </Link>
-          <Link to="/about" className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors">
+          <Link
+            to="/about"
+            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors"
+          >
             About
           </Link>
-          <Link to="/contacts" className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors">
+          <Link
+            to="/contacts"
+            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors"
+          >
             Contacts
           </Link>
         </div>
@@ -70,13 +79,15 @@ export default function Contacts() {
           <div className="mb-16 lg:mb-[200px]">
             <div className="w-full max-w-[290px] mb-8 lg:mb-[141px]">
               <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] mb-8">
-                Over 18 awards and mentions from renowned industry players like Awwwards, FWA, and CSSDA. I can't wait to see what the future holds as I continue to innovate and create.
+                Over 18 awards and mentions from renowned industry players like
+                Awwwards, FWA, and CSSDA. I can't wait to see what the future
+                holds as I continue to innovate and create.
               </p>
               <p className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px]">
-                Last updated          31 - 05 - 2023
+                Last updated 31 - 05 - 2023
               </p>
             </div>
-            
+
             <h1 className="text-4xl sm:text-6xl lg:text-[94px] font-medium text-[#131417] leading-[120%] tracking-[-1.88px] max-w-[1118px]">
               UI/UX Designer and Front-end Developer currently based in London
             </h1>
@@ -91,8 +102,20 @@ export default function Contacts() {
               Use this form to describe your project
             </p>
             <button className="w-7 h-7 flex items-center justify-center">
-              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M21 7L7 21M7 7L21 21" stroke="#131417" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 28 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21 7L7 21M7 7L21 21"
+                  stroke="#131417"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
               </svg>
             </button>
           </div>
@@ -106,7 +129,7 @@ export default function Contacts() {
                 <input
                   type="text"
                   value={formData.name}
-                  onChange={(e) => handleInputChange('name', e.target.value)}
+                  onChange={(e) => handleInputChange("name", e.target.value)}
                   placeholder="Harry Maguire"
                   className="bg-transparent border-none outline-none text-[#CDCDCD] placeholder-[#CDCDCD] min-w-[200px] lg:min-w-[343px]"
                 />
@@ -122,7 +145,7 @@ export default function Contacts() {
                 <input
                   type="email"
                   value={formData.email}
-                  onChange={(e) => handleInputChange('email', e.target.value)}
+                  onChange={(e) => handleInputChange("email", e.target.value)}
                   placeholder="email@example.com"
                   className="bg-transparent border-none outline-none text-[#CDCDCD] placeholder-[#CDCDCD] min-w-[200px] lg:min-w-[365px]"
                 />
@@ -138,7 +161,7 @@ export default function Contacts() {
                 <input
                   type="text"
                   value={formData.project}
-                  onChange={(e) => handleInputChange('project', e.target.value)}
+                  onChange={(e) => handleInputChange("project", e.target.value)}
                   placeholder="website, design, etc"
                   className="bg-transparent border-none outline-none text-[#CDCDCD] placeholder-[#CDCDCD] min-w-[200px] lg:min-w-[356px]"
                 />
@@ -153,7 +176,7 @@ export default function Contacts() {
                 <input
                   type="text"
                   value={formData.budget}
-                  onChange={(e) => handleInputChange('budget', e.target.value)}
+                  onChange={(e) => handleInputChange("budget", e.target.value)}
                   placeholder="1000£"
                   className="bg-transparent border-none outline-none text-[#CDCDCD] placeholder-[#CDCDCD] min-w-[80px] lg:min-w-[145px]"
                 />
@@ -164,7 +187,9 @@ export default function Contacts() {
                 <input
                   type="text"
                   value={formData.deadline}
-                  onChange={(e) => handleInputChange('deadline', e.target.value)}
+                  onChange={(e) =>
+                    handleInputChange("deadline", e.target.value)
+                  }
                   placeholder="May 31, 2023"
                   className="bg-transparent border-none outline-none text-[#CDCDCD] placeholder-[#CDCDCD] min-w-[120px] lg:min-w-[310px]"
                 />
@@ -183,9 +208,15 @@ export default function Contacts() {
 
           {/* Social Links */}
           <div className="flex flex-wrap gap-4 lg:gap-[70px] pt-16 lg:pt-[80px] text-[18px] font-medium text-[#131417] leading-[18px] tracking-[-0.18px]">
-            <a href="#" className="hover:text-[#9FA0A3] transition-colors">Instagram</a>
-            <a href="#" className="hover:text-[#9FA0A3] transition-colors">Facebook</a>
-            <a href="#" className="hover:text-[#9FA0A3] transition-colors">henry_james@mail.com</a>
+            <a href="#" className="hover:text-[#9FA0A3] transition-colors">
+              Instagram
+            </a>
+            <a href="#" className="hover:text-[#9FA0A3] transition-colors">
+              Facebook
+            </a>
+            <a href="#" className="hover:text-[#9FA0A3] transition-colors">
+              henry_james@mail.com
+            </a>
           </div>
         </div>
       </div>

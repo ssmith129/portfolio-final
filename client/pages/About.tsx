@@ -13,18 +13,27 @@ export default function About() {
             London, England
           </p>
         </div>
-        
+
         <div className="bg-white rounded-[50px] p-[5px] flex items-center flex-wrap gap-1">
-          <Link to="/" className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors">
+          <Link
+            to="/"
+            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors"
+          >
             Home
           </Link>
-          <Link to="/case-studies" className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors">
+          <Link
+            to="/case-studies"
+            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors"
+          >
             Case Studies
           </Link>
           <div className="bg-[#131417] text-white px-4 sm:px-[25px] py-[13px] rounded-[50px] text-sm sm:text-[18px] font-medium tracking-[-0.18px]">
             About
           </div>
-          <Link to="/contacts" className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors">
+          <Link
+            to="/contacts"
+            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors"
+          >
             Contacts
           </Link>
         </div>
@@ -46,13 +55,16 @@ export default function About() {
       {/* Header */}
       <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] pt-16 lg:pt-[150px]">
         <h1 className="text-2xl sm:text-4xl lg:text-[48px] font-normal text-[#131417] leading-[150%] tracking-[-0.96px] max-w-[1720px] mb-16 lg:mb-[160px]">
-          Hi, I'm Henry James. I am a developer based in London, UK focused on creating interactive digital experiences on the web, working with brands and industry leaders such as DISNEY, Volkswagen, Rag & Bone, and Knight Frank amongst others to achieve this. Have been working in the development industry for over a decade.
+          Hi, I'm Henry James. I am a developer based in London, UK focused on
+          creating interactive digital experiences on the web, working with
+          brands and industry leaders such as DISNEY, Volkswagen, Rag & Bone,
+          and Knight Frank amongst others to achieve this. Have been working in
+          the development industry for over a decade.
         </h1>
       </div>
 
       {/* Main Content */}
       <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] pb-16 space-y-16 lg:space-y-[150px]">
-        
         {/* About Section */}
         <section className="flex flex-col lg:flex-row gap-8 lg:gap-[440px]">
           {/* Left Content */}
@@ -63,11 +75,21 @@ export default function About() {
                 Some of the clients:
               </p>
               <div className="space-y-[5px]">
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Rag & Bone</p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Aimfox</p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Disney</p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Knight Frank</p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Volkswagen</p>
+                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                  Rag & Bone
+                </p>
+                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                  Aimfox
+                </p>
+                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                  Disney
+                </p>
+                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                  Knight Frank
+                </p>
+                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                  Volkswagen
+                </p>
               </div>
             </div>
 
@@ -77,13 +99,27 @@ export default function About() {
                 Hard Skills
               </p>
               <div className="space-y-[5px]">
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Figma</p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">After Effects</p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">ProtoPie</p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Webflow</p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Photoshop</p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Illustrator</p>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">ES6 Scripts</p>
+                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                  Figma
+                </p>
+                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                  After Effects
+                </p>
+                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                  ProtoPie
+                </p>
+                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                  Webflow
+                </p>
+                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                  Photoshop
+                </p>
+                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                  Illustrator
+                </p>
+                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                  ES6 Scripts
+                </p>
               </div>
             </div>
           </div>
@@ -108,27 +144,52 @@ export default function About() {
             {/* Paragraphs */}
             <div className="space-y-8">
               <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px]">
-                I hold a Bachelor's degree in Graphic Design and have been working in the design industry for over a decade. During this time, I have honed my skills in design principles, user experience, and front-end development. I'm proficient in design tools such as Adobe Creative Suite, Sketch, Adobe Xd and Figma, and have a deep understanding of front-end development languages like HTML, CSS, JavaScript & different types of frameworks.
+                I hold a Bachelor's degree in Graphic Design and have been
+                working in the design industry for over a decade. During this
+                time, I have honed my skills in design principles, user
+                experience, and front-end development. I'm proficient in design
+                tools such as Adobe Creative Suite, Sketch, Adobe Xd and Figma,
+                and have a deep understanding of front-end development languages
+                like HTML, CSS, JavaScript & different types of frameworks.
               </p>
 
               <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px]">
-                My passion for development & design started when I was young, and I have pursued this passion by working with a variety of clients and projects over the years. I have worked with startups, small businesses, and large corporations, creating user interfaces & front-end development for websites, software applications, and mobile apps.
+                My passion for development & design started when I was young,
+                and I have pursued this passion by working with a variety of
+                clients and projects over the years. I have worked with
+                startups, small businesses, and large corporations, creating
+                user interfaces & front-end development for websites, software
+                applications, and mobile apps.
               </p>
 
               <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px]">
-                As a Senior Developer & UI Designer, my focus is on creating engaging and intuitive user interfaces that provide an exceptional user experience. I believe that design should be user-centric, and my approach to design reflects this belief. I work closely with my clients to understand their users' needs, conduct user research, and create wireframes and prototypes to ensure that the final design meets both user and business goals and also focus on developing.
+                As a Senior Developer & UI Designer, my focus is on creating
+                engaging and intuitive user interfaces that provide an
+                exceptional user experience. I believe that design should be
+                user-centric, and my approach to design reflects this belief. I
+                work closely with my clients to understand their users' needs,
+                conduct user research, and create wireframes and prototypes to
+                ensure that the final design meets both user and business goals
+                and also focus on developing.
               </p>
 
               <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px]">
-                In my spare time, I enjoy exploring new design trends and technologies, attending design conferences and workshops, and sharing my knowledge with the design community. And also trying to learn more frameworks and libraries of javascripts like react.js, next.js, three.js or GSAP etc. I'm always excited to collaborate on new projects and would love to hear from you. Please feel free to get in touch if you have any questions or if you'd like to work together.
+                In my spare time, I enjoy exploring new design trends and
+                technologies, attending design conferences and workshops, and
+                sharing my knowledge with the design community. And also trying
+                to learn more frameworks and libraries of javascripts like
+                react.js, next.js, three.js or GSAP etc. I'm always excited to
+                collaborate on new projects and would love to hear from you.
+                Please feel free to get in touch if you have any questions or if
+                you'd like to work together.
               </p>
             </div>
 
             {/* Image */}
             <div className="mt-16">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/c9c43357d2dfc89ea4d27b18702ac548f1b2f304?width=2236" 
-                alt="Workspace setup" 
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/c9c43357d2dfc89ea4d27b18702ac548f1b2f304?width=2236"
+                alt="Workspace setup"
                 className="w-full h-[400px] lg:h-[720px] object-cover rounded-[25px] lg:rounded-[50px]"
               />
             </div>
@@ -142,7 +203,7 @@ export default function About() {
               Education:
             </p>
           </div>
-          
+
           <div className="flex-1 space-y-8 lg:space-y-[50px]">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
               <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
@@ -152,7 +213,7 @@ export default function About() {
                 2023
               </span>
             </div>
-            
+
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
               <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 Mastering frontend languages
@@ -161,7 +222,7 @@ export default function About() {
                 2022
               </span>
             </div>
-            
+
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
               <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 Webflow Developer
@@ -170,7 +231,7 @@ export default function About() {
                 2021
               </span>
             </div>
-            
+
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
               <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 Visual Communications and Solutions
@@ -179,7 +240,7 @@ export default function About() {
                 2018
               </span>
             </div>
-            
+
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
               <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 Frontend Development Course London App Brewery
@@ -198,32 +259,44 @@ export default function About() {
               Approach
             </p>
           </div>
-          
+
           <div className="flex-1 space-y-8 lg:space-y-[50px]">
             <div className="border-b border-[#9FA0A3] pb-6 lg:pb-[50px]">
               <h3 className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] mb-4">
                 Wireframes
               </h3>
               <p className="text-[18px] font-normal text-[#131417] leading-[28px] tracking-[-0.18px] max-w-[573px]">
-                Wireframes are a crucial tool in the design process, providing a blueprint for the layout and functionality of a digital product. To create effective wireframes, it's important to understand the user's needs and goals, as well as the requirements and constraints of the project.
+                Wireframes are a crucial tool in the design process, providing a
+                blueprint for the layout and functionality of a digital product.
+                To create effective wireframes, it's important to understand the
+                user's needs and goals, as well as the requirements and
+                constraints of the project.
               </p>
             </div>
-            
+
             <div className="border-b border-[#9FA0A3] pb-6 lg:pb-[50px]">
               <h3 className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] mb-4">
                 Digital Design
               </h3>
               <p className="text-[18px] font-normal text-[#131417] leading-[28px] tracking-[-0.18px] max-w-[573px]">
-                To create effective designs, it's important to understand the needs, goals, and behaviors of the target audience. This can be achieved through user research and testing, which can uncover insights about user preferences and pain points. Once this information is gathered, designers can create wireframes and prototypes to iterate and refine the design.
+                To create effective designs, it's important to understand the
+                needs, goals, and behaviors of the target audience. This can be
+                achieved through user research and testing, which can uncover
+                insights about user preferences and pain points. Once this
+                information is gathered, designers can create wireframes and
+                prototypes to iterate and refine the design.
               </p>
             </div>
-            
+
             <div className="border-b border-[#9FA0A3] pb-6 lg:pb-[50px]">
               <h3 className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px] mb-4">
                 Webflow Development
               </h3>
               <p className="text-[18px] font-normal text-[#131417] leading-[28px] tracking-[-0.18px] max-w-[573px]">
-                Webflow provides extensive design control, allowing users to customize every aspect of their websites. From typography and layouts to animations and interactions, users have the flexibility to create unique and visually appealing designs.
+                Webflow provides extensive design control, allowing users to
+                customize every aspect of their websites. From typography and
+                layouts to animations and interactions, users have the
+                flexibility to create unique and visually appealing designs.
               </p>
             </div>
           </div>
@@ -236,7 +309,7 @@ export default function About() {
           <p className="text-[18px] font-normal text-[#9FA0A3] leading-[20px] tracking-[-0.18px] mb-8 lg:mb-[50px]">
             Awards & Recognitions
           </p>
-          
+
           <div className="max-w-[1118px] lg:ml-[602px] space-y-8 lg:space-y-[50px]">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
               <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
@@ -246,7 +319,7 @@ export default function About() {
                 2023
               </span>
             </div>
-            
+
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
               <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 Awwwards ⏤ Site of the Day (x12)
@@ -255,7 +328,7 @@ export default function About() {
                 2023
               </span>
             </div>
-            
+
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
               <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 Designer of the Year ⏤ Nominee
@@ -264,7 +337,7 @@ export default function About() {
                 2022
               </span>
             </div>
-            
+
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
               <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 2022 Figma Community Award ⏤ Nominee
@@ -273,7 +346,7 @@ export default function About() {
                 2021
               </span>
             </div>
-            
+
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
               <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 CSSAwards ⏤ Featured of the Day (x20+)
@@ -282,7 +355,7 @@ export default function About() {
                 2020
               </span>
             </div>
-            
+
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
               <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 Awwwards ⏤ Developer Award (x6)
@@ -310,7 +383,7 @@ export default function About() {
               51.5074° N, 0.1278° W
             </span>
           </div>
-          
+
           {/* Get in Touch */}
           <div className="text-center mb-16 lg:mb-[270px]">
             <p className="text-[18px] font-medium text-[#9FA0A3] leading-[20px] tracking-[-0.18px] mb-[20px]">
@@ -320,33 +393,51 @@ export default function About() {
               Get in Touch
             </h2>
           </div>
-          
+
           {/* Footer Bottom */}
           <div className="flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-0">
             <span className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] order-3 lg:order-1">
               © All rights reserved.
             </span>
-            
+
             <div className="flex flex-wrap justify-center gap-4 sm:gap-8 lg:gap-[44px] order-1 lg:order-2">
-              <a href="#" className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors">
+              <a
+                href="#"
+                className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors"
+              >
                 Twitter
               </a>
-              <a href="#" className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors">
+              <a
+                href="#"
+                className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors"
+              >
                 Behance
               </a>
-              <a href="#" className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors">
+              <a
+                href="#"
+                className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors"
+              >
                 Instagram
               </a>
-              <a href="#" className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors">
+              <a
+                href="#"
+                className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors"
+              >
                 Dribble
               </a>
             </div>
-            
+
             <div className="flex gap-4 sm:gap-8 lg:gap-[40px] order-2 lg:order-3">
-              <a href="#" className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] hover:text-[#9FA0A3] transition-colors">
+              <a
+                href="#"
+                className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] hover:text-[#9FA0A3] transition-colors"
+              >
                 License
               </a>
-              <a href="#" className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] hover:text-[#9FA0A3] transition-colors">
+              <a
+                href="#"
+                className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] hover:text-[#9FA0A3] transition-colors"
+              >
                 Terms of Use
               </a>
             </div>

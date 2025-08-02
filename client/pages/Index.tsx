@@ -18,13 +18,22 @@ export default function Index() {
           <div className="bg-[#131417] text-white px-4 sm:px-[25px] py-[13px] rounded-[50px] text-sm sm:text-[18px] font-medium tracking-[-0.18px]">
             Home
           </div>
-          <Link to="/case-studies" className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors">
+          <Link
+            to="/case-studies"
+            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors"
+          >
             Case Studies
           </Link>
-          <Link to="/about" className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors">
+          <Link
+            to="/about"
+            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors"
+          >
             About
           </Link>
-          <Link to="/contacts" className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors">
+          <Link
+            to="/contacts"
+            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-colors"
+          >
             Contacts
           </Link>
         </div>
@@ -32,15 +41,16 @@ export default function Index() {
 
       {/* Main Content */}
       <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] space-y-16 sm:space-y-32 lg:space-y-[246px] pb-16">
-
         {/* Hero Section */}
         <section className="flex flex-col lg:flex-row justify-between items-start pt-5 gap-8 lg:gap-0">
           <div className="w-full lg:w-[290px] order-2 lg:order-1">
             <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] mb-8 lg:mb-[141px]">
-              Over 18 awards and mentions from renowned industry players like Awwwards, FWA, and CSSDA. I can't wait to see what the future holds as I continue to innovate and create.
+              Over 18 awards and mentions from renowned industry players like
+              Awwwards, FWA, and CSSDA. I can't wait to see what the future
+              holds as I continue to innovate and create.
             </p>
             <p className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px]">
-              Last updated          31 - 05 - 2023
+              Last updated 31 - 05 - 2023
             </p>
           </div>
 
@@ -86,24 +96,39 @@ export default function Index() {
               Some of the clients:
             </p>
             <div className="space-y-[5px] flex flex-wrap gap-4 lg:flex-col lg:gap-[5px]">
-              <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Rag & Bone</p>
-              <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Aimfox</p>
-              <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Disney</p>
-              <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Knight Frank</p>
-              <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Volkswagen</p>
+              <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                Rag & Bone
+              </p>
+              <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                Aimfox
+              </p>
+              <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                Disney
+              </p>
+              <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                Knight Frank
+              </p>
+              <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">
+                Volkswagen
+              </p>
             </div>
           </div>
 
           <div className="w-full lg:max-w-[1118px] lg:flex-1 lg:ml-[440px] order-1 lg:order-2">
             <div className="relative mb-[30px]">
               <h2 className="text-2xl sm:text-3xl lg:text-[48px] font-normal text-[#131417] leading-[150%] tracking-[-0.48px]">
-                Studied Web Development at   London App Brewery And have been working in the development industry for over a decade.
+                Studied Web Development at London App Brewery And have been
+                working in the development industry for over a decade.
               </h2>
               <div className="hidden lg:block absolute top-[3px] left-[635px] w-[483px] h-[70px] border border-[#131417] rounded-[50px]"></div>
             </div>
 
             <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px] max-w-[787px] mb-8 lg:mb-[68px]">
-              My passion for development & design started when I was young, and I have pursued this passion by working with a variety of clients and projects over the years. I have worked with startups, small businesses, and large corporations, creating user interfaces for websites, software applications, and mobile apps.
+              My passion for development & design started when I was young, and
+              I have pursued this passion by working with a variety of clients
+              and projects over the years. I have worked with startups, small
+              businesses, and large corporations, creating user interfaces for
+              websites, software applications, and mobile apps.
             </p>
 
             <button className="text-[18px] font-normal text-[#9FA0A3] leading-[100%] tracking-[-0.18px] hover:text-[#131417] transition-colors">
@@ -211,25 +236,43 @@ export default function Index() {
             </span>
 
             <div className="flex flex-wrap justify-center gap-4 sm:gap-8 lg:gap-[44px] order-1 lg:order-2">
-              <a href="#" className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors">
+              <a
+                href="#"
+                className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors"
+              >
                 Twitter
               </a>
-              <a href="#" className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors">
+              <a
+                href="#"
+                className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors"
+              >
                 Behance
               </a>
-              <a href="#" className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors">
+              <a
+                href="#"
+                className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors"
+              >
                 Instagram
               </a>
-              <a href="#" className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors">
+              <a
+                href="#"
+                className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors"
+              >
                 Dribble
               </a>
             </div>
 
             <div className="flex gap-4 sm:gap-8 lg:gap-[40px] order-2 lg:order-3">
-              <a href="#" className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] hover:text-[#9FA0A3] transition-colors">
+              <a
+                href="#"
+                className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] hover:text-[#9FA0A3] transition-colors"
+              >
                 License
               </a>
-              <a href="#" className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] hover:text-[#9FA0A3] transition-colors">
+              <a
+                href="#"
+                className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] hover:text-[#9FA0A3] transition-colors"
+              >
                 Terms of Use
               </a>
             </div>
