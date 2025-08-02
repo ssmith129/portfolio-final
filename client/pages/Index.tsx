@@ -82,18 +82,18 @@ export default function Index() {
               />
               {/* Title Overlay */}
               <div 
-                className={`absolute inset-0 bg-black/40 rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] flex items-center justify-center transition-all duration-500 cursor-pointer ${
+                className={`absolute inset-x-[-10%] inset-y-0 w-[120%] left-[-10%] bg-black/40 rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] flex items-center justify-center transition-all duration-500 cursor-pointer mx-auto ${
                 hoveredImage === 1 ? 'opacity-100' : 'opacity-0'
                 }`}
               >
-                <div className="text-center text-white transform transition-all duration-500">
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-medium mb-2 tracking-[-0.5px]">
+                <div className="text-center text-white transform transition-all duration-500 px-4 max-w-[90%]">
+                  <h3 className="text-base sm:text-lg lg:text-xl xl:text-2xl font-medium mb-2 tracking-[-0.5px] leading-tight">
                     Computis
                   </h3>
-                  <p className="text-sm sm:text-base font-normal opacity-90 tracking-[-0.2px]">
+                  <p className="text-xs sm:text-sm lg:text-base font-normal opacity-90 tracking-[-0.2px] leading-relaxed">
                     Crypto Tax Engine
                   </p>
-                  <div className="mt-2 text-xs font-medium opacity-75">
+                  <div className="mt-2 text-xs lg:text-sm font-medium opacity-75">
                     Click to view case study →
                   </div>
                 </div>
@@ -113,17 +113,17 @@ export default function Index() {
               }`}
               />
               {/* Title Overlay */}
-              <div className={`absolute inset-0 bg-black/40 rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] flex items-center justify-center transition-all duration-500 ${
+              <div className={`absolute inset-x-[-10%] inset-y-0 w-[120%] left-[-10%] bg-black/40 rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] flex items-center justify-center transition-all duration-500 mx-auto ${
                 hoveredImage === 3 ? 'opacity-100' : 'opacity-0'
               }`}>
-                <div className="text-center text-white transform transition-all duration-500">
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-medium mb-2 tracking-[-0.5px]">
+                <div className="text-center text-white transform transition-all duration-500 px-4 max-w-[90%]">
+                  <h3 className="text-base sm:text-lg lg:text-xl xl:text-2xl font-medium mb-2 tracking-[-0.5px] leading-tight">
                     ezEMRx
                   </h3>
-                  <p className="text-sm sm:text-base font-normal opacity-90 tracking-[-0.2px]">
+                  <p className="text-xs sm:text-sm lg:text-base font-normal opacity-90 tracking-[-0.2px] leading-relaxed">
                     EHR for Public Health
                   </p>
-                  <div className="mt-2 text-xs font-medium opacity-75">
+                  <div className="mt-2 text-xs lg:text-sm font-medium opacity-75">
                     Click to view case study →
                   </div>
                 </div>
@@ -143,17 +143,17 @@ export default function Index() {
                 }`}
               />
               {/* Title Overlay */}
-              <div className={`absolute inset-0 bg-black/40 rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] flex items-center justify-center transition-all duration-500 ${
+              <div className={`absolute inset-x-[-10%] inset-y-0 w-[120%] left-[-10%] bg-black/40 rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] flex items-center justify-center transition-all duration-500 mx-auto ${
                 hoveredImage === 5 ? 'opacity-100' : 'opacity-0'
               }`}>
-                <div className="text-center text-white transform transition-all duration-500">
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-medium mb-2 tracking-[-0.5px]">
+                <div className="text-center text-white transform transition-all duration-500 px-4 max-w-[90%]">
+                  <h3 className="text-base sm:text-lg lg:text-xl xl:text-2xl font-medium mb-2 tracking-[-0.5px] leading-tight">
                     Medico
                   </h3>
-                  <p className="text-sm sm:text-base font-normal opacity-90 tracking-[-0.2px]">
+                  <p className="text-xs sm:text-sm lg:text-base font-normal opacity-90 tracking-[-0.2px] leading-relaxed">
                     Hospital Management System
                   </p>
-                  <div className="mt-2 text-xs font-medium opacity-75">
+                  <div className="mt-2 text-xs lg:text-sm font-medium opacity-75">
                     Click to view case study →
                   </div>
                 </div>
@@ -173,17 +173,17 @@ export default function Index() {
                 }`}
               />
               {/* Title Overlay */}
-              <div className={`absolute inset-0 bg-black/40 rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] flex items-center justify-center transition-all duration-500 ${
+              <div className={`absolute inset-x-[-10%] inset-y-0 w-[120%] left-[-10%] bg-black/40 rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] flex items-center justify-center transition-all duration-500 mx-auto ${
                 hoveredImage === 7 ? 'opacity-100' : 'opacity-0'
               }`}>
-                <div className="text-center text-white transform transition-all duration-500">
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-medium mb-2 tracking-[-0.5px]">
+                <div className="text-center text-white transform transition-all duration-500 px-4 max-w-[90%]">
+                  <h3 className="text-base sm:text-lg lg:text-xl xl:text-2xl font-medium mb-2 tracking-[-0.5px] leading-tight">
                     MoneyFarm
                   </h3>
-                  <p className="text-sm sm:text-base font-normal opacity-90 tracking-[-0.2px]">
+                  <p className="text-xs sm:text-sm lg:text-base font-normal opacity-90 tracking-[-0.2px] leading-relaxed">
                     AI-Powered Personal Finance Manager
                   </p>
-                  <div className="mt-2 text-xs font-medium opacity-75">
+                  <div className="mt-2 text-xs lg:text-sm font-medium opacity-75">
                     Click to view case study →
                   </div>
                 </div>
