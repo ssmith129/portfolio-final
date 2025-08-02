@@ -196,19 +196,6 @@ export default function Index() {
       {/* Footer */}
       <footer className="bg-[#131417] text-white animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2800">
         <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] py-16 lg:py-[134px] animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-3000">
-          {/* Footer Header */}
-          <div className="flex flex-col sm:flex-row justify-between items-center mb-16 lg:mb-[270px] gap-4 sm:gap-0 animate-in fade-in-0 slide-in-from-top-4 duration-1000 delay-3200">
-            <span className="text-[18px] font-medium leading-[20px] tracking-[-0.18px] transition-all duration-300 hover:text-[#9FA0A3] hover:tracking-[-0.1px]">
-              Portfolio 2023 - 2024
-            </span>
-            <span className="text-[20px] font-semibold leading-[20px] tracking-[-0.2px] transition-all duration-300 hover:tracking-[-0.1px] hover:scale-105">
-              Sean Smith
-            </span>
-            <span className="text-[18px] font-medium leading-[20px] tracking-[-0.18px] text-center sm:text-right transition-all duration-300 hover:text-[#9FA0A3] hover:tracking-[-0.1px]">
-              UX/UI Design, Product Design
-            </span>
-          </div>
-
           {/* Get in Touch */}
           <div className="text-center mb-16 lg:mb-[270px] animate-in fade-in-0 zoom-in-95 duration-1000 delay-3400">
             <p className="text-[18px] font-medium text-[#9FA0A3] leading-[20px] tracking-[-0.18px] mb-[20px] transition-all duration-300 hover:text-white">
