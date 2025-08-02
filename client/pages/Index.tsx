@@ -80,12 +80,12 @@ export default function Index() {
         </section>
 
         {/* About Section */}
-        <section className="flex justify-between items-start">
-          <div className="w-[162px]">
+        <section className="flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-0">
+          <div className="w-full lg:w-[162px] order-2 lg:order-1">
             <p className="text-[18px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.18px] mb-[20px]">
               Some of the clients:
             </p>
-            <div className="space-y-[5px]">
+            <div className="space-y-[5px] flex flex-wrap gap-4 lg:flex-col lg:gap-[5px]">
               <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Rag & Bone</p>
               <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Aimfox</p>
               <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Disney</p>
@@ -93,19 +93,19 @@ export default function Index() {
               <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px]">Volkswagen</p>
             </div>
           </div>
-          
-          <div className="max-w-[1118px] flex-1 ml-[440px]">
+
+          <div className="w-full lg:max-w-[1118px] lg:flex-1 lg:ml-[440px] order-1 lg:order-2">
             <div className="relative mb-[30px]">
-              <h2 className="text-[48px] font-normal text-[#131417] leading-[150%] tracking-[-0.48px] max-w-[1118px]">
+              <h2 className="text-2xl sm:text-3xl lg:text-[48px] font-normal text-[#131417] leading-[150%] tracking-[-0.48px]">
                 Studied Web Development at   London App Brewery And have been working in the development industry for over a decade.
               </h2>
-              <div className="absolute top-[3px] left-[635px] w-[483px] h-[70px] border border-[#131417] rounded-[50px]"></div>
+              <div className="hidden lg:block absolute top-[3px] left-[635px] w-[483px] h-[70px] border border-[#131417] rounded-[50px]"></div>
             </div>
-            
-            <p className="text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px] max-w-[787px] mb-[68px]">
+
+            <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px] max-w-[787px] mb-8 lg:mb-[68px]">
               My passion for development & design started when I was young, and I have pursued this passion by working with a variety of clients and projects over the years. I have worked with startups, small businesses, and large corporations, creating user interfaces for websites, software applications, and mobile apps.
             </p>
-            
+
             <button className="text-[18px] font-normal text-[#9FA0A3] leading-[100%] tracking-[-0.18px] hover:text-[#131417] transition-colors">
               Read More
             </button>
