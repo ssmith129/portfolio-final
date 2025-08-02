@@ -180,52 +180,52 @@ export default function Index() {
 
       {/* Footer */}
       <footer className="bg-[#131417] text-white">
-        <div className="max-w-[1920px] mx-auto px-[100px] py-[134px]">
+        <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] py-16 lg:py-[134px]">
           {/* Footer Header */}
-          <div className="flex justify-between items-center mb-[270px]">
+          <div className="flex flex-col sm:flex-row justify-between items-center mb-16 lg:mb-[270px] gap-4 sm:gap-0">
             <span className="text-[18px] font-medium leading-[20px] tracking-[-0.18px]">
               Portfolio 2023 - 2024
             </span>
             <span className="text-[20px] font-semibold leading-[20px] tracking-[-0.2px]">
               Henry James
             </span>
-            <span className="text-[18px] font-medium leading-[20px] tracking-[-0.18px]">
+            <span className="text-[18px] font-medium leading-[20px] tracking-[-0.18px] text-center sm:text-right">
               51.5074° N, 0.1278° W
             </span>
           </div>
-          
+
           {/* Get in Touch */}
-          <div className="text-center mb-[270px]">
+          <div className="text-center mb-16 lg:mb-[270px]">
             <p className="text-[18px] font-medium text-[#9FA0A3] leading-[20px] tracking-[-0.18px] mb-[20px]">
               Have a nice project?
             </p>
-            <h2 className="text-[72px] font-medium leading-[72px] tracking-[-0.72px]">
+            <h2 className="text-3xl sm:text-5xl lg:text-[72px] font-medium leading-[72px] tracking-[-0.72px]">
               Get in Touch
             </h2>
           </div>
-          
+
           {/* Footer Bottom */}
-          <div className="flex justify-between items-center">
-            <span className="text-[18px] font-medium leading-[18px] tracking-[-0.18px]">
+          <div className="flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-0">
+            <span className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] order-3 lg:order-1">
               © All rights reserved.
             </span>
-            
-            <div className="flex gap-[44px]">
-              <a href="#" className="text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors">
+
+            <div className="flex flex-wrap justify-center gap-4 sm:gap-8 lg:gap-[44px] order-1 lg:order-2">
+              <a href="#" className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors">
                 Twitter
               </a>
-              <a href="#" className="text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors">
+              <a href="#" className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors">
                 Behance
               </a>
-              <a href="#" className="text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors">
+              <a href="#" className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors">
                 Instagram
               </a>
-              <a href="#" className="text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors">
+              <a href="#" className="text-lg sm:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-colors">
                 Dribble
               </a>
             </div>
-            
-            <div className="flex gap-[40px]">
+
+            <div className="flex gap-4 sm:gap-8 lg:gap-[40px] order-2 lg:order-3">
               <a href="#" className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] hover:text-[#9FA0A3] transition-colors">
                 License
               </a>
