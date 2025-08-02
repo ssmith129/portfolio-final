@@ -183,12 +183,12 @@ export default function Index() {
         </section>
 
         {/* About Section */}
-        <section className="flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-0 animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1600">
-          <div className="w-full lg:w-[162px] order-2 lg:order-1 animate-in fade-in-0 slide-in-from-left-8 duration-1000 delay-1800">
+        <section className="flex justify-center animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1600">
+          <div className="max-w-4xl text-center animate-in fade-in-0 slide-in-from-left-8 duration-1000 delay-1800">
             <p className="text-[18px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.18px] mb-[20px] transition-all duration-300 hover:text-[#131417]">
               Senior Product Designer with 6+ years of experience creating intuitive, scalable UX for complex SaaS and enterprise platforms. I specialize in AI-integrated systems that streamline workflows, simplify data, and drive decisions.
             </p>
-            <div className="space-y-[5px] flex flex-wrap gap-4 lg:flex-col lg:gap-[5px]">
+            <div className="flex flex-wrap justify-center gap-4">
               <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] transition-all duration-300 hover:text-[#9FA0A3] hover:tracking-[-0.1px] cursor-pointer">
                 Rag & Bone
               </p>
