@@ -64,7 +64,7 @@ export default function EzEMRxCaseStudy() {
             ezEMRx – Public Health EHR Platform
           </h1>
           <p className="text-xl sm:text-2xl lg:text-[28px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.28px] max-w-[900px] transition-all duration-300 hover:text-[#131417]">
-            Transforming a legacy EHR into an AI-augmented platform that boosts efficiency, compliance, and collaboration for clinics and health agencies.
+            Transforming a legacy EHR into an AI-augmented platform that boosts efficiency, compliance, and collaboration for clinics and health agencies
           </p>
         </div>
       </div>
@@ -91,7 +91,7 @@ export default function EzEMRxCaseStudy() {
                 </div>
                 <div className="bg-white p-6 rounded-[25px] shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
                   <p className="text-[14px] font-medium text-[#9FA0A3] mb-2">Type</p>
-                  <p className="text-[18px] font-medium text-[#131417]">Public Health EHR</p>
+                  <p className="text-[18px] font-medium text-[#131417]">Public Health EHR – Enterprise SaaS</p>
                 </div>
                 <div className="bg-white p-6 rounded-[25px] shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
                   <p className="text-[14px] font-medium text-[#9FA0A3] mb-2">Duration</p>
@@ -113,29 +113,29 @@ export default function EzEMRxCaseStudy() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-                <div className="bg-green-50 p-6 rounded-[25px] border border-green-200 hover:border-green-300 transition-all duration-300 hover:scale-[1.02]">
-                  <p className="text-[24px] font-bold text-green-600 mb-2">↓ 20%</p>
-                  <p className="text-[16px] font-medium text-[#131417]">Clinician documentation time</p>
+              <div className="bg-green-50 p-6 rounded-[25px] border border-green-200 hover:border-green-300 transition-all duration-300 hover:scale-[1.02]">
+                <h3 className="text-[20px] font-medium text-[#131417] mb-4">✅ Outcomes</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div className="flex items-center gap-2">
+                    <span className="text-green-600 font-bold">↓ 20%</span>
+                    <span className="text-[16px] text-[#131417]">clinician documentation time</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-blue-600 font-bold">↑ 70%</span>
+                    <span className="text-[16px] text-[#131417]">compliance checklist pass rate</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-purple-600 font-bold">↑ 130%</span>
+                    <span className="text-[16px] text-[#131417]">shared case-notes volume</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-orange-600 font-bold">↓ 35%</span>
+                    <span className="text-[16px] text-[#131417]">referral processing time</span>
+                  </div>
                 </div>
-                <div className="bg-blue-50 p-6 rounded-[25px] border border-blue-200 hover:border-blue-300 transition-all duration-300 hover:scale-[1.02]">
-                  <p className="text-[24px] font-bold text-blue-600 mb-2">↑ 70%</p>
-                  <p className="text-[16px] font-medium text-[#131417]">Compliance checklist pass rate</p>
-                </div>
-                <div className="bg-purple-50 p-6 rounded-[25px] border border-purple-200 hover:border-purple-300 transition-all duration-300 hover:scale-[1.02]">
-                  <p className="text-[24px] font-bold text-purple-600 mb-2">↑ 130%</p>
-                  <p className="text-[16px] font-medium text-[#131417]">Shared case-notes volume</p>
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
-                <div className="bg-orange-50 p-6 rounded-[25px] border border-orange-200 hover:border-orange-300 transition-all duration-300 hover:scale-[1.02]">
-                  <p className="text-[24px] font-bold text-orange-600 mb-2">↓ 35%</p>
-                  <p className="text-[16px] font-medium text-[#131417]">Referral processing time</p>
-                </div>
-                <div className="bg-indigo-50 p-6 rounded-[25px] border border-indigo-200 hover:border-indigo-300 transition-all duration-300 hover:scale-[1.02]">
-                  <p className="text-[24px] font-bold text-indigo-600 mb-2">📄 5</p>
-                  <p className="text-[16px] font-medium text-[#131417]">Modules launched with audit trails</p>
+                <div className="mt-4 flex items-center gap-2">
+                  <span className="text-indigo-600 font-bold">📄 5</span>
+                  <span className="text-[16px] text-[#131417]">modules launched with end-to-end audit trails</span>
                 </div>
               </div>
             </div>
@@ -407,7 +407,7 @@ export default function EzEMRxCaseStudy() {
                     <strong>Flow:</strong> Intake → Smart Charting → Compliance Audit → Referral Routing → Case Notes → Patient Timeline
                   </p>
                   <p className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px]">
-                    <strong>Needs:</strong> AI pre-fill, real-time audit checks, and clear referral guidance.
+                    → Needs AI pre-fill, real-time audit checks, and clear referral guidance.
                   </p>
                 </div>
                 <div className="bg-green-50 p-6 rounded-[25px] border border-green-200 transition-all duration-300 hover:border-green-300 hover:scale-[1.02]">
@@ -416,7 +416,7 @@ export default function EzEMRxCaseStudy() {
                     <strong>Flow:</strong> Dashboard → Audit Overview → Notes Review → Reporting
                   </p>
                   <p className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px]">
-                    <strong>Needs:</strong> High-level compliance insights and collaboration oversight.
+                    → Needs high-level compliance insights and collaboration oversight.
                   </p>
                 </div>
               </div>
