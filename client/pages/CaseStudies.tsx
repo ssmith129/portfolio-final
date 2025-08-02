@@ -41,14 +41,87 @@ export default function CaseStudies() {
 
       {/* Content */}
       <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] py-16">
-        <div className="text-center">
-          <h1 className="text-4xl sm:text-6xl lg:text-[94px] font-medium text-[#131417] leading-[120%] tracking-[-1.88px] mb-8">
+        {/* Header */}
+        <div className="text-center mb-24 animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-300">
+          <h1 className="text-4xl sm:text-6xl lg:text-[94px] font-medium text-[#131417] leading-[120%] tracking-[-1.88px] mb-8 transition-all duration-500 hover:tracking-[-1.5px]">
             Case Studies
           </h1>
-          <p className="text-lg sm:text-[20px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.2px] max-w-[600px] mx-auto">
-            This page is currently being developed. Please continue prompting to
-            fill in the content for this page.
+          <p className="text-lg sm:text-[20px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.2px] max-w-[600px] mx-auto transition-all duration-300 hover:text-[#131417]">
+            Explore detailed breakdowns of my design process, challenges, and solutions across various projects.
           </p>
+        </div>
+
+        {/* Case Studies Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-[50px] animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-500">
+          {/* Computis Case Study */}
+          <Link
+            to="/case-studies/computis-crypto-tax-engine"
+            className="group block bg-white rounded-[25px] lg:rounded-[50px] overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:scale-[1.02] animate-in fade-in-0 slide-in-from-left-8 duration-1000 delay-700"
+          >
+            <div className="aspect-[4/3] bg-gradient-to-br from-blue-50 to-purple-50 p-8 lg:p-12 flex items-center justify-center relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-100/50 to-purple-100/50 group-hover:from-blue-200/50 group-hover:to-purple-200/50 transition-all duration-500"></div>
+              <div className="relative z-10 text-center">
+                <div className="w-16 h-16 lg:w-20 lg:h-20 bg-[#131417] rounded-[20px] mx-auto mb-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
+                  <svg className="w-8 h-8 lg:w-10 lg:h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                  </svg>
+                </div>
+                <h3 className="text-2xl lg:text-3xl font-medium text-[#131417] mb-2 group-hover:tracking-[-0.5px] transition-all duration-300">
+                  Computis
+                </h3>
+                <p className="text-[16px] font-medium text-[#9FA0A3] group-hover:text-[#131417] transition-colors duration-300">
+                  Crypto Tax Engine
+                </p>
+              </div>
+            </div>
+            <div className="p-6 lg:p-8">
+              <div className="flex items-center gap-2 mb-4">
+                <span className="bg-[#131417] text-white px-3 py-1 rounded-[15px] text-[12px] font-medium">
+                  UX Case Study
+                </span>
+                <span className="text-[14px] font-medium text-[#9FA0A3]">
+                  10 months
+                </span>
+              </div>
+              <h4 className="text-[20px] lg:text-[24px] font-medium text-[#131417] leading-[130%] tracking-[-0.24px] mb-3 group-hover:tracking-[-0.2px] transition-all duration-300">
+                From backend scripts to trusted enterprise SaaS
+              </h4>
+              <p className="text-[16px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.16px] mb-6 group-hover:text-[#131417] transition-colors duration-300">
+                Designed explainable AI features and self-serve workflows for CPAs, DAOs, and crypto hedge funds.
+              </p>
+              <div className="flex items-center gap-4 text-[14px] font-medium text-[#131417]">
+                <div className="flex items-center gap-1">
+                  <span className="text-green-600">↓ 45%</span>
+                  <span>Onboarding</span>
+                </div>
+                <div className="flex items-center gap-1">
+                  <span className="text-blue-600">↑ 32%</span>
+                  <span>Conversion</span>
+                </div>
+                <div className="flex items-center gap-1">
+                  <span className="text-purple-600">↓ 85%</span>
+                  <span>Dev Reliance</span>
+                </div>
+              </div>
+            </div>
+          </Link>
+
+          {/* Placeholder for future case studies */}
+          <div className="bg-gray-50 rounded-[25px] lg:rounded-[50px] p-8 lg:p-12 flex items-center justify-center border-2 border-dashed border-gray-200 animate-in fade-in-0 slide-in-from-right-8 duration-1000 delay-900">
+            <div className="text-center">
+              <div className="w-16 h-16 lg:w-20 lg:h-20 bg-gray-200 rounded-[20px] mx-auto mb-6 flex items-center justify-center">
+                <svg className="w-8 h-8 lg:w-10 lg:h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                </svg>
+              </div>
+              <h3 className="text-xl lg:text-2xl font-medium text-[#9FA0A3] mb-2">
+                More Coming Soon
+              </h3>
+              <p className="text-[14px] font-medium text-[#9FA0A3]">
+                Additional case studies in development
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
