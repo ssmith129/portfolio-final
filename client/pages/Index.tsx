@@ -114,63 +114,63 @@ export default function Index() {
       </div>
 
       {/* Awards Section */}
-      <section className="bg-[#F5F5F5] rounded-b-[50px] pb-[100px]">
-        <div className="max-w-[1920px] mx-auto px-[100px] pt-[150px]">
-          <p className="text-[18px] font-normal text-[#9FA0A3] leading-[20px] tracking-[-0.18px] mb-[50px]">
+      <section className="bg-[#F5F5F5] rounded-b-[25px] sm:rounded-b-[35px] lg:rounded-b-[50px] pb-16 lg:pb-[100px]">
+        <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] pt-16 lg:pt-[150px]">
+          <p className="text-[18px] font-normal text-[#9FA0A3] leading-[20px] tracking-[-0.18px] mb-8 lg:mb-[50px]">
             Awards & Recognitions
           </p>
-          
-          <div className="max-w-[1118px] ml-[602px] space-y-[50px]">
-            <div className="flex justify-between items-center border-b border-[#9FA0A3] pb-[50px]">
-              <span className="text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
+
+          <div className="max-w-[1118px] lg:ml-[602px] space-y-8 lg:space-y-[50px]">
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
+              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 The Ultra Index® ⏤ For storytelling experience
               </span>
-              <span className="text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
+              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 2023
               </span>
             </div>
-            
-            <div className="flex justify-between items-center border-b border-[#9FA0A3] pb-[50px]">
-              <span className="text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
+
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
+              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 Awwwards ⏤ Site of the Day (x12)
               </span>
-              <span className="text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
+              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 2023
               </span>
             </div>
-            
-            <div className="flex justify-between items-center border-b border-[#9FA0A3] pb-[50px]">
-              <span className="text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
+
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
+              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 Designer of the Year ⏤ Nominee
               </span>
-              <span className="text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
+              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 2022
               </span>
             </div>
-            
-            <div className="flex justify-between items-center border-b border-[#9FA0A3] pb-[50px]">
-              <span className="text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
+
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
+              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 2021 Figma Community Award ⏤ Nominee
               </span>
-              <span className="text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
+              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 2021
               </span>
             </div>
-            
-            <div className="flex justify-between items-center border-b border-[#9FA0A3] pb-[50px]">
-              <span className="text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
+
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
+              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 CSSAwards ⏤ Featured of the Day (x20+)
               </span>
-              <span className="text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
+              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 2020
               </span>
             </div>
-            
-            <div className="flex justify-between items-center border-b border-[#9FA0A3] pb-[50px]">
-              <span className="text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
+
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9FA0A3] pb-4 lg:pb-[50px] gap-2 sm:gap-0">
+              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 Awwwards ⏤ Developer Award (x6)
               </span>
-              <span className="text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
+              <span className="text-lg sm:text-2xl lg:text-[28px] font-normal text-[#131417] leading-[32px] tracking-[-0.28px]">
                 2019
               </span>
             </div>
