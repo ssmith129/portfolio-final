@@ -69,16 +69,36 @@ export default function Index() {
         {/* Works Section */}
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-[50px] animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1000">
           <div className="space-y-8 sm:space-y-12 lg:space-y-[50px] animate-in fade-in-0 slide-in-from-left-8 duration-1000 delay-1200">
-            <img
+            <div 
+              className="relative group"
               onMouseEnter={() => setHoveredImage(1)}
               onMouseLeave={() => setHoveredImage(null)}
               onClick={() => navigate('/case-studies/computis-crypto-tax-engine')}
-              src="https://api.builder.io/api/v1/image/assets/TEMP/437ebf05fba1fe900a48cf92b7c64f206c1d4dd4?width=1900"
-              alt="Project showcase 1"
-              className={`w-full h-[400px] sm:h-[500px] lg:h-[700px] object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
-                hoveredImage === 1 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
-              }`}
-            />
+            >
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/437ebf05fba1fe900a48cf92b7c64f206c1d4dd4?width=1900"
+                alt="Computis - Crypto Tax Engine"
+                className={`w-full h-[400px] sm:h-[500px] lg:h-[700px] object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
+                  hoveredImage === 1 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
+                }`}
+              />
+              {/* Title Overlay */}
+              <div className={`absolute inset-0 bg-black/40 rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] flex items-center justify-center transition-all duration-500 ${
+                hoveredImage === 1 ? 'opacity-100' : 'opacity-0'
+              }`}>
+                <div className="text-center text-white transform transition-all duration-500">
+                  <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium mb-2 tracking-[-0.5px]">
+                    Computis
+                  </h3>
+                  <p className="text-lg sm:text-xl font-normal opacity-90 tracking-[-0.2px]">
+                    Crypto Tax Engine
+                  </p>
+                  <div className="mt-4 text-sm font-medium opacity-75">
+                    Click to view case study →
+                  </div>
+                </div>
+              </div>
+            </div>
             <img
               onMouseEnter={() => setHoveredImage(3)}
               onMouseLeave={() => setHoveredImage(null)}
