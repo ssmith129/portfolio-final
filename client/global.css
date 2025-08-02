@@ -102,6 +102,11 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Manrope', -apple-system, Roboto, Helvetica, sans-serif;
+    font-family:
+      "Manrope",
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
   }
 }
