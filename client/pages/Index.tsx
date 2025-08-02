@@ -67,8 +67,7 @@ export default function Index() {
         </section>
 
         {/* Works Section */}
-        <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-[50px] animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1000">
-          <div className="space-y-8 sm:space-y-12 lg:space-y-[50px] animate-in fade-in-0 slide-in-from-left-8 duration-1000 delay-1200">
+        <section className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1000">
             <div 
               className="relative group"
               onMouseEnter={() => setHoveredImage(1)}
@@ -78,24 +77,24 @@ export default function Index() {
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/437ebf05fba1fe900a48cf92b7c64f206c1d4dd4?width=1900"
                 alt="Computis - Crypto Tax Engine"
-                className={`w-full aspect-square object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
+                className={`w-full aspect-square object-cover rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] transition-all duration-500 cursor-pointer ${
                   hoveredImage === 1 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
                 }`}
               />
               {/* Title Overlay */}
               <div 
-                className={`absolute inset-0 bg-black/40 rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] flex items-center justify-center transition-all duration-500 cursor-pointer ${
+                className={`absolute inset-0 bg-black/40 rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] flex items-center justify-center transition-all duration-500 cursor-pointer ${
                 hoveredImage === 1 ? 'opacity-100' : 'opacity-0'
                 }`}
               >
                 <div className="text-center text-white transform transition-all duration-500">
-                  <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium mb-2 tracking-[-0.5px]">
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-medium mb-2 tracking-[-0.5px]">
                     Computis
                   </h3>
-                  <p className="text-lg sm:text-xl font-normal opacity-90 tracking-[-0.2px]">
+                  <p className="text-sm sm:text-base font-normal opacity-90 tracking-[-0.2px]">
                     Crypto Tax Engine
                   </p>
-                  <div className="mt-4 text-sm font-medium opacity-75">
+                  <div className="mt-2 text-xs font-medium opacity-75">
                     Click to view case study →
                   </div>
                 </div>
@@ -110,22 +109,22 @@ export default function Index() {
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/37af1375fa98d83c59ef3e2518f99b22a76e895b?width=1900"
                 alt="ezEMRx - EHR for Public Health"
-                className={`w-full aspect-square object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
+                className={`w-full aspect-square object-cover rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] transition-all duration-500 cursor-pointer ${
                 hoveredImage === 3 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
               }`}
               />
               {/* Title Overlay */}
-              <div className={`absolute inset-0 bg-black/40 rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] flex items-center justify-center transition-all duration-500 ${
+              <div className={`absolute inset-0 bg-black/40 rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] flex items-center justify-center transition-all duration-500 ${
                 hoveredImage === 3 ? 'opacity-100' : 'opacity-0'
               }`}>
                 <div className="text-center text-white transform transition-all duration-500">
-                  <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium mb-2 tracking-[-0.5px]">
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-medium mb-2 tracking-[-0.5px]">
                     ezEMRx
                   </h3>
-                  <p className="text-lg sm:text-xl font-normal opacity-90 tracking-[-0.2px]">
+                  <p className="text-sm sm:text-base font-normal opacity-90 tracking-[-0.2px]">
                     EHR for Public Health
                   </p>
-                  <div className="mt-4 text-sm font-medium opacity-75">
+                  <div className="mt-2 text-xs font-medium opacity-75">
                     Click to view case study →
                   </div>
                 </div>
@@ -140,29 +139,27 @@ export default function Index() {
               <img
                 src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="Medico - Hospital Management System"
-                className={`w-full aspect-square object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
+                className={`w-full aspect-square object-cover rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] transition-all duration-500 cursor-pointer ${
                   hoveredImage === 5 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
                 }`}
               />
               {/* Title Overlay */}
-              <div className={`absolute inset-0 bg-black/40 rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] flex items-center justify-center transition-all duration-500 ${
+              <div className={`absolute inset-0 bg-black/40 rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] flex items-center justify-center transition-all duration-500 ${
                 hoveredImage === 5 ? 'opacity-100' : 'opacity-0'
               }`}>
                 <div className="text-center text-white transform transition-all duration-500">
-                  <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium mb-2 tracking-[-0.5px]">
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-medium mb-2 tracking-[-0.5px]">
                     Medico
                   </h3>
-                  <p className="text-lg sm:text-xl font-normal opacity-90 tracking-[-0.2px]">
+                  <p className="text-sm sm:text-base font-normal opacity-90 tracking-[-0.2px]">
                     Hospital Management System
                   </p>
-                  <div className="mt-4 text-sm font-medium opacity-75">
+                  <div className="mt-2 text-xs font-medium opacity-75">
                     Click to view case study →
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="space-y-8 sm:space-y-12 lg:space-y-[50px] animate-in fade-in-0 slide-in-from-right-8 duration-1000 delay-1400">
             <div 
               className="relative group"
               onMouseEnter={() => setHoveredImage(6)}
@@ -172,22 +169,22 @@ export default function Index() {
               <img
                 src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="Data Direct - AI-Powered Public Health Platform"
-                className={`w-full aspect-square object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
+                className={`w-full aspect-square object-cover rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] transition-all duration-500 cursor-pointer ${
                   hoveredImage === 6 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
                 }`}
               />
               {/* Title Overlay */}
-              <div className={`absolute inset-0 bg-black/40 rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] flex items-center justify-center transition-all duration-500 ${
+              <div className={`absolute inset-0 bg-black/40 rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] flex items-center justify-center transition-all duration-500 ${
                 hoveredImage === 6 ? 'opacity-100' : 'opacity-0'
               }`}>
                 <div className="text-center text-white transform transition-all duration-500">
-                  <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium mb-2 tracking-[-0.5px]">
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-medium mb-2 tracking-[-0.5px]">
                     Data Direct
                   </h3>
-                  <p className="text-lg sm:text-xl font-normal opacity-90 tracking-[-0.2px]">
+                  <p className="text-sm sm:text-base font-normal opacity-90 tracking-[-0.2px]">
                     AI-Powered Public Health Platform
                   </p>
-                  <div className="mt-4 text-sm font-medium opacity-75">
+                  <div className="mt-2 text-xs font-medium opacity-75">
                     Click to view case study →
                   </div>
                 </div>
@@ -202,28 +199,27 @@ export default function Index() {
               <img
                 src="https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="MoneyFarm - AI-Powered Personal Finance Manager"
-                className={`w-full aspect-square object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
+                className={`w-full aspect-square object-cover rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] transition-all duration-500 cursor-pointer ${
                   hoveredImage === 7 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
                 }`}
               />
               {/* Title Overlay */}
-              <div className={`absolute inset-0 bg-black/40 rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] flex items-center justify-center transition-all duration-500 ${
+              <div className={`absolute inset-0 bg-black/40 rounded-[15px] sm:rounded-[20px] lg:rounded-[25px] flex items-center justify-center transition-all duration-500 ${
                 hoveredImage === 7 ? 'opacity-100' : 'opacity-0'
               }`}>
                 <div className="text-center text-white transform transition-all duration-500">
-                  <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium mb-2 tracking-[-0.5px]">
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-medium mb-2 tracking-[-0.5px]">
                     MoneyFarm
                   </h3>
-                  <p className="text-lg sm:text-xl font-normal opacity-90 tracking-[-0.2px]">
+                  <p className="text-sm sm:text-base font-normal opacity-90 tracking-[-0.2px]">
                     AI-Powered Personal Finance Manager
                   </p>
-                  <div className="mt-4 text-sm font-medium opacity-75">
+                  <div className="mt-2 text-xs font-medium opacity-75">
                     Click to view case study →
                   </div>
                 </div>
               </div>
             </div>
-          </div>
         </section>
 
         {/* About Section */}
