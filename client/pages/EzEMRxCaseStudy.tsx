@@ -456,7 +456,7 @@ export default function EzEMRxCaseStudy() {
                 <h3 className="text-[20px] font-medium text-white mb-4">Design Principles:</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   <div className="text-center">
-                    <p className="text-[18px] font-medium text-white">Clarity > Clutter</p>
+                    <p className="text-[18px] font-medium text-white">Clarity {'>'} Clutter</p>
                   </div>
                   <div className="text-center">
                     <p className="text-[18px] font-medium text-white">Trust through Transparency</p>
