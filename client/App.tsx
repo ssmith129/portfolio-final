@@ -12,7 +12,6 @@ import About from "./pages/About";
 import Contacts from "./pages/Contacts";
 import ComputisCaseStudy from "./pages/ComputisCaseStudy";
 import EzEMRxCaseStudy from "./pages/EzEMRxCaseStudy";
-import DataDirectCaseStudy from "./pages/DataDirectCaseStudy";
 import MedicoCaseStudy from "./pages/MedicoCaseStudy";
 import MoneyFarmCaseStudy from "./pages/MoneyFarmCaseStudy";
 import NotFound from "./pages/NotFound";
@@ -32,7 +31,6 @@ const App = () => (
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/case-studies/computis-crypto-tax-engine" element={<ComputisCaseStudy />} />
           <Route path="/case-studies/ezemrx-redesigning-ehr" element={<EzEMRxCaseStudy />} />
-          <Route path="/case-studies/data-direct-ai-enhanced-platform" element={<DataDirectCaseStudy />} />
           <Route path="/case-studies/medico-hospital-management-system" element={<MedicoCaseStudy />} />
           <Route path="/case-studies/moneyfarm-ai-powered-personal-finance" element={<MoneyFarmCaseStudy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

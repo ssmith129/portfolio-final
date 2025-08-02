@@ -159,58 +159,6 @@ export default function CaseStudies() {
             </div>
           </Link>
 
-          {/* Data Direct Case Study */}
-          <Link
-            to="/case-studies/data-direct-ai-enhanced-platform"
-            className="group block bg-white rounded-[25px] lg:rounded-[50px] overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:scale-[1.02] animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1100"
-          >
-            <div className="aspect-[4/3] bg-gradient-to-br from-indigo-50 to-cyan-50 p-8 lg:p-12 flex items-center justify-center relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-indigo-100/50 to-cyan-100/50 group-hover:from-indigo-200/50 group-hover:to-cyan-200/50 transition-all duration-500"></div>
-              <div className="relative z-10 text-center">
-                <div className="w-16 h-16 lg:w-20 lg:h-20 bg-[#131417] rounded-[20px] mx-auto mb-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                  <svg className="w-8 h-8 lg:w-10 lg:h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M3 3h18v18H3V3zm16 16V5H5v14h14zM7 7h10v2H7V7zm0 4h10v2H7v-2zm0 4h7v2H7v-2z"/>
-                  </svg>
-                </div>
-                <h3 className="text-2xl lg:text-3xl font-medium text-[#131417] mb-2 group-hover:tracking-[-0.5px] transition-all duration-300">
-                  Data Direct
-                </h3>
-                <p className="text-[16px] font-medium text-[#9FA0A3] group-hover:text-[#131417] transition-colors duration-300">
-                  AI-Enhanced Data Platform
-                </p>
-              </div>
-            </div>
-            <div className="p-6 lg:p-8">
-              <div className="flex items-center gap-2 mb-4">
-                <span className="bg-[#131417] text-white px-3 py-1 rounded-[15px] text-[12px] font-medium">
-                  UX Case Study
-                </span>
-                <span className="text-[14px] font-medium text-[#9FA0A3]">
-                  Public Health
-                </span>
-              </div>
-              <h4 className="text-[20px] lg:text-[24px] font-medium text-[#131417] leading-[130%] tracking-[-0.24px] mb-3 group-hover:tracking-[-0.2px] transition-all duration-300">
-                AI-Enhanced Public Health Data Platform
-              </h4>
-              <p className="text-[16px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.16px] mb-6 group-hover:text-[#131417] transition-colors duration-300">
-                Transforming a backend ingestion script into an enterprise-grade platform with AI-driven validation.
-              </p>
-              <div className="flex items-center gap-4 text-[14px] font-medium text-[#131417]">
-                <div className="flex items-center gap-1">
-                  <span className="text-green-600">↓ 70%</span>
-                  <span>Turnaround</span>
-                </div>
-                <div className="flex items-center gap-1">
-                  <span className="text-blue-600">↑ 2.6×</span>
-                  <span>Throughput</span>
-                </div>
-                <div className="flex items-center gap-1">
-                  <span className="text-purple-600">↑ 90%</span>
-                  <span>Adoption</span>
-                </div>
-              </div>
-            </div>
-          </Link>
 
           {/* Medico Case Study */}
           <Link
