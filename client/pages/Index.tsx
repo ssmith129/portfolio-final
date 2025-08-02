@@ -140,16 +140,19 @@ export default function Index() {
                 hoveredImage === 2 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
               }`}
             />
-            <img
+            <div 
+              className="relative group"
               onMouseEnter={() => setHoveredImage(4)}
               onMouseLeave={() => setHoveredImage(null)}
               onClick={() => navigate('/case-studies/data-direct-ai-enhanced-platform')}
-              src="https://api.builder.io/api/v1/image/assets/TEMP/3137aafb62fed94bbbffa6c0c0f8215cf67ddef8?width=1440"
-              alt="Project showcase 4"
-              className={`w-full h-[400px] sm:h-[500px] lg:h-[700px] object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
-                hoveredImage === 4 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
-              }`}
             >
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/3137aafb62fed94bbbffa6c0c0f8215cf67ddef8?width=1440"
+                alt="Project showcase 4"
+                className={`w-full h-[400px] sm:h-[500px] lg:h-[700px] object-cover rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] transition-all duration-500 cursor-pointer ${
+                  hoveredImage === 4 ? 'scale-105 shadow-2xl brightness-110' : 'hover:scale-[1.02] hover:shadow-xl'
+                }`}
+              />
               {/* Title Overlay */}
               <div className={`absolute inset-0 bg-black/40 rounded-[25px] sm:rounded-[35px] lg:rounded-[50px] flex items-center justify-center transition-all duration-500 ${
                 hoveredImage === 4 ? 'opacity-100' : 'opacity-0'
