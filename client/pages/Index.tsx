@@ -264,7 +264,7 @@ export default function Index() {
               AI-Powered Design
             </h4>
             <p className="text-xs sm:text-sm md:text-base font-normal text-[#9FA0A3] leading-[1.5em] tracking-[-0.14px] sm:tracking-[-0.16px] transition-all duration-300 hover:text-[#131417]">
-              Creating intelligent interfaces that adapt to user behavior and preferences
+              ML Integration, AI Workflows, Usability Enhancement
             </p>
           </div>
 
