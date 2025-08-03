@@ -1058,9 +1058,11 @@ export default function ComputisCaseStudy() {
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
             <div className="w-full lg:w-[200px]">
               <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
-                Final Designs & Outcome
-              </h2>
-            </div>
+          
+          {/* Interactive Design Showcase */}
+          <div className="space-y-8 lg:space-y-16 mb-16">
+            <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px] mb-12 transition-all duration-300 hover:text-[#2a2a2a]">
+              The final solution successfully addressed all key pain points identified during our research phase. Through iterative design and testing, we created an intuitive platform that simplifies complex cryptocurrency tax calculations and reporting processes.
             <div className="flex-1 space-y-6">
               <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300">
                 <h3 className="text-[20px] font-medium text-[#131417] mb-4">🧩 Core Modules:</h3>
@@ -1223,6 +1225,168 @@ export default function ComputisCaseStudy() {
             <p className="text-[18px] font-medium text-[#9FA0A3] leading-[20px] tracking-[-0.18px] mb-[20px] transition-all duration-300 hover:text-white">
               Have a nice project?
             </p>
+
+            {/* Core Design Modals Grid */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+              
+              {/* Dashboard Overview */}
+              <div className="group relative">
+                <div className="bg-white rounded-[20px] p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                  <h3 className="text-xl font-medium text-[#131417] mb-4 tracking-[-0.2px]">
+                    Dashboard Overview
+                  </h3>
+                  <div className="relative overflow-hidden rounded-[12px] bg-gray-50 hover:scale-[1.02] transition-all duration-300 cursor-pointer">
+                    <img 
+                      src="/Homepage Dashboard.png" 
+                      alt="Computis Dashboard Overview showing portfolio summary and key metrics"
+                      className="w-full h-auto object-cover"
+                    />
+                    {/* Hover Overlay */}
+                    <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none group-hover:pointer-events-auto">
+                      <img 
+                        src="/Homepage Dashboard.png" 
+                        alt="Full size dashboard overview"
+                        className="max-w-[90vw] max-h-[90vh] object-contain rounded-lg shadow-2xl"
+                      />
+                    </div>
+                  </div>
+                  <p className="text-sm text-[#9FA0A3] mt-3 leading-relaxed">
+                    Clean, intuitive dashboard providing users with portfolio overview and key performance indicators at a glance.
+                  </p>
+                </div>
+              </div>
+
+              {/* Transactions Grid */}
+              <div className="group relative">
+                <div className="bg-white rounded-[20px] p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                  <h3 className="text-xl font-medium text-[#131417] mb-4 tracking-[-0.2px]">
+                    Transaction Management
+                  </h3>
+                  <div className="relative overflow-hidden rounded-[12px] bg-gray-50 hover:scale-[1.02] transition-all duration-300 cursor-pointer">
+                    <img 
+                      src="/Transactions Grid.png" 
+                      alt="Transaction grid interface showing crypto transaction history and management tools"
+                      className="w-full h-auto object-cover"
+                    />
+                    {/* Hover Overlay */}
+                    <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none group-hover:pointer-events-auto">
+                      <img 
+                        src="/Transactions Grid.png" 
+                        alt="Full size transaction management interface"
+                        className="max-w-[90vw] max-h-[90vh] object-contain rounded-lg shadow-2xl"
+                      />
+                    </div>
+                  </div>
+                  <p className="text-sm text-[#9FA0A3] mt-3 leading-relaxed">
+                    Comprehensive transaction grid with advanced filtering, sorting, and bulk management capabilities.
+                  </p>
+                </div>
+              </div>
+
+              {/* Rule Builder */}
+              <div className="group relative">
+                <div className="bg-white rounded-[20px] p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                  <h3 className="text-xl font-medium text-[#131417] mb-4 tracking-[-0.2px]">
+                    Intelligent Rule Builder
+                  </h3>
+                  <div className="relative overflow-hidden rounded-[12px] bg-gray-50 hover:scale-[1.02] transition-all duration-300 cursor-pointer">
+                    <img 
+                      src="/Rule Builder.png" 
+                      alt="Rule builder interface for creating custom transaction categorization rules"
+                      className="w-full h-auto object-cover"
+                    />
+                    {/* Hover Overlay */}
+                    <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none group-hover:pointer-events-auto">
+                      <img 
+                        src="/Rule Builder.png" 
+                        alt="Full size rule builder interface"
+                        className="max-w-[90vw] max-h-[90vh] object-contain rounded-lg shadow-2xl"
+                      />
+                    </div>
+                  </div>
+                  <p className="text-sm text-[#9FA0A3] mt-3 leading-relaxed">
+                    Visual rule builder enabling users to create complex categorization logic without technical expertise.
+                  </p>
+                </div>
+              </div>
+
+              {/* Auto Match Transfer Action */}
+              <div className="group relative">
+                <div className="bg-white rounded-[20px] p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                  <h3 className="text-xl font-medium text-[#131417] mb-4 tracking-[-0.2px]">
+                    Smart Matching System
+                  </h3>
+                  <div className="relative overflow-hidden rounded-[12px] bg-gray-50 hover:scale-[1.02] transition-all duration-300 cursor-pointer">
+                    <img 
+                      src="/Auto Match_ Transfer Action - Dropdown.png" 
+                      alt="Auto-matching system dropdown showing intelligent transaction pairing options"
+                      className="w-full h-auto object-cover"
+                    />
+                    {/* Hover Overlay */}
+                    <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none group-hover:pointer-events-auto">
+                      <img 
+                        src="/Auto Match_ Transfer Action - Dropdown.png" 
+                        alt="Full size auto-matching system interface"
+                        className="max-w-[90vw] max-h-[90vh] object-contain rounded-lg shadow-2xl"
+                      />
+                    </div>
+                  </div>
+                  <p className="text-sm text-[#9FA0A3] mt-3 leading-relaxed">
+                    AI-powered auto-matching reduces manual work by intelligently pairing related transactions.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            {/* Audit Trail Drawer - Full Width Feature */}
+            <div className="group relative">
+              <div className="bg-white rounded-[20px] p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-2xl font-medium text-[#131417] mb-6 tracking-[-0.2px]">
+                  Comprehensive Audit Trail
+                </h3>
+                <div className="relative overflow-hidden rounded-[12px] bg-gray-50 hover:scale-[1.01] transition-all duration-300 cursor-pointer">
+                  <img 
+                    src="/Audit Trail Drawer.png" 
+                    alt="Audit trail drawer showing detailed transaction history and compliance tracking"
+                    className="w-full h-auto object-cover"
+                  />
+                  {/* Hover Overlay */}
+                  <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none group-hover:pointer-events-auto">
+                    <img 
+                      src="/Audit Trail Drawer.png" 
+                      alt="Full size audit trail interface"
+                      className="max-w-[90vw] max-h-[90vh] object-contain rounded-lg shadow-2xl"
+                    />
+                  </div>
+                </div>
+                <p className="text-lg text-[#9FA0A3] mt-4 leading-relaxed max-w-4xl">
+                  Complete audit trail functionality providing transparency and compliance tracking for all user actions and system changes.
+                </p>
+              </div>
+            </div>
+
+            {/* Outcome Metrics */}
+            <div className="bg-gradient-to-br from-[#131417] to-[#2a2a2a] rounded-[20px] p-8 lg:p-12 text-white">
+              <h3 className="text-2xl lg:text-3xl font-medium mb-8 tracking-[-0.3px]">
+                Impact & Results
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="text-center">
+                  <div className="text-4xl lg:text-5xl font-bold text-[#4CAF50] mb-2">45%</div>
+                  <p className="text-lg text-gray-300">Reduction in onboarding time</p>
+                </div>
+                <div className="text-center">
+                  <div className="text-4xl lg:text-5xl font-bold text-[#2196F3] mb-2">32%</div>
+                  <p className="text-lg text-gray-300">Increase in user conversion</p>
+                </div>
+                <div className="text-center">
+                  <div className="text-4xl lg:text-5xl font-bold text-[#FF9800] mb-2">85%</div>
+                  <p className="text-lg text-gray-300">Reduction in support requests</p>
+                </div>
+              </div>
+            </div>
+
             <h2 className="text-3xl sm:text-5xl lg:text-[72px] font-medium leading-[72px] tracking-[-0.72px] transition-all duration-500 hover:tracking-[-0.5px] hover:scale-105 cursor-pointer">
               Get in Touch
             </h2>
