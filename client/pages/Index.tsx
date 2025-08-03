@@ -41,7 +41,6 @@ export default function About() {
 
       {/* Header */}
       <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-[100px] pt-16 lg:pt-[150px] animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-300">
-        <h1 className="text-2xl sm:text-4xl lg:text-[48px] font-normal text-[#131417] leading-[170%] tracking-[-0.8px] max-w-[1720px] mb-16 lg:mb-[160px] transition-all duration-500 hover:tracking-[-0.6px]">
         <h1 className="text-2xl sm:text-4xl lg:text-[48px] font-normal text-[#131417] leading-[1.5em] tracking-[-0.8px] max-w-[1720px] mb-16 lg:mb-[160px] transition-all duration-500 hover:tracking-[-0.6px]">
           Senior Product Designer with 6+ years of experience creating intuitive, scalable UX for complex SaaS and enterprise platforms. I specialize in AI-integrated systems that streamline workflows, simplify data, and drive decisions.
         </h1>
