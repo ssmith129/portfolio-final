@@ -88,9 +88,9 @@ export default function Index() {
           {/* Computis Project */}
           <Link 
             to="/case-studies/computis-crypto-tax-engine"
-            className="group relative overflow-hidden rounded-[16px] sm:rounded-[20px] md:rounded-[25px] lg:rounded-[30px] xl:rounded-[35px] bg-white shadow-md hover:shadow-xl transition-all duration-500 hover:scale-[1.02] animate-in fade-in-0 slide-in-from-left-6 duration-1000 delay-900 touch-manipulation"
+            className="group relative overflow-hidden rounded-[16px] sm:rounded-[20px] md:rounded-[25px] lg:rounded-[30px] xl:rounded-[35px] bg-white shadow-md hover:shadow-xl transition-all duration-500 hover:scale-[1.02] animate-in fade-in-0 slide-in-from-left-6 duration-1000 delay-900 touch-manipulation w-full max-w-[600px] mx-auto"
           >
-            <div className="aspect-[4/3] overflow-hidden relative">
+            <div className="aspect-square overflow-hidden relative">
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/437ebf05fba1fe900a48cf92b7c64f206c1d4dd4?width=1900"
                 alt="Computis - Crypto Tax Engine Dashboard"
@@ -98,25 +98,24 @@ export default function Index() {
                 loading="lazy"
               />
             </div>
-            <div className="p-4 sm:p-6 md:p-8">
-              <h4 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium text-[#131417] leading-[120%] tracking-[-0.3px] sm:tracking-[-0.4px] md:tracking-[-0.5px] mb-2 sm:mb-3 md:mb-4 transition-all duration-300 hover:tracking-[-0.2px]">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4 sm:p-6 md:p-8">
+              <div className="text-white">
+                <h4 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium leading-[120%] tracking-[-0.3px] sm:tracking-[-0.4px] md:tracking-[-0.5px] mb-2 transition-all duration-300">
                 Computis
               </h4>
-              <p className="text-sm sm:text-base md:text-lg font-normal text-[#9FA0A3] leading-[1.5em] tracking-[-0.16px] sm:tracking-[-0.18px] mb-3 sm:mb-4 md:mb-6 transition-all duration-300 hover:text-[#131417]">
+                <p className="text-sm sm:text-base md:text-lg font-normal opacity-90 leading-[1.5em] tracking-[-0.16px] sm:tracking-[-0.18px]">
                 Crypto Tax Engine
               </p>
-              <p className="text-xs sm:text-sm md:text-base font-normal text-[#131417] leading-[1.5em] tracking-[-0.14px] sm:tracking-[-0.16px] transition-all duration-300 hover:text-[#2a2a2a]">
-                Designed end-to-end UX for complex blockchain and financial data processing, serving CPAs and crypto professionals.
-              </p>
+              </div>
             </div>
           </Link>
 
           {/* ezEMRx Project */}
           <Link 
             to="/case-studies/ezemrx-redesigning-ehr"
-            className="group relative overflow-hidden rounded-[16px] sm:rounded-[20px] md:rounded-[25px] lg:rounded-[30px] xl:rounded-[35px] bg-white shadow-md hover:shadow-xl transition-all duration-500 hover:scale-[1.02] animate-in fade-in-0 slide-in-from-right-6 duration-1000 delay-1100 touch-manipulation"
+            className="group relative overflow-hidden rounded-[16px] sm:rounded-[20px] md:rounded-[25px] lg:rounded-[30px] xl:rounded-[35px] bg-white shadow-md hover:shadow-xl transition-all duration-500 hover:scale-[1.02] animate-in fade-in-0 slide-in-from-right-6 duration-1000 delay-1100 touch-manipulation w-full max-w-[600px] mx-auto"
           >
-            <div className="aspect-[4/3] overflow-hidden relative">
+            <div className="aspect-square overflow-hidden relative">
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/37af1375fa98d83c59ef3e2518f99b22a76e895b?width=1900"
                 alt="ezEMRx - Electronic Health Records System"
@@ -124,25 +123,24 @@ export default function Index() {
                 loading="lazy"
               />
             </div>
-            <div className="p-4 sm:p-6 md:p-8">
-              <h4 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium text-[#131417] leading-[120%] tracking-[-0.3px] sm:tracking-[-0.4px] md:tracking-[-0.5px] mb-2 sm:mb-3 md:mb-4 transition-all duration-300 hover:tracking-[-0.2px]">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4 sm:p-6 md:p-8">
+              <div className="text-white">
+                <h4 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium leading-[120%] tracking-[-0.3px] sm:tracking-[-0.4px] md:tracking-[-0.5px] mb-2 transition-all duration-300">
                 ezEMRx
               </h4>
-              <p className="text-sm sm:text-base md:text-lg font-normal text-[#9FA0A3] leading-[1.5em] tracking-[-0.16px] sm:tracking-[-0.18px] mb-3 sm:mb-4 md:mb-6 transition-all duration-300 hover:text-[#131417]">
+                <p className="text-sm sm:text-base md:text-lg font-normal opacity-90 leading-[1.5em] tracking-[-0.16px] sm:tracking-[-0.18px]">
                 EHR for Public Health
               </p>
-              <p className="text-xs sm:text-sm md:text-base font-normal text-[#131417] leading-[1.5em] tracking-[-0.14px] sm:tracking-[-0.16px] transition-all duration-300 hover:text-[#2a2a2a]">
-                Redesigned electronic health records system to improve healthcare workflows and patient data management.
-              </p>
+              </div>
             </div>
           </Link>
 
           {/* Medico Project */}
           <Link 
             to="/case-studies/medico-hospital-management-system"
-            className="group relative overflow-hidden rounded-[16px] sm:rounded-[20px] md:rounded-[25px] lg:rounded-[30px] xl:rounded-[35px] bg-white shadow-md hover:shadow-xl transition-all duration-500 hover:scale-[1.02] animate-in fade-in-0 slide-in-from-left-6 duration-1000 delay-1300 touch-manipulation"
+            className="group relative overflow-hidden rounded-[16px] sm:rounded-[20px] md:rounded-[25px] lg:rounded-[30px] xl:rounded-[35px] bg-white shadow-md hover:shadow-xl transition-all duration-500 hover:scale-[1.02] animate-in fade-in-0 slide-in-from-left-6 duration-1000 delay-1300 touch-manipulation w-full max-w-[600px] mx-auto"
           >
-            <div className="aspect-[4/3] overflow-hidden relative">
+            <div className="aspect-square overflow-hidden relative">
               <img
                 src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="Medico - Hospital Management System"
@@ -150,25 +148,24 @@ export default function Index() {
                 loading="lazy"
               />
             </div>
-            <div className="p-4 sm:p-6 md:p-8">
-              <h4 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium text-[#131417] leading-[120%] tracking-[-0.3px] sm:tracking-[-0.4px] md:tracking-[-0.5px] mb-2 sm:mb-3 md:mb-4 transition-all duration-300 hover:tracking-[-0.2px]">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4 sm:p-6 md:p-8">
+              <div className="text-white">
+                <h4 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium leading-[120%] tracking-[-0.3px] sm:tracking-[-0.4px] md:tracking-[-0.5px] mb-2 transition-all duration-300">
                 Medico
               </h4>
-              <p className="text-sm sm:text-base md:text-lg font-normal text-[#9FA0A3] leading-[1.5em] tracking-[-0.16px] sm:tracking-[-0.18px] mb-3 sm:mb-4 md:mb-6 transition-all duration-300 hover:text-[#131417]">
+                <p className="text-sm sm:text-base md:text-lg font-normal opacity-90 leading-[1.5em] tracking-[-0.16px] sm:tracking-[-0.18px]">
                 Hospital Management System
               </p>
-              <p className="text-xs sm:text-sm md:text-base font-normal text-[#131417] leading-[1.5em] tracking-[-0.14px] sm:tracking-[-0.16px] transition-all duration-300 hover:text-[#2a2a2a]">
-                Comprehensive healthcare management platform designed to streamline hospital operations and patient care.
-              </p>
+              </div>
             </div>
           </Link>
 
           {/* MoneyFarm Project */}
           <Link 
             to="/case-studies/moneyfarm-ai-powered-personal-finance"
-            className="group relative overflow-hidden rounded-[16px] sm:rounded-[20px] md:rounded-[25px] lg:rounded-[30px] xl:rounded-[35px] bg-white shadow-md hover:shadow-xl transition-all duration-500 hover:scale-[1.02] animate-in fade-in-0 slide-in-from-right-6 duration-1000 delay-1500 touch-manipulation"
+            className="group relative overflow-hidden rounded-[16px] sm:rounded-[20px] md:rounded-[25px] lg:rounded-[30px] xl:rounded-[35px] bg-white shadow-md hover:shadow-xl transition-all duration-500 hover:scale-[1.02] animate-in fade-in-0 slide-in-from-right-6 duration-1000 delay-1500 touch-manipulation w-full max-w-[600px] mx-auto"
           >
-            <div className="aspect-[4/3] overflow-hidden relative">
+            <div className="aspect-square overflow-hidden relative">
               <img
                 src="https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="MoneyFarm - AI-Powered Personal Finance Manager"
@@ -176,16 +173,15 @@ export default function Index() {
                 loading="lazy"
               />
             </div>
-            <div className="p-4 sm:p-6 md:p-8">
-              <h4 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium text-[#131417] leading-[120%] tracking-[-0.3px] sm:tracking-[-0.4px] md:tracking-[-0.5px] mb-2 sm:mb-3 md:mb-4 transition-all duration-300 hover:tracking-[-0.2px]">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4 sm:p-6 md:p-8">
+              <div className="text-white">
+                <h4 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium leading-[120%] tracking-[-0.3px] sm:tracking-[-0.4px] md:tracking-[-0.5px] mb-2 transition-all duration-300">
                 MoneyFarm
               </h4>
-              <p className="text-sm sm:text-base md:text-lg font-normal text-[#9FA0A3] leading-[1.5em] tracking-[-0.16px] sm:tracking-[-0.18px] mb-3 sm:mb-4 md:mb-6 transition-all duration-300 hover:text-[#131417]">
+                <p className="text-sm sm:text-base md:text-lg font-normal opacity-90 leading-[1.5em] tracking-[-0.16px] sm:tracking-[-0.18px]">
                 AI-Powered Personal Finance
               </p>
-              <p className="text-xs sm:text-sm md:text-base font-normal text-[#131417] leading-[1.5em] tracking-[-0.14px] sm:tracking-[-0.16px] transition-all duration-300 hover:text-[#2a2a2a]">
-                Smart personal finance management platform leveraging AI to provide personalized financial insights and recommendations.
-              </p>
+              </div>
             </div>
           </Link>
         </div>
