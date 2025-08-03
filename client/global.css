@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Enhanced Responsive Base Styles */
 @layer base {
   /**
    * Tailwind CSS theme
@@ -108,5 +109,27 @@
       Roboto,
       Helvetica,
       sans-serif;
+  }
+
+  /* Enhanced responsive image handling */
+  img {
+    @apply max-w-full h-auto;
+  }
+
+  /* Improved touch targets for mobile */
+  button, a, input[type="button"], input[type="submit"] {
+    @apply min-h-[44px] min-w-[44px];
+  }
+
+  /* Better text readability on small screens */
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px; /* Prevents zoom on iOS */
+    }
+  }
+
+  /* Improved focus states for accessibility */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-blue-500;
   }
 }
