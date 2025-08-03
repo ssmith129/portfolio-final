@@ -1054,147 +1054,29 @@ export default function ComputisCaseStudy() {
         </section>
 
         {/* Final Designs & Outcome */}
-        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2500">
-          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
-            <div className="w-full lg:w-[200px]">
-              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
-          
-          {/* Interactive Design Showcase */}
-          <div className="space-y-8 lg:space-y-16 mb-16">
-            <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px] mb-12 transition-all duration-300 hover:text-[#2a2a2a]">
-              The final solution successfully addressed all key pain points identified during our research phase. Through iterative design and testing, we created an intuitive platform that simplifies complex cryptocurrency tax calculations and reporting processes.
-            <div className="flex-1 space-y-6">
-              <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300">
-                <h3 className="text-[20px] font-medium text-[#131417] mb-4">🧩 Core Modules:</h3>
-                <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] mb-4">
-                  Clients → Wallets → Transactions → Rules → Reports → Exports
-                </p>
-                
-                <h3 className="text-[20px] font-medium text-[#131417] mb-4">🚀 Core Features Delivered:</h3>
-                <ul className="space-y-3">
-                  <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                    <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                    Smart Upload Mapping + Error Flagging
-                  </li>
-                  <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                    <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                    Visual Rule Builder + Sandbox
-                  </li>
-                  <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                    <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                    AI Confidence Chips + Override UI
-                  </li>
-                  <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                    <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                    FMV Dashboard + Anomaly Detection
-                  </li>
-                  <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
-                    <span className="w-2 h-2 bg-[#131417] rounded-full mt-3 flex-shrink-0"></span>
-                    Audit-Ready Exports (IRS 8949, QBO, CSV)
-                  </li>
-                </ul>
+        <section className="animate-in fade-in-0 slide-in-from-bottom-6 duration-1000 delay-2300">
+          <h2 className="text-2xl sm:text-3xl lg:text-[36px] font-medium text-[#131417] leading-[120%] tracking-[-0.72px] mb-8 lg:mb-12 transition-all duration-500 hover:tracking-[-0.5px]">
+            Final Designs & Outcome
+          </h2>
+          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-[20px] p-8 lg:p-12">
+            <p className="text-lg sm:text-xl font-normal text-[#131417] leading-[150%] tracking-[-0.2px] mb-8 transition-all duration-300 hover:text-[#2a2a2a]">
+              The final Computis platform successfully addressed all key user pain points while establishing a scalable foundation for future growth. The design system enabled consistent experiences across complex financial workflows.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+              <div className="text-center">
+                <div className="text-3xl lg:text-4xl font-bold text-indigo-600 mb-2">45%</div>
+                <p className="text-sm text-[#9FA0A3]">Reduction in onboarding time</p>
               </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div className="bg-purple-50 p-6 rounded-[25px] border border-purple-200 transition-all duration-300 hover:border-purple-300 hover:scale-[1.02]">
-                  <h4 className="text-[18px] font-medium text-[#131417] mb-2">Classification Grid</h4>
-                  <p className="text-[16px] text-[#131417]">w/ AI confidence</p>
-                </div>
-                <div className="bg-orange-50 p-6 rounded-[25px] border border-orange-200 transition-all duration-300 hover:border-orange-300 hover:scale-[1.02]">
-                  <h4 className="text-[18px] font-medium text-[#131417] mb-2">Rule Builder</h4>
-                  <p className="text-[16px] text-[#131417]">Drag-Drop UI</p>
-                </div>
-                <div className="bg-red-50 p-6 rounded-[25px] border border-red-200 transition-all duration-300 hover:border-red-300 hover:scale-[1.02]">
-                  <h4 className="text-[18px] font-medium text-[#131417] mb-2">FMV Dashboard</h4>
-                  <p className="text-[16px] text-[#131417]">w/ Red-Yellow-Gray Flags</p>
-                </div>
-                <div className="bg-teal-50 p-6 rounded-[25px] border border-teal-200 transition-all duration-300 hover:border-teal-300 hover:scale-[1.02]">
-                  <h4 className="text-[18px] font-medium text-[#131417] mb-2">Audit Log</h4>
-                  <p className="text-[16px] text-[#131417]">Timeline Drawer</p>
-                </div>
+              <div className="text-center">
+                <div className="text-3xl lg:text-4xl font-bold text-green-600 mb-2">32%</div>
+                <p className="text-sm text-[#9FA0A3]">Increase in user conversion</p>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl lg:text-4xl font-bold text-purple-600 mb-2">85%</div>
+                <p className="text-sm text-[#9FA0A3]">Reduction in support tickets</p>
               </div>
             </div>
           </div>
-        </section>
-
-        {/* Results, Learnings & Next Steps */}
-        <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2700">
-          <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
-            <div className="w-full lg:w-[200px]">
-              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
-                Results, Learnings & Next Steps
-              </h2>
-            </div>
-            <div className="flex-1 space-y-8">
-              <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300 overflow-x-auto">
-                <h3 className="text-[20px] font-medium text-[#131417] mb-4">📊 Outcomes:</h3>
-                <table className="w-full min-w-[500px]">
-                  <thead>
-                    <tr className="border-b border-gray-200">
-                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Metric</th>
-                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Before</th>
-                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">After</th>
-                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Change</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">CPA Onboarding Time</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">2.5h</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">1.4h</td>
-                      <td className="py-4 px-4 text-[16px] font-medium text-green-600">↓ 45%</td>
-                    </tr>
-                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Bounce Rate</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">26%</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">8%</td>
-                      <td className="py-4 px-4 text-[16px] font-medium text-green-600">↓ 18%</td>
-                    </tr>
-                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Demo Conversions</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">–</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">↑ 32%</td>
-                      <td className="py-4 px-4 text-[16px] font-medium text-blue-600">↑</td>
-                    </tr>
-                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Dev Dependency</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">100%</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">15%</td>
-                      <td className="py-4 px-4 text-[16px] font-medium text-purple-600">↓ 85%</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Anomaly Coverage</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Baseline</td>
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">↑ 150%</td>
-                      <td className="py-4 px-4 text-[16px] font-medium text-orange-600">↑</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-
-              <div className="space-y-4">
-                <h3 className="text-[20px] font-medium text-[#131417]">💬 Stakeholder Feedback:</h3>
-                <blockquote className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-[25px] italic text-[18px] leading-[150%] tracking-[-0.18px] transition-all duration-300 hover:scale-[1.02]">
-                  "Finally feels like a product we can sell to institutions."
-                </blockquote>
-                <blockquote className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-[25px] italic text-[18px] leading-[150%] tracking-[-0.18px] transition-all duration-300 hover:scale-[1.02]">
-                  "AI helped us work faster — without giving up control."
-                </blockquote>
-              </div>
-
-              <div className="bg-gray-50 p-6 rounded-[25px] transition-all duration-300 hover:bg-gray-100">
-                <h3 className="text-[20px] font-medium text-[#131417] mb-4">📍 What I'd Improve:</h3>
-                <ul className="space-y-2">
-                  <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
-                    <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
-                    Build deeper permission tiers
-                  </li>
-                  <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
-                    <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
-                    Layer on LLM-backed transaction labeling
-                  </li>
-                  <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
-                    <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
                     Expand multi-entity white-label dashboards
                   </li>
                 </ul>
