@@ -30,12 +30,6 @@ export default function CaseStudies() {
           >
             About
           </Link>
-          <Link
-            to="/contacts"
-            className="text-[#131417] px-3 sm:px-4 md:px-6 lg:px-[25px] py-2 sm:py-2.5 md:py-[13px] text-xs sm:text-sm md:text-base lg:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[25px] sm:rounded-[35px] md:rounded-[50px] transition-colors"
-          >
-            Contacts
-          </Link>
         </div>
       </nav>
 

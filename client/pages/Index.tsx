@@ -30,12 +30,6 @@ export default function Index() {
           >
             About
           </Link>
-          <Link
-            to="/contacts"
-            className="text-[#131417] px-3 sm:px-4 md:px-6 lg:px-[25px] py-2 sm:py-2.5 md:py-[13px] text-xs sm:text-sm md:text-base lg:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[25px] sm:rounded-[35px] md:rounded-[50px] transition-all duration-300 hover:scale-105 hover:tracking-[-0.1px]"
-          >
-            Contacts
-          </Link>
         </div>
       </nav>
 
@@ -71,12 +65,6 @@ export default function Index() {
                 className="bg-[#131417] text-white px-6 sm:px-8 md:px-10 lg:px-12 py-3 sm:py-4 md:py-5 rounded-[25px] sm:rounded-[35px] md:rounded-[50px] text-sm sm:text-base md:text-lg lg:text-xl font-medium tracking-[-0.18px] sm:tracking-[-0.2px] hover:bg-[#2a2a2a] transition-all duration-300 hover:scale-105 hover:shadow-lg text-center"
               >
                 View Case Studies
-              </Link>
-              <Link
-                to="/contacts"
-                className="border border-[#131417] text-[#131417] px-6 sm:px-8 md:px-10 lg:px-12 py-3 sm:py-4 md:py-5 rounded-[25px] sm:rounded-[35px] md:rounded-[50px] text-sm sm:text-base md:text-lg lg:text-xl font-medium tracking-[-0.18px] sm:tracking-[-0.2px] hover:bg-[#131417] hover:text-white transition-all duration-300 hover:scale-105 text-center"
-              >
-                Get in Touch
               </Link>
             </div>
           </div>
