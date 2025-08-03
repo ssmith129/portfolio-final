@@ -337,10 +337,10 @@ export default function Index() {
                 Instagram
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/sean-smith-sf/"
                 className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-[20px] font-medium leading-[20px] tracking-[-0.2px] hover:text-[#9FA0A3] transition-all duration-300 hover:scale-110 hover:tracking-[-0.1px]"
               >
-                Dribble
+                LinkedIn
               </a>
             </div>
 
