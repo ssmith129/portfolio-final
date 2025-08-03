@@ -1058,12 +1058,13 @@ export default function ComputisCaseStudy() {
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
             <div className="w-full lg:w-[200px]">
               <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
-          
-          {/* Interactive Design Showcase */}
-          <div className="space-y-8 lg:space-y-16 mb-16">
-            <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px] mb-12 transition-all duration-300 hover:text-[#2a2a2a]">
-              The final solution successfully addressed all key pain points identified during our research phase. Through iterative design and testing, we created an intuitive platform that simplifies complex cryptocurrency tax calculations and reporting processes.
+                Final Designs & Outcome
+              </h2>
+            </div>
             <div className="flex-1 space-y-6">
+              <p className="text-lg sm:text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px] mb-12 transition-all duration-300 hover:text-[#2a2a2a]">
+                The final solution successfully addressed all key pain points identified during our research phase. Through iterative design and testing, we created an intuitive platform that simplifies complex cryptocurrency tax calculations and reporting processes.
+              </p>
               <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300">
                 <h3 className="text-[20px] font-medium text-[#131417] mb-4">🧩 Core Modules:</h3>
                 <p className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] mb-4">
