@@ -1445,3 +1445,5 @@ export default function ComputisCaseStudy() {
     </div>
   );
 }
+          </p>
+        </div>
