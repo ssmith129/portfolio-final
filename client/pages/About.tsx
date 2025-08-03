@@ -343,14 +343,7 @@ export default function About() {
       <footer className="bg-[#131417] text-white animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-1700">
         <div className="max-w-[1920px] mx-auto px-4 sm:px-6 md:px-8 lg:px-16 xl:px-[100px] py-8 sm:py-12 md:py-16 lg:py-24 xl:py-[134px]">
           {/* Get in Touch */}
-          <div className="text-center mb-8 sm:mb-12 md:mb-16 lg:mb-24 xl:mb-[270px] animate-in fade-in-0 zoom-in-95 duration-1000 delay-1900">
-            <p className="text-sm sm:text-base md:text-lg lg:text-[18px] font-medium text-[#9FA0A3] leading-[20px] tracking-[-0.18px] mb-3 sm:mb-4 md:mb-5 lg:mb-[20px] transition-all duration-300 hover:text-white">
-              Have a nice project?
-            </p>
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[72px] font-medium leading-[1.2] sm:leading-[1.3] md:leading-[1.4] lg:leading-[72px] tracking-[-0.2px] sm:tracking-[-0.3px] md:tracking-[-0.5px] lg:tracking-[-0.72px] transition-all duration-500 hover:tracking-[-0.5px] hover:scale-105 cursor-pointer px-2 sm:px-4">
-              Get in Touch
-            </h2>
-          </div>
+          <div className="mb-8 sm:mb-12 md:mb-16 lg:mb-24 xl:mb-[270px]"></div>
 
           {/* Footer Bottom */}
           <div className="flex flex-col lg:flex-row justify-between items-center gap-4 sm:gap-6 md:gap-8 lg:gap-0 animate-in fade-in-0 slide-in-from-bottom-4 duration-1000 delay-2100">
