@@ -962,45 +962,6 @@ export default function ComputisCaseStudy() {
               <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
                 Ideation & Concepting
               </h2>
-            </div>
-            <div className="flex-1 space-y-6">
-              <div className="bg-gray-50 p-6 rounded-[25px] transition-all duration-300 hover:bg-gray-100">
-                <h3 className="text-[20px] font-medium text-[#131417] mb-4">Design Concepts Explored:</h3>
-                <ul className="space-y-2">
-                  <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
-                    <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
-                    Glass-box AI interface (vs. black-box)
-                  </li>
-                  <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
-                    <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
-                    Rule preview sandbox with before/after logic
-                  </li>
-                  <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
-                    <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
-                    Tooltip-on-hover for explainability
-                  </li>
-                  <li className="text-[16px] font-normal text-[#131417] leading-[150%] tracking-[-0.16px] flex items-start gap-3">
-                    <span className="w-1.5 h-1.5 bg-[#9FA0A3] rounded-full mt-2.5 flex-shrink-0"></span>
-                    Status indicators for classification trust
-                  </li>
-                </ul>
-              </div>
-
-              <div className="bg-[#131417] text-white p-8 rounded-[25px] transition-all duration-300 hover:scale-[1.02]">
-                <h3 className="text-[20px] font-medium text-white mb-4">💡 Design Principles:</h3>
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                  <div className="text-center">
-                    <p className="text-[18px] font-medium text-white">Trust = Transparency</p>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-[18px] font-medium text-white">Control {'>'} Automation</p>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-[18px] font-medium text-white">Progressive Disclosure</p>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </section>
 
