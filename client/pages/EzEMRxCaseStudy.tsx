@@ -793,7 +793,7 @@ export default function EzEMRxCaseStudy() {
           {/* Footer Header */}
           <div className="flex flex-col sm:flex-row justify-between items-center mb-16 lg:mb-[270px] gap-4 sm:gap-0">
             <span className="text-[18px] font-medium leading-[20px] tracking-[-0.18px] transition-all duration-300 hover:text-[#9FA0A3] hover:tracking-[-0.1px]">
-              Portfolio 2023 - 2024
+              Portfolio 2024-2025
             </span>
             <span className="text-[20px] font-semibold leading-[20px] tracking-[-0.2px] transition-all duration-300 hover:tracking-[-0.1px] hover:scale-105">
               Sean Smith
