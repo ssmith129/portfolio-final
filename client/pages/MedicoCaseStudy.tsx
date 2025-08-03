@@ -34,12 +34,6 @@ export default function MedicoCaseStudy() {
           >
             About
           </Link>
-          <Link
-            to="/contacts"
-            className="text-[#131417] px-4 sm:px-[25px] py-[13px] text-sm sm:text-[18px] font-medium tracking-[-0.18px] hover:bg-gray-50 rounded-[50px] transition-all duration-300 hover:scale-105 hover:tracking-[-0.1px]"
-          >
-            Contacts
-          </Link>
         </div>
       </nav>
 
