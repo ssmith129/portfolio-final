@@ -46,7 +46,7 @@ export default function CaseStudies() {
         </div>
 
         {/* Case Studies Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-8 md:gap-10 lg:gap-12 xl:gap-16 animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-500 justify-items-center">
+        <div className="grid grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-12 xl:gap-16 animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-500 justify-items-center">
           {/* Computis Case Study */}
           <Link
             to="/case-studies/computis-crypto-tax-engine"
