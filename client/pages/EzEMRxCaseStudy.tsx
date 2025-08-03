@@ -1,7 +1,10 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, X, ZoomIn } from "lucide-react";
 
 export default function EzEMRxCaseStudy() {
+  const [isImageEnlarged, setIsImageEnlarged] = useState(false);
+
   return (
     <div className="min-h-screen bg-[#F5F5F5]">
       {/* Navigation */}
@@ -262,6 +265,39 @@ export default function EzEMRxCaseStudy() {
                     Siloed case notes with no version history
                   </li>
                 </ul>
+              </div>
+
+              {/* EHR Screenshot Container */}
+              <div className="relative mb-8 sm:mb-10 md:mb-12 lg:mb-16 animate-in fade-in-0 zoom-in-95 duration-1000 delay-700">
+                <div 
+                  className="relative group cursor-pointer overflow-hidden rounded-[16px] sm:rounded-[20px] md:rounded-[25px] lg:rounded-[30px] shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-[1.02] bg-white border border-gray-200"
+                  onClick={() => setIsImageEnlarged(true)}
+                >
+                  <img
+                    src="/old_2.png"
+                    alt="Original EHR interface showing complex navigation, outdated design patterns, and inefficient data entry workflows that healthcare professionals struggled with daily"
+                    className="w-full h-auto object-cover transition-all duration-500 group-hover:scale-105"
+                  />
+                  
+                  {/* Overlay with zoom indicator */}
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 flex items-center justify-center">
+                    <div className="opacity-0 group-hover:opacity-100 transition-all duration-300 bg-white/90 backdrop-blur-sm rounded-full p-3 sm:p-4">
+                      <ZoomIn className="w-5 h-5 sm:w-6 sm:h-6 text-[#131417]" />
+                    </div>
+                  </div>
+                  
+                  {/* Visual indicator text */}
+                  <div className="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                    <span className="bg-white/90 backdrop-blur-sm text-[#131417] px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium">
+                      Click to enlarge
+                    </span>
+                  </div>
+                </div>
+                
+                {/* Caption */}
+                <p className="text-sm sm:text-base text-[#9FA0A3] leading-[150%] tracking-[-0.14px] sm:tracking-[-0.16px] mt-4 text-center transition-all duration-300 hover:text-[#131417]">
+                  Original EHR interface showing complex navigation and outdated design patterns
+                </p>
               </div>
 
               <div className="bg-red-50 p-6 rounded-[25px] border border-red-200 transition-all duration-300 hover:border-red-300 hover:scale-[1.02]">
@@ -717,6 +753,39 @@ export default function EzEMRxCaseStudy() {
           </div>
         </section>
       </div>
+
+      {/* Image Enlargement Modal */}
+      {isImageEnlarged && (
+        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in-0 duration-300">
+          <div className="relative max-w-7xl max-h-full overflow-auto animate-in zoom-in-95 duration-300">
+            <button
+              onClick={() => setIsImageEnlarged(false)}
+              className="absolute top-4 right-4 z-10 bg-white/90 backdrop-blur-sm hover:bg-white text-[#131417] rounded-full p-2 transition-all duration-300 hover:scale-110"
+              aria-label="Close enlarged image"
+            >
+              <X className="w-5 h-5" />
+            </button>
+            
+            <img
+              src="/old_2.png"
+              alt="Original EHR interface showing complex navigation, outdated design patterns, and inefficient data entry workflows that healthcare professionals struggled with daily"
+              className="max-w-full max-h-full object-contain rounded-[12px] shadow-2xl"
+            />
+            
+            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+              <p className="bg-white/90 backdrop-blur-sm text-[#131417] px-4 py-2 rounded-full text-sm font-medium">
+                Original EHR interface - Click outside to close
+              </p>
+            </div>
+          </div>
+          
+          {/* Click outside to close */}
+          <div 
+            className="absolute inset-0 -z-10"
+            onClick={() => setIsImageEnlarged(false)}
+          />
+        </div>
+      )}
 
       {/* Footer */}
       <footer className="bg-[#131417] text-white animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-3300">
