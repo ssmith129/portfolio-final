@@ -862,7 +862,7 @@ export default function EzEMRxCaseStudy() {
             </div>
           </div>
         </div>
-      </footer>
+      </section>
     </div>
   );
 }
