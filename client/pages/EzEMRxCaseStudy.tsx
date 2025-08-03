@@ -287,11 +287,11 @@ export default function EzEMRxCaseStudy() {
                   </div>
                   
                   {/* Visual indicator text */}
-              <div className="w-full max-w-[350px] rounded-[16px] sm:rounded-[20px] md:rounded-[25px] overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-[1.02] border border-gray-200">
+                  <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-all duration-300">
                     <span className="bg-white/90 backdrop-blur-sm text-[#131417] px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium">
                       Click to enlarge
                     </span>
-                  className="w-full h-auto object-cover transition-all duration-500 group-hover:brightness-110"
+                  </div>
                 </div>
                 
                 {/* Caption */}
@@ -862,7 +862,7 @@ export default function EzEMRxCaseStudy() {
             </div>
           </div>
         </div>
-      </section>
+      </footer>
     </div>
   );
 }
