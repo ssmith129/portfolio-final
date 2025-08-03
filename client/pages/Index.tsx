@@ -261,10 +261,10 @@ export default function Index() {
               </svg>
             </div>
             <h4 className="text-base sm:text-lg md:text-xl font-medium text-[#131417] leading-[120%] tracking-[-0.2px] sm:tracking-[-0.3px] mb-2 sm:mb-3 transition-all duration-300 hover:tracking-[-0.15px]">
-              UX Research
+              AI-Powered Design
             </h4>
             <p className="text-xs sm:text-sm md:text-base font-normal text-[#9FA0A3] leading-[1.5em] tracking-[-0.14px] sm:tracking-[-0.16px] transition-all duration-300 hover:text-[#131417]">
-              User interviews, usability testing, and data-driven design decisions
+              Creating intelligent interfaces that adapt to user behavior and preferences
             </p>
           </div>
 
