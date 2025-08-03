@@ -41,9 +41,27 @@ export default function About() {
 
       {/* Header */}
       <div className="max-w-[1920px] mx-auto px-4 sm:px-6 md:px-8 lg:px-16 xl:px-[100px] pt-8 sm:pt-12 md:pt-16 lg:pt-24 xl:pt-[150px] animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-300">
-        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-[48px] font-normal text-[#131417] leading-[150%] sm:leading-[160%] md:leading-[170%] tracking-[-0.4px] sm:tracking-[-0.6px] md:tracking-[-0.8px] max-w-[1720px] mb-8 sm:mb-12 md:mb-16 lg:mb-24 xl:mb-[160px] transition-all duration-500 hover:tracking-[-0.6px]">
-          Senior Product Designer with 6+ years of experience creating intuitive, scalable UX for complex SaaS and enterprise platforms. I specialize in AI-integrated systems that streamline workflows, simplify data, and drive decisions.
-        </h1>
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 xl:gap-24 items-center lg:items-start mb-8 sm:mb-12 md:mb-16 lg:mb-24 xl:mb-[160px]">
+          {/* Profile Image */}
+          <div className="flex-shrink-0 animate-in fade-in-0 zoom-in-95 duration-1000 delay-500">
+            <div className="relative group">
+              <img
+                src="/6796fa1806617a432bd2b97b-HeadshotPro_Original.PNG"
+                alt="Sean Smith - Senior Product Designer headshot"
+                className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 xl:w-80 xl:h-80 object-cover rounded-[20px] sm:rounded-[25px] md:rounded-[30px] shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 border-2 border-white/20"
+              />
+              {/* Subtle gradient overlay for depth */}
+              <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-black/5 rounded-[20px] sm:rounded-[25px] md:rounded-[30px] group-hover:to-black/10 transition-all duration-500"></div>
+            </div>
+          </div>
+
+          {/* Header Text */}
+          <div className="flex-1 text-center lg:text-left">
+            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-[48px] font-normal text-[#131417] leading-[150%] sm:leading-[160%] md:leading-[170%] tracking-[-0.4px] sm:tracking-[-0.6px] md:tracking-[-0.8px] transition-all duration-500 hover:tracking-[-0.6px]">
+              Senior Product Designer with 6+ years of experience creating intuitive, scalable UX for complex SaaS and enterprise platforms. I specialize in AI-integrated systems that streamline workflows, simplify data, and drive decisions.
+            </h1>
+          </div>
+        </div>
       </div>
 
       {/* Main Content */}
