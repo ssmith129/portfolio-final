@@ -9,7 +9,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import CaseStudies from "./pages/CaseStudies";
 import About from "./pages/About";
-import Contacts from "./pages/Contacts";
 import ComputisCaseStudy from "./pages/ComputisCaseStudy";
 import EzEMRxCaseStudy from "./pages/EzEMRxCaseStudy";
 import MedicoCaseStudy from "./pages/MedicoCaseStudy";
@@ -28,7 +27,6 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contacts" element={<Contacts />} />
           <Route path="/case-studies/computis-crypto-tax-engine" element={<ComputisCaseStudy />} />
           <Route path="/case-studies/ezemrx-redesigning-ehr" element={<EzEMRxCaseStudy />} />
           <Route path="/case-studies/medico-hospital-management-system" element={<MedicoCaseStudy />} />
