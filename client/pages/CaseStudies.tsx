@@ -4,7 +4,7 @@ export default function CaseStudies() {
   return (
     <div className="min-h-screen bg-[#F5F5F5]">
       {/* Navigation */}
-      <nav className="flex flex-col md:flex-row justify-between items-center px-4 sm:px-6 md:px-8 lg:px-16 xl:px-[100px] py-4 sm:py-5 md:py-6 max-w-[1440px] mx-auto gap-4 md:gap-0">
+      <nav className="flex flex-col md:flex-row justify-between items-center px-4 sm:px-6 md:px-8 lg:px-16 xl:px-[100px] py-4 sm:py-5 md:py-6 gap-4 md:gap-0">
         <div className="flex flex-col">
           <h1 className="text-base sm:text-lg md:text-xl font-medium text-[#131417] leading-normal tracking-[-0.2px]">
             Sean Smith
@@ -34,7 +34,7 @@ export default function CaseStudies() {
       </nav>
 
       {/* Content */}
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-16 xl:px-[100px] py-8 sm:py-12 md:py-16">
+      <div className="px-4 sm:px-6 md:px-8 lg:px-16 xl:px-[100px] py-8 sm:py-12 md:py-16 max-w-none">
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16 md:mb-20 lg:mb-24 animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-300">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[94px] font-medium text-[#131417] leading-[110%] sm:leading-[115%] md:leading-[120%] tracking-[-0.5px] sm:tracking-[-0.8px] md:tracking-[-1.2px] lg:tracking-[-1.5px] xl:tracking-[-1.88px] mb-4 sm:mb-6 md:mb-8 transition-all duration-500 hover:tracking-[-1.5px]">
@@ -46,11 +46,11 @@ export default function CaseStudies() {
         </div>
 
         {/* Case Studies Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-8 animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-500">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-8 md:gap-10 lg:gap-12 xl:gap-16 animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-500 justify-items-center">
           {/* Computis Case Study */}
           <Link
             to="/case-studies/computis-crypto-tax-engine"
-            className="group relative animate-in fade-in-0 slide-in-from-left-8 duration-1000 delay-700"
+            className="group relative animate-in fade-in-0 slide-in-from-left-8 duration-1000 delay-700 w-full max-w-[600px]"
           >
             <img
               src="https://api.builder.io/api/v1/image/assets/TEMP/437ebf05fba1fe900a48cf92b7c64f206c1d4dd4?width=1900"
@@ -76,7 +76,7 @@ export default function CaseStudies() {
           {/* ezEMRx Case Study */}
           <Link
             to="/case-studies/ezemrx-redesigning-ehr"
-            className="group relative animate-in fade-in-0 slide-in-from-right-8 duration-1000 delay-900"
+            className="group relative animate-in fade-in-0 slide-in-from-right-8 duration-1000 delay-900 w-full max-w-[600px]"
           >
             <img
               src="https://api.builder.io/api/v1/image/assets/TEMP/37af1375fa98d83c59ef3e2518f99b22a76e895b?width=1900"
@@ -103,7 +103,7 @@ export default function CaseStudies() {
           {/* Medico Case Study */}
           <Link
             to="/case-studies/medico-hospital-management-system"
-            className="group relative animate-in fade-in-0 slide-in-from-right-8 duration-1000 delay-1300"
+            className="group relative animate-in fade-in-0 slide-in-from-right-8 duration-1000 delay-1300 w-full max-w-[600px]"
           >
             <img
               src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -129,7 +129,7 @@ export default function CaseStudies() {
           {/* MoneyFarm Case Study */}
           <Link
             to="/case-studies/moneyfarm-ai-powered-personal-finance"
-            className="group relative animate-in fade-in-0 slide-in-from-left-8 duration-1000 delay-1500"
+            className="group relative animate-in fade-in-0 slide-in-from-left-8 duration-1000 delay-1500 w-full max-w-[600px]"
           >
             <img
               src="https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
