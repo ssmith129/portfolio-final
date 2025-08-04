@@ -79,7 +79,7 @@ export default function CaseStudies() {
             className="group relative animate-in fade-in-0 slide-in-from-right-8 duration-1000 delay-900 w-full max-w-[600px]"
           >
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/37af1375fa98d83c59ef3e2518f99b22a76e895b?width=1900"
+              src="/ipad.png"
               alt="ezEMRx - EHR for Public Health"
               className="w-full aspect-square object-cover rounded-[8px] sm:rounded-[12px] md:rounded-[16px] lg:rounded-[20px] xl:rounded-[25px] transition-all duration-500 cursor-pointer group-hover:scale-105 group-hover:shadow-2xl group-hover:brightness-110"
             />
