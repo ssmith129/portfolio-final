@@ -21,6 +21,7 @@ export default defineConfig(() => ({
   },
   build: {
     outDir: "dist/spa",
+    chunkSizeWarningLimit: 1000,
   },
   plugins: [react()],
   resolve: {
