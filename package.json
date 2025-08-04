@@ -13,6 +13,7 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run build:client && npm run build:server",
+    "build:vercel": "npm run build:client",
     "build:client": "vite build",
     "build:server": "vite build --config vite.config.server.ts",
     "start": "node dist/server/node-build.mjs",
@@ -22,10 +23,10 @@
   },
   "dependencies": {
     "dotenv": "^17.2.0",
-    "express": "^4.18.2",
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@vercel/node": "^3.0.0",
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-accordion": "^1.2.0",
     "@radix-ui/react-alert-dialog": "^1.1.1",
@@ -60,7 +61,6 @@
     "@tailwindcss/typography": "^0.5.15",
     "@tanstack/react-query": "^5.56.2",
     "@types/cors": "^2.8.17",
-    "@types/express": "^4.17.21",
     "@types/node": "^22.5.5",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
