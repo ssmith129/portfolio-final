@@ -59,14 +59,6 @@ export default function Index() {
               6+ years creating intuitive, scalable UX for complex SaaS platforms. I specialize in AI-integrated systems that streamline workflows and drive decisions.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 animate-in fade-in-0 slide-in-from-left-8 duration-1000 delay-1100">
-              <Link
-                to="/case-studies"
-                className="bg-[#131417] text-white px-6 sm:px-8 md:px-10 lg:px-12 py-4 sm:py-5 md:py-6 rounded-[25px] sm:rounded-[35px] md:rounded-[50px] text-base sm:text-lg md:text-xl lg:text-2xl font-medium tracking-[-0.18px] sm:tracking-[-0.2px] hover:bg-[#2a2a2a] transition-all duration-300 hover:scale-105 hover:shadow-lg text-center touch-manipulation min-h-[56px] flex items-center justify-center"
-              >
-                View Case Studies
-              </Link>
-            </div>
           </div>
         </div>
       </div>
