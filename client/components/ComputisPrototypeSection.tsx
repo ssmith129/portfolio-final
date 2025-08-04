@@ -142,7 +142,7 @@ export default function ComputisPrototypeSection({ className }: ComputisPrototyp
             {isInView && (
               <iframe
                 ref={iframeRef}
-                src="https://portfolio-smith-design.netlify.app/"
+                src="https://computis-full.vercel.app/"
                 className={cn(
                   "w-full transition-opacity duration-500",
                   "rounded-[16px] sm:rounded-[20px] md:rounded-[25px] lg:rounded-[30px] xl:rounded-[35px]",
@@ -154,12 +154,9 @@ export default function ComputisPrototypeSection({ className }: ComputisPrototyp
                   maxHeight: '800px'
                 }}
                 frameBorder="0"
-                allowFullScreen
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                referrerPolicy="strict-origin-when-cross-origin"
                 loading="lazy"
                 title="Computis Crypto Tax Platform - Interactive Prototype"
-                sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-modals allow-top-navigation-by-user-activation"
+                sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-modals"
                 onLoad={handleIframeLoad}
                 onError={handleIframeError}
                 aria-label="Interactive prototype of the Computis crypto tax platform"
@@ -173,7 +170,7 @@ export default function ComputisPrototypeSection({ className }: ComputisPrototyp
           {/* Call-to-Action */}
           <div className="text-center mt-6 sm:mt-8 md:mt-10 lg:mt-12">
             <a
-              href="https://portfolio-smith-design.netlify.app/"
+              href="https://computis-full.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 sm:gap-3 bg-[#131417] text-white px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 rounded-[20px] sm:rounded-[25px] md:rounded-[30px] text-sm sm:text-base md:text-lg font-medium transition-all duration-300 hover:bg-[#2a2a2a] hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#131417] focus:ring-offset-2 group"
