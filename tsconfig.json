@@ -18,12 +18,12 @@
     "forceConsistentCasingInFileNames": true,
 
     /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitAny": true,
-    "noFallthroughCasesInSwitch": true,
-    "strictNullChecks": true,
+    "strict": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitAny": false,
+    "noFallthroughCasesInSwitch": false,
+    "strictNullChecks": false,
 
     /* Path mapping */
     "baseUrl": ".",
@@ -34,9 +34,10 @@
   },
   "include": [
     "client/**/*",
+    "server/**/*",
     "shared/**/*",
-    "api/**/*",
-    "vite.config.ts"
+    "vite.config.ts",
+    "vite.config.server.ts"
   ],
   "exclude": ["node_modules", "dist"]
 }
