@@ -1,24 +1,29 @@
 {
   "version": 2,
-  "buildCommand": "npm run build:client",
-  "outputDirectory": "dist/spa",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "installCommand": "npm install",
-  "framework": "vite",
+  
   "functions": {
     "api/**/*.ts": {
       "runtime": "@vercel/node@3"
     }
   },
+  
   "routes": [
     {
       "src": "/api/(.*)",
       "dest": "/api/$1"
     },
     {
+      "handle": "filesystem"
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.html"
     }
   ],
+  
   "headers": [
     {
       "source": "/api/(.*)",
@@ -36,6 +41,26 @@
           "value": "Content-Type, Authorization"
         }
       ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
     }
-  ]
+  ],
+  
+  "cleanUrls": true,
+  "trailingSlash": false
 }

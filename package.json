@@ -12,14 +12,13 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "npm run build:client && npm run build:server",
-    "build:vercel": "npm run build:client",
-    "build:client": "vite build",
-    "build:server": "vite build --config vite.config.server.ts",
+    "build": "vite build",
+    "build:vercel": "vite build",
     "start": "node dist/server/node-build.mjs",
-    "test": "vitest --run",
+    "preview": "vite preview",
+    "test": "vitest",
     "format.fix": "prettier --write .",
-    "typecheck": "tsc"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "dotenv": "^17.2.0",
