@@ -117,7 +117,7 @@ export default function Index() {
           >
             <div className="aspect-square overflow-hidden relative">
               <img
-                src="/div.inspect-element-1754271172206.jpeg"
+                src="/ipad.png"
                 alt="ezEMRx - Electronic Health Records System"
                 className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 absolute inset-0"
                 loading="lazy"
