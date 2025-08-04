@@ -154,9 +154,12 @@ export default function ComputisPrototypeSection({ className }: ComputisPrototyp
                   maxHeight: '800px'
                 }}
                 frameBorder="0"
+                allowFullScreen
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                referrerPolicy="strict-origin-when-cross-origin"
                 loading="lazy"
                 title="Computis Crypto Tax Platform - Interactive Prototype"
-                sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-modals"
+                sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-modals allow-top-navigation-by-user-activation"
                 onLoad={handleIframeLoad}
                 onError={handleIframeError}
                 aria-label="Interactive prototype of the Computis crypto tax platform"
