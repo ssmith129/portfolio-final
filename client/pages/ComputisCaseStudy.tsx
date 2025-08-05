@@ -1116,7 +1116,7 @@ export default function ComputisCaseStudy() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div 
                   className="bg-white p-6 rounded-[20px] shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer hover:scale-[1.02] group"
-                  onClick={() => openModal("/Classification Grid.png", "Classification Grid")}
+                  onClick={() => openModal("/Transactions Grid copy.png", "Classification Grid")}
                 >
                   <div className="flex items-center justify-between mb-4">
                     <h4 className="text-lg font-medium text-[#131417]">Classification Grid</h4>
