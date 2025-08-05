@@ -139,75 +139,14 @@ export default function ComputisCaseStudy() {
         {/* Context & Overview */}
         <section className="animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-900">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-[200px]">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8 animate-in fade-in-0 slide-in-from-bottom-6 duration-1000 delay-700">
-          {/* Classification Grid Card */}
-          <div className="group relative bg-white p-4 sm:p-6 md:p-8 rounded-[16px] sm:rounded-[20px] md:rounded-[25px] shadow-sm hover:shadow-xl transition-all duration-500 hover:scale-105 overflow-hidden cursor-pointer">
-            <div className="relative z-10">
-              <h4 className="text-base sm:text-lg md:text-xl font-medium text-[#131417] leading-[120%] tracking-[-0.2px] mb-2 sm:mb-3 transition-all duration-300 group-hover:text-white">
-                Classification Grid
-              </h4>
-              <p className="text-xs sm:text-sm md:text-base font-normal text-[#9FA0A3] leading-[1.4em] tracking-[-0.14px] transition-all duration-300 group-hover:text-white/90">
-                w/ AI confidence
-              </p>
-            </div>
-            {/* Screenshot Overlay */}
-            <div className="absolute inset-0 bg-black/95 opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center p-4">
-              <img
-                src="/Transactions Grid.png"
-                alt="Classification Grid with AI confidence interface"
-                className="max-w-full max-h-full object-contain rounded-lg shadow-2xl transform scale-90 group-hover:scale-100 transition-transform duration-500"
-              />
-            </div>
-          </div>
-
-          {/* Rule Builder Card */}
-          <div className="group relative bg-white p-4 sm:p-6 md:p-8 rounded-[16px] sm:rounded-[20px] md:rounded-[25px] shadow-sm hover:shadow-xl transition-all duration-500 hover:scale-105 overflow-hidden cursor-pointer">
-            <div className="relative z-10">
-              <h4 className="text-base sm:text-lg md:text-xl font-medium text-[#131417] leading-[120%] tracking-[-0.2px] mb-2 sm:mb-3 transition-all duration-300 group-hover:text-white">
-                Rule Builder
-              </h4>
-              <p className="text-xs sm:text-sm md:text-base font-normal text-[#9FA0A3] leading-[1.4em] tracking-[-0.14px] transition-all duration-300 group-hover:text-white/90">
-                Drag-Drop UI
-              </p>
-            </div>
-            {/* Screenshot Overlay */}
-            <div className="absolute inset-0 bg-black/95 opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center p-4">
-              <img
-                src="/Rule Builder.png"
-                alt="Rule Builder drag-and-drop interface"
-                className="max-w-full max-h-full object-contain rounded-lg shadow-2xl transform scale-90 group-hover:scale-100 transition-transform duration-500"
-              />
-            </div>
-          </div>
-
-          {/* FMV Dashboard Card */}
-          <div className="group relative bg-white p-4 sm:p-6 md:p-8 rounded-[16px] sm:rounded-[20px] md:rounded-[25px] shadow-sm hover:shadow-xl transition-all duration-500 hover:scale-105 overflow-hidden cursor-pointer">
-            <div className="relative z-10">
-              <h4 className="text-base sm:text-lg md:text-xl font-medium text-[#131417] leading-[120%] tracking-[-0.2px] mb-2 sm:mb-3 transition-all duration-300 group-hover:text-white">
-                FMV Dashboard
-              </h4>
-              <p className="text-xs sm:text-sm md:text-base font-normal text-[#9FA0A3] leading-[1.4em] tracking-[-0.14px] transition-all duration-300 group-hover:text-white/90">
-                w/ Red-Yellow-Gray Flags
-              </p>
-            </div>
-            {/* Screenshot Overlay */}
-            <div className="absolute inset-0 bg-black/95 opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center p-4">
-              <img
-                src="/Homepage Dashboard.png"
-                alt="FMV Dashboard with color-coded flags"
-                className="max-w-full max-h-full object-contain rounded-lg shadow-2xl transform scale-90 group-hover:scale-100 transition-transform duration-500"
-              />
-            </div>
-          </div>
-
-          {/* Audit Log Card */}
-          <div className="group relative bg-white p-4 sm:p-6 md:p-8 rounded-[16px] sm:rounded-[20px] md:rounded-[25px] shadow-sm hover:shadow-xl transition-all duration-500 hover:scale-105 overflow-hidden cursor-pointer">
+            <div className="w-full lg:w-[200px]">
+              <h2 className="text-[24px] font-medium text-[#131417] leading-[120%] tracking-[-0.24px] transition-all duration-300 hover:tracking-[-0.2px]">
                 Context & Overview
-              <h4 className="text-base sm:text-lg md:text-xl font-medium text-[#131417] leading-[120%] tracking-[-0.2px] mb-2 sm:mb-3 transition-all duration-300 group-hover:text-white">
-                Audit Log
+              </h2>
+            </div>
             <div className="flex-1 space-y-6">
-              <p className="text-xs sm:text-sm md:text-base font-normal text-[#9FA0A3] leading-[1.4em] tracking-[-0.14px] transition-all duration-300 group-hover:text-white/90">
-                Timeline Drawer
+              <p className="text-[20px] font-normal text-[#131417] leading-[150%] tracking-[-0.2px]">
+                When I joined, Computis was a Python script tool that required devs to manually ingest crypto data and produce IRS forms.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="bg-red-50 p-6 rounded-[25px] border border-red-200 transition-all duration-300 hover:border-red-300 hover:scale-[1.02]">
@@ -1265,29 +1204,25 @@ export default function ComputisCaseStudy() {
             <span className="text-[18px] font-medium leading-[20px] tracking-[-0.18px] transition-all duration-300 hover:text-[#9FA0A3] hover:tracking-[-0.1px]">
               Portfolio 2023 - 2024
             </span>
-            {/* Screenshot Overlay */}
-            <div className="absolute inset-0 bg-black/95 opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center p-4">
-              <img
-                src="/Audit Trail Drawer.png"
-                alt="Audit Log timeline drawer interface"
-                className="max-w-full max-h-full object-contain rounded-lg shadow-2xl transform scale-90 group-hover:scale-100 transition-transform duration-500"
-              />
-            </div>
+            <span className="text-[20px] font-semibold leading-[20px] tracking-[-0.2px] transition-all duration-300 hover:tracking-[-0.1px] hover:scale-105">
+              Sean Smith
+            </span>
+            <span className="text-[18px] font-medium leading-[20px] tracking-[-0.18px] text-center sm:text-right transition-all duration-300 hover:text-[#9FA0A3] hover:tracking-[-0.1px]">
+              37.7749° N, 122.4194° W
+            </span>
+          </div>
+
+          {/* Get in Touch */}
+          <div className="text-center mb-16 lg:mb-[270px]">
+            <p className="text-[18px] font-medium text-[#9FA0A3] leading-[20px] tracking-[-0.18px] mb-[20px] transition-all duration-300 hover:text-white">
+              Have a nice project?
+            </p>
             <h2 className="text-3xl sm:text-5xl lg:text-[72px] font-medium leading-[72px] tracking-[-0.72px] transition-all duration-500 hover:tracking-[-0.5px] hover:scale-105 cursor-pointer">
               Get in Touch
             </h2>
           </div>
 
-          <div className="group bg-white/60 backdrop-blur-sm rounded-[20px] p-6 border border-white/20 shadow-sm hover:shadow-lg transition-all duration-500 hover:scale-[1.02] cursor-pointer relative overflow-hidden">
-            <div className="absolute inset-0 bg-black/90 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center rounded-[20px]">
-              <img 
-                src="/Rule Builder.png" 
-                alt="Rule Builder Interface"
-                className="w-[90%] h-[90%] object-contain rounded-lg shadow-2xl"
-              />
-            </div>
-          </div>
-
+          {/* Footer Bottom */}
           <div className="flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-0">
             <span className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] order-3 lg:order-1 transition-all duration-300 hover:text-[#9FA0A3]">
               © All rights reserved.
@@ -1327,33 +1262,12 @@ export default function ComputisCaseStudy() {
               >
                 License
               </a>
-
-              <div className="group bg-white/20 backdrop-blur-sm rounded-[20px] p-6 border border-white/20 shadow-sm hover:shadow-lg transition-all duration-500 hover:scale-[1.02] cursor-pointer relative overflow-hidden">
-                <div className="absolute inset-0 bg-black/90 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center rounded-[20px]">
-                  <img 
-                    src="/Audit Trail Drawer.png" 
-                    alt="Audit Log Timeline Interface"
-                    className="w-[90%] h-[90%] object-contain rounded-lg shadow-2xl"
-                  />
-                </div>
-              </div>
-
               <a
                 href="#"
                 className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] hover:text-[#9FA0A3] transition-all duration-300 hover:scale-105"
               >
                 Terms of Use
               </a>
-            </div>
-          </div>
-
-          <div className="group bg-white/40 backdrop-blur-sm rounded-[20px] p-6 border border-white/20 shadow-sm hover:shadow-lg transition-all duration-500 hover:scale-[1.02] cursor-pointer relative overflow-hidden">
-            <div className="absolute inset-0 bg-black/90 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center rounded-[20px]">
-              <img 
-                src="/Homepage Dashboard.png" 
-                alt="FMV Dashboard Interface"
-                className="w-[90%] h-[90%] object-contain rounded-lg shadow-2xl"
-              />
             </div>
           </div>
         </div>
