@@ -1116,7 +1116,7 @@ export default function ComputisCaseStudy() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div 
                   className="bg-white p-6 rounded-[20px] shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer hover:scale-[1.02] group"
-                  onClick={() => openModal("/Transactions Grid copy.png", "Classification Grid")}
+                  onClick={() => openModal("/Classification Grid.png", "Classification Grid")}
                 >
                   <div className="flex items-center justify-between mb-4">
                     <h4 className="text-lg font-medium text-[#131417]">Classification Grid</h4>
@@ -1163,8 +1163,27 @@ export default function ComputisCaseStudy() {
                     </div>
                   </div>
                   <p className="text-sm text-[#9FA0A3] mb-4">w/ Red-Yellow-Gray Flags</p>
-                  <div className="aspect-video bg-gradient-to-br from-yellow-50 to-red-50 rounded-lg flex items-center justify-center">
-                    <span className="text-xs text-[#9FA0A3]">Click to enlarge</span>
+                  <div className="aspect-video bg-gradient-to-br from-yellow-50 to-red-50 rounded-lg flex items-center justify-center overflow-hidden relative group-hover:bg-gradient-to-br group-hover:from-yellow-100 group-hover:to-red-100 transition-all duration-300">
+                    <img
+                      src="/Homepage Dashboard copy copy.png"
+                      alt="Homepage Dashboard with real-time data visualization"
+                      className="w-full h-full object-cover rounded-lg"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        e.currentTarget.nextElementSibling.style.display = 'flex';
+                      }}
+                    />
+                    <div className="w-full h-full flex items-center justify-center text-gray-400 text-sm" style={{ display: 'none' }}>
+                      Image not available
+                    </div>
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 flex items-center justify-center">
+                      <span className="text-white text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50 px-3 py-1 rounded-full">Click to enlarge</span>
+                      <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <svg className="w-5 h-5 text-white drop-shadow-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                        </svg>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
