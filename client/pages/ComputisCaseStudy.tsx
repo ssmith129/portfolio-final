@@ -3,19 +3,57 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 
+// Modal component for image enlargement
+const ImageModal = ({ isOpen, onClose, imageSrc, title, subtitle }) => {
+  if (!isOpen) return null;
+
+  return (
+    <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4" onClick={onClose}>
+      <div className="relative max-w-4xl max-h-[90vh] w-full">
+        <button
+          onClick={onClose}
+          className="absolute -top-10 right-0 text-white hover:text-gray-300 text-xl font-bold z-10"
+        >
+          ✕ Close
+        </button>
+        <div className="bg-white rounded-lg overflow-hidden">
+          <div className="p-4 border-b">
+            <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
+            <p className="text-gray-600">{subtitle}</p>
+          </div>
+          <div className="p-4">
+            <img
+              src={imageSrc}
+              alt={`${title} - ${subtitle}`}
+              className="w-full h-auto max-h-[70vh] object-contain"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export default function ComputisCaseStudy() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [selectedTitle, setSelectedTitle] = useState<string>("");
+  const [modalImage, setModalImage] = useState(null);
 
-  const openModal = (imageSrc: string, title: string) => {
-    setSelectedImage(imageSrc);
-    setSelectedTitle(title);
-    document.body.style.overflow = 'hidden'; // Prevent background scrolling
+  const openModal = (imageSrc: string, title: string, subtitle?: string) => {
+    if (subtitle) {
+      setModalImage({ imageSrc, title, subtitle });
+    } else {
+      setSelectedImage(imageSrc);
+      setSelectedTitle(title);
+      document.body.style.overflow = 'hidden'; // Prevent background scrolling
+    }
   };
 
   const closeModal = () => {
     setSelectedImage(null);
     setSelectedTitle("");
+    setModalImage(null);
     document.body.style.overflow = 'unset'; // Restore scrolling
   };
 
@@ -1113,98 +1151,136 @@ export default function ComputisCaseStudy() {
                 </ul>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div 
-                  className="bg-white p-6 rounded-[20px] shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer hover:scale-[1.02] group"
-                  onClick={() => openModal("/Classification Grid.png", "Classification Grid")}
-                >
-                  <div className="flex items-center justify-between mb-4">
-                    <h4 className="text-lg font-medium text-[#131417]">Classification Grid</h4>
-                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <svg className="w-5 h-5 text-[#9FA0A3]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
-                      </svg>
-                    </div>
-                  </div>
-                  <p className="text-sm text-[#9FA0A3] mb-4">w/ AI confidence</p>
-                  <div className="aspect-video bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg flex items-center justify-center">
-                    <span className="text-xs text-[#9FA0A3]">Click to enlarge</span>
-                  </div>
-                </div>
-
-                <div 
-                  className="bg-white p-6 rounded-[20px] shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer hover:scale-[1.02] group"
-                  onClick={() => openModal("/Rule Builder.png", "Rule Builder")}
-                >
-                  <div className="flex items-center justify-between mb-4">
-                    <h4 className="text-lg font-medium text-[#131417]">Rule Builder</h4>
-                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <svg className="w-5 h-5 text-[#9FA0A3]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
-                      </svg>
-                    </div>
-                  </div>
-                  <p className="text-sm text-[#9FA0A3] mb-4">Drag-Drop UI</p>
-                  <div className="aspect-video bg-gradient-to-br from-green-50 to-blue-50 rounded-lg flex items-center justify-center">
-                    <span className="text-xs text-[#9FA0A3]">Click to enlarge</span>
-                  </div>
-                </div>
-
-                <div 
-                  className="bg-white p-6 rounded-[20px] shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer hover:scale-[1.02] group"
-                  onClick={() => openModal("/FMV Dashboard.png", "FMV Dashboard")}
-                >
-                  <div className="flex items-center justify-between mb-4">
-                    <h4 className="text-lg font-medium text-[#131417]">FMV Dashboard</h4>
-                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <svg className="w-5 h-5 text-[#9FA0A3]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
-                      </svg>
-                    </div>
-                  </div>
-                  <p className="text-sm text-[#9FA0A3] mb-4">w/ Red-Yellow-Gray Flags</p>
-                  <div className="aspect-video bg-gradient-to-br from-yellow-50 to-red-50 rounded-lg flex items-center justify-center overflow-hidden relative group-hover:bg-gradient-to-br group-hover:from-yellow-100 group-hover:to-red-100 transition-all duration-300">
-                    <img
-                      src="/Homepage Dashboard copy copy.png"
-                      alt="Homepage Dashboard with real-time data visualization"
-                      className="w-full h-full object-cover rounded-lg"
-                      onError={(e) => {
-                        e.currentTarget.style.display = 'none';
-                        e.currentTarget.nextElementSibling.style.display = 'flex';
-                      }}
-                    />
-                    <div className="w-full h-full flex items-center justify-center text-gray-400 text-sm" style={{ display: 'none' }}>
-                      Image not available
-                    </div>
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 flex items-center justify-center">
-                      <span className="text-white text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50 px-3 py-1 rounded-full">Click to enlarge</span>
-                      <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <svg className="w-5 h-5 text-white drop-shadow-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div 
-                  className="bg-white p-6 rounded-[20px] shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer hover:scale-[1.02] group"
-                  onClick={() => openModal("/Audit Trail Drawer.png", "Anomaly Detection")}
-                >
-                  <div className="flex items-center justify-between mb-4">
-                    <h4 className="text-lg font-medium text-[#131417]">Anomaly Detection</h4>
-                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <svg className="w-5 h-5 text-[#9FA0A3]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
-                      </svg>
-                    </div>
-                  </div>
-                  <p className="text-sm text-[#9FA0A3] mb-4">Timeline Drawer</p>
-                  <div className="aspect-video bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg flex items-center justify-center">
-                    <span className="text-xs text-[#9FA0A3]">Click to enlarge</span>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-12 xl:gap-16 animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-700">
+          
+          {/* Classification Grid Card */}
+          <div 
+            className="group relative overflow-hidden rounded-[16px] sm:rounded-[20px] md:rounded-[25px] lg:rounded-[30px] xl:rounded-[35px] bg-white shadow-md hover:shadow-xl transition-all duration-500 hover:scale-[1.02] animate-in fade-in-0 slide-in-from-left-6 duration-1000 delay-900 touch-manipulation w-full max-w-[600px] mx-auto cursor-pointer"
+            onClick={() => openModal("/old_1.png", "Classification Grid", "w/ AI confidence")}
+          >
+            <div className="p-4 sm:p-6 md:p-8">
+              <h4 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium leading-[120%] tracking-[-0.3px] sm:tracking-[-0.4px] md:tracking-[-0.5px] mb-2 transition-all duration-300 text-[#131417]">
+                Classification Grid
+              </h4>
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.16px] sm:tracking-[-0.18px] md:tracking-[-0.2px] transition-all duration-300 hover:text-[#131417]">
+                w/ AI confidence
+              </p>
+              <div className="aspect-video mt-4 bg-gray-100 rounded-lg flex items-center justify-center relative overflow-hidden">
+                <img
+                  src="/old_1.png"
+                  alt="Classification Grid with AI confidence scoring"
+                  className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
+                  onError={(e) => {
+                    e.target.style.display = 'none';
+                    e.target.innerHTML = '<div class="flex items-center justify-center h-full text-gray-500"><span>Classification Grid Preview</span></div>';
+                  }}
+                />
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
+                  <div className="text-white text-center">
+                    <div className="text-2xl mb-2">🔍</div>
+                    <div className="text-sm font-medium">Click to enlarge</div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+
+          {/* Rule Builder Card */}
+          <div 
+            className="group relative overflow-hidden rounded-[16px] sm:rounded-[20px] md:rounded-[25px] lg:rounded-[30px] xl:rounded-[35px] bg-white shadow-md hover:shadow-xl transition-all duration-500 hover:scale-[1.02] animate-in fade-in-0 slide-in-from-right-6 duration-1000 delay-1100 touch-manipulation w-full max-w-[600px] mx-auto cursor-pointer"
+            onClick={() => openModal("/Rule Builder copy copy.png", "Rule Builder", "Drag-Drop UI")}
+          >
+            <div className="p-4 sm:p-6 md:p-8">
+              <h4 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium leading-[120%] tracking-[-0.3px] sm:tracking-[-0.4px] md:tracking-[-0.5px] mb-2 transition-all duration-300 text-[#131417]">
+                Rule Builder
+              </h4>
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.16px] sm:tracking-[-0.18px] md:tracking-[-0.2px] transition-all duration-300 hover:text-[#131417]">
+                Drag-Drop UI
+              </p>
+              <div className="aspect-video mt-4 bg-gray-100 rounded-lg flex items-center justify-center relative overflow-hidden">
+                <img
+                  src="/Rule Builder copy copy.png"
+                  alt="Rule Builder with drag-drop interface"
+                  className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
+                  onError={(e) => {
+                    e.target.style.display = 'none';
+                    e.target.innerHTML = '<div class="flex items-center justify-center h-full text-gray-500"><span>Rule Builder Preview</span></div>';
+                  }}
+                />
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
+                  <div className="text-white text-center">
+                    <div className="text-2xl mb-2">🔍</div>
+                    <div className="text-sm font-medium">Click to enlarge</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* FMV Dashboard Card */}
+          <div 
+            className="group relative overflow-hidden rounded-[16px] sm:rounded-[20px] md:rounded-[25px] lg:rounded-[30px] xl:rounded-[35px] bg-white shadow-md hover:shadow-xl transition-all duration-500 hover:scale-[1.02] animate-in fade-in-0 slide-in-from-left-6 duration-1000 delay-1300 touch-manipulation w-full max-w-[600px] mx-auto cursor-pointer"
+            onClick={() => openModal("/Homepage Dashboard copy copy.png", "FMV Dashboard", "w/ Red-Yellow-Gray Flags")}
+          >
+            <div className="p-4 sm:p-6 md:p-8">
+              <h4 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium leading-[120%] tracking-[-0.3px] sm:tracking-[-0.4px] md:tracking-[-0.5px] mb-2 transition-all duration-300 text-[#131417]">
+                FMV Dashboard
+              </h4>
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.16px] sm:tracking-[-0.18px] md:tracking-[-0.2px] transition-all duration-300 hover:text-[#131417]">
+                w/ Red-Yellow-Gray Flags
+              </p>
+              <div className="aspect-video mt-4 bg-gray-100 rounded-lg flex items-center justify-center relative overflow-hidden">
+                <img
+                  src="/Homepage Dashboard copy copy.png"
+                  alt="FMV Dashboard with red-yellow-gray flag system"
+                  className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
+                  onError={(e) => {
+                    e.target.style.display = 'none';
+                    e.target.innerHTML = '<div class="flex items-center justify-center h-full text-gray-500"><span>FMV Dashboard Preview</span></div>';
+                  }}
+                />
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
+                  <div className="text-white text-center">
+                    <div className="text-2xl mb-2">🔍</div>
+                    <div className="text-sm font-medium">Click to enlarge</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Anomaly Detection Card */}
+          <div 
+            className="group relative overflow-hidden rounded-[16px] sm:rounded-[20px] md:rounded-[25px] lg:rounded-[30px] xl:rounded-[35px] bg-white shadow-md hover:shadow-xl transition-all duration-500 hover:scale-[1.02] animate-in fade-in-0 slide-in-from-right-6 duration-1000 delay-1500 touch-manipulation w-full max-w-[600px] mx-auto cursor-pointer"
+            onClick={() => openModal("/Data Anomaly Detection copy.png", "Anomaly Detection", "Automatic Issue Insights")}
+          >
+            <div className="p-4 sm:p-6 md:p-8">
+              <h4 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium leading-[120%] tracking-[-0.3px] sm:tracking-[-0.4px] md:tracking-[-0.5px] mb-2 transition-all duration-300 text-[#131417]">
+                Anomaly Detection
+              </h4>
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.16px] sm:tracking-[-0.18px] md:tracking-[-0.2px] transition-all duration-300 hover:text-[#131417]">
+                Automatic Issue Insights
+              </p>
+              <div className="aspect-video mt-4 bg-gray-100 rounded-lg flex items-center justify-center relative overflow-hidden">
+                <img
+                  src="/Data Anomaly Detection copy.png"
+                  alt="Anomaly Detection with automatic issue insights"
+                  className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
+                  onError={(e) => {
+                    e.target.style.display = 'none';
+                    e.target.innerHTML = '<div class="flex items-center justify-center h-full text-gray-500"><span>Anomaly Detection Preview</span></div>';
+                  }}
+                />
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
+                  <div className="text-white text-center">
+                    <div className="text-2xl mb-2">🔍</div>
+                    <div className="text-sm font-medium">Click to enlarge</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
             </div>
           </div>
         </section>
@@ -1333,6 +1409,17 @@ export default function ComputisCaseStudy() {
             />
           </div>
         </div>
+      )}
+
+      {/* Image Modal */}
+      {modalImage && (
+        <ImageModal
+          isOpen={!!modalImage}
+          onClose={closeModal}
+          imageSrc={modalImage.imageSrc}
+          title={modalImage.title}
+          subtitle={modalImage.subtitle}
+        />
       )}
 
       {/* Footer */}
