@@ -5,6 +5,9 @@ import { X } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
+type ToastProps = React.ComponentPropsWithoutRef<typeof ToastPrimitives.Root>;
+type ToastActionElement = React.ReactElement<typeof ToastPrimitives.Action>;
+
 const ToastProvider = ToastPrimitives.Provider;
 
 const ToastViewport = React.forwardRef<
@@ -109,10 +112,6 @@ const ToastDescription = React.forwardRef<
   />
 ));
 ToastDescription.displayName = ToastPrimitives.Description.displayName;
-
-type ToastProps = React.ComponentPropsWithoutRef<typeof Toast>;
-
-type ToastActionElement = React.ReactElement<typeof ToastAction>;
 
 export {
   type ToastProps,
