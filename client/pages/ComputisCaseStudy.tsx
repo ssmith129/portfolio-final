@@ -84,5 +84,3 @@ export default function ComputisCaseStudy() {
             Computis – Crypto Tax Engine
           </h1>
           
-  )
-}
