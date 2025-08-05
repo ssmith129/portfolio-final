@@ -1062,301 +1062,6 @@ export default function ComputisCaseStudy() {
                   Clients → Wallets → Transactions → Rules → Reports → Exports
                 </p>
                 
-                {/* Information Architecture Flowchart */}
-                <div className="w-full mb-8">
-                  <h4 className="text-[20px] font-medium text-[#131417] leading-[150%] tracking-[-0.2px] mb-6 text-center">
-                    Information Architecture Flow
-                  </h4>
-                  <div className="bg-gradient-to-br from-gray-50 to-white rounded-[20px] p-8 border border-gray-100">
-                    <svg 
-                      viewBox="0 0 800 400" 
-                      className="w-full h-auto max-w-4xl mx-auto"
-                      style={{ minHeight: '300px' }}
-                    >
-                      {/* Define arrow marker */}
-                      <defs>
-                        <marker
-                          id="arrowhead"
-                          markerWidth="10"
-                          markerHeight="7"
-                          refX="9"
-                          refY="3.5"
-                          orient="auto"
-                        >
-                          <polygon
-                            points="0 0, 10 3.5, 0 7"
-                            fill="#131417"
-                          />
-                        </marker>
-                      </defs>
-
-                      {/* Flow connections */}
-                      {/* Clients to Wallets */}
-                      <line
-                        x1="130"
-                        y1="80"
-                        x2="200"
-                        y2="80"
-                        stroke="#131417"
-                        strokeWidth="2"
-                        markerEnd="url(#arrowhead)"
-                      />
-                      
-                      {/* Wallets to Transactions */}
-                      <line
-                        x1="330"
-                        y1="80"
-                        x2="400"
-                        y2="80"
-                        stroke="#131417"
-                        strokeWidth="2"
-                        markerEnd="url(#arrowhead)"
-                      />
-                      
-                      {/* Transactions to Rules */}
-                      <line
-                        x1="530"
-                        y1="80"
-                        x2="600"
-                        y2="80"
-                        stroke="#131417"
-                        strokeWidth="2"
-                        markerEnd="url(#arrowhead)"
-                      />
-                      
-                      {/* Rules to Reports (curved down) */}
-                      <path
-                        d="M 665 115 Q 665 180 530 180"
-                        stroke="#131417"
-                        strokeWidth="2"
-                        fill="none"
-                        markerEnd="url(#arrowhead)"
-                      />
-                      
-                      {/* Reports to Exports */}
-                      <line
-                        x1="400"
-                        y1="180"
-                        x2="330"
-                        y2="180"
-                        stroke="#131417"
-                        strokeWidth="2"
-                        markerEnd="url(#arrowhead)"
-                      />
-
-                      {/* Component boxes */}
-                      {/* Clients */}
-                      <g className="hover:opacity-80 transition-opacity duration-300">
-                        <rect
-                          x="50"
-                          y="50"
-                          width="80"
-                          height="60"
-                          rx="12"
-                          fill="white"
-                          stroke="#131417"
-                          strokeWidth="2"
-                          className="drop-shadow-sm"
-                        />
-                        <text
-                          x="90"
-                          y="85"
-                          textAnchor="middle"
-                          className="text-sm font-medium"
-                          fill="#131417"
-                        >
-                          Clients
-                        </text>
-                      </g>
-
-                      {/* Wallets */}
-                      <g className="hover:opacity-80 transition-opacity duration-300">
-                        <rect
-                          x="220"
-                          y="50"
-                          width="80"
-                          height="60"
-                          rx="12"
-                          fill="white"
-                          stroke="#131417"
-                          strokeWidth="2"
-                          className="drop-shadow-sm"
-                        />
-                        <text
-                          x="260"
-                          y="85"
-                          textAnchor="middle"
-                          className="text-sm font-medium"
-                          fill="#131417"
-                        >
-                          Wallets
-                        </text>
-                      </g>
-
-                      {/* Transactions */}
-                      <g className="hover:opacity-80 transition-opacity duration-300">
-                        <rect
-                          x="420"
-                          y="50"
-                          width="80"
-                          height="60"
-                          rx="12"
-                          fill="white"
-                          stroke="#131417"
-                          strokeWidth="2"
-                          className="drop-shadow-sm"
-                        />
-                        <text
-                          x="460"
-                          y="78"
-                          textAnchor="middle"
-                          className="text-xs font-medium"
-                          fill="#131417"
-                        >
-                          Transaction
-                        </text>
-                        <text
-                          x="460"
-                          y="92"
-                          textAnchor="middle"
-                          className="text-xs font-medium"
-                          fill="#131417"
-                        >
-                          Data
-                        </text>
-                      </g>
-
-                      {/* Rules */}
-                      <g className="hover:opacity-80 transition-opacity duration-300">
-                        <rect
-                          x="620"
-                          y="50"
-                          width="80"
-                          height="60"
-                          rx="12"
-                          fill="white"
-                          stroke="#131417"
-                          strokeWidth="2"
-                          className="drop-shadow-sm"
-                        />
-                        <text
-                          x="660"
-                          y="85"
-                          textAnchor="middle"
-                          className="text-sm font-medium"
-                          fill="#131417"
-                        >
-                          Rules
-                        </text>
-                      </g>
-
-                      {/* Reports */}
-                      <g className="hover:opacity-80 transition-opacity duration-300">
-                        <rect
-                          x="420"
-                          y="150"
-                          width="80"
-                          height="60"
-                          rx="12"
-                          fill="white"
-                          stroke="#131417"
-                          strokeWidth="2"
-                          className="drop-shadow-sm"
-                        />
-                        <text
-                          x="460"
-                          y="185"
-                          textAnchor="middle"
-                          className="text-sm font-medium"
-                          fill="#131417"
-                        >
-                          Reports
-                        </text>
-                      </g>
-
-                      {/* Exports */}
-                      <g className="hover:opacity-80 transition-opacity duration-300">
-                        <rect
-                          x="220"
-                          y="150"
-                          width="80"
-                          height="60"
-                          rx="12"
-                          fill="white"
-                          stroke="#131417"
-                          strokeWidth="2"
-                          className="drop-shadow-sm"
-                        />
-                        <text
-                          x="260"
-                          y="185"
-                          textAnchor="middle"
-                          className="text-sm font-medium"
-                          fill="#131417"
-                        >
-                          Exports
-                        </text>
-                      </g>
-
-                      {/* Flow labels */}
-                      <text
-                        x="165"
-                        y="75"
-                        textAnchor="middle"
-                        className="text-xs"
-                        fill="#9FA0A3"
-                      >
-                        connect
-                      </text>
-                      
-                      <text
-                        x="365"
-                        y="75"
-                        textAnchor="middle"
-                        className="text-xs"
-                        fill="#9FA0A3"
-                      >
-                        import
-                      </text>
-                      
-                      <text
-                        x="565"
-                        y="75"
-                        textAnchor="middle"
-                        className="text-xs"
-                        fill="#9FA0A3"
-                      >
-                        process
-                      </text>
-                      
-                      <text
-                        x="600"
-                        y="150"
-                        textAnchor="middle"
-                        className="text-xs"
-                        fill="#9FA0A3"
-                        transform="rotate(-45 600 150)"
-                      >
-                        generate
-                      </text>
-                      
-                      <text
-                        x="365"
-                        y="175"
-                        textAnchor="middle"
-                        className="text-xs"
-                        fill="#9FA0A3"
-                      >
-                        export
-                      </text>
-                    </svg>
-                  </div>
-                  
-                  <p className="text-[16px] font-normal text-[#9FA0A3] leading-[150%] tracking-[-0.16px] mt-4 text-center">
-                    The system processes client data through connected wallets, imports transaction data, applies tax rules, generates reports, and exports final documents.
-                  </p>
-                </div>
-                
                 <h3 className="text-[20px] font-medium text-[#131417] mb-4">🚀 Core Features Delivered:</h3>
                 <ul className="space-y-3">
                   <li className="text-[18px] font-normal text-[#131417] leading-[150%] tracking-[-0.18px] flex items-start gap-3 transition-all duration-300 hover:text-[#2a2a2a]">
@@ -1507,6 +1212,17 @@ export default function ComputisCaseStudy() {
             </span>
           </div>
 
+          <div className="group bg-white/80 backdrop-blur-sm rounded-[20px] p-6 border border-white/20 shadow-sm hover:shadow-lg transition-all duration-500 hover:scale-[1.02] cursor-pointer relative overflow-hidden">
+            {/* Screenshot overlay that appears on hover */}
+            <div className="absolute inset-0 bg-black/90 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center rounded-[20px]">
+              <img 
+                src="/Transactions Grid.png" 
+                alt="Classification Grid Interface"
+                className="w-[90%] h-[90%] object-contain rounded-lg shadow-2xl"
+              />
+            </div>
+          </div>
+
           {/* Get in Touch */}
           <div className="text-center mb-16 lg:mb-[270px]">
             <p className="text-[18px] font-medium text-[#9FA0A3] leading-[20px] tracking-[-0.18px] mb-[20px] transition-all duration-300 hover:text-white">
@@ -1517,7 +1233,16 @@ export default function ComputisCaseStudy() {
             </h2>
           </div>
 
-          {/* Footer Bottom */}
+          <div className="group bg-white/60 backdrop-blur-sm rounded-[20px] p-6 border border-white/20 shadow-sm hover:shadow-lg transition-all duration-500 hover:scale-[1.02] cursor-pointer relative overflow-hidden">
+            <div className="absolute inset-0 bg-black/90 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center rounded-[20px]">
+              <img 
+                src="/Rule Builder.png" 
+                alt="Rule Builder Interface"
+                className="w-[90%] h-[90%] object-contain rounded-lg shadow-2xl"
+              />
+            </div>
+          </div>
+
           <div className="flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-0">
             <span className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] order-3 lg:order-1 transition-all duration-300 hover:text-[#9FA0A3]">
               © All rights reserved.
@@ -1557,12 +1282,33 @@ export default function ComputisCaseStudy() {
               >
                 License
               </a>
+
+              <div className="group bg-white/20 backdrop-blur-sm rounded-[20px] p-6 border border-white/20 shadow-sm hover:shadow-lg transition-all duration-500 hover:scale-[1.02] cursor-pointer relative overflow-hidden">
+                <div className="absolute inset-0 bg-black/90 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center rounded-[20px]">
+                  <img 
+                    src="/Audit Trail Drawer.png" 
+                    alt="Audit Log Timeline Interface"
+                    className="w-[90%] h-[90%] object-contain rounded-lg shadow-2xl"
+                  />
+                </div>
+              </div>
+
               <a
                 href="#"
                 className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] hover:text-[#9FA0A3] transition-all duration-300 hover:scale-105"
               >
                 Terms of Use
               </a>
+            </div>
+          </div>
+
+          <div className="group bg-white/40 backdrop-blur-sm rounded-[20px] p-6 border border-white/20 shadow-sm hover:shadow-lg transition-all duration-500 hover:scale-[1.02] cursor-pointer relative overflow-hidden">
+            <div className="absolute inset-0 bg-black/90 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center rounded-[20px]">
+              <img 
+                src="/Homepage Dashboard.png" 
+                alt="FMV Dashboard Interface"
+                className="w-[90%] h-[90%] object-contain rounded-lg shadow-2xl"
+              />
             </div>
           </div>
         </div>
