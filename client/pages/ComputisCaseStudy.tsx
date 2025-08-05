@@ -1303,20 +1303,20 @@ export default function ComputisCaseStudy() {
           onClick={closeModal}
         >
           <div 
-            className="relative max-w-7xl max-h-full animate-in zoom-in-95 duration-300"
+      <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
             onClick={(e) => e.stopPropagation()}
-          >
+          <div className="bg-white rounded-lg shadow-2xl overflow-hidden max-h-[90vh] flex flex-col">
             {/* Close Button */}
-            <button
+            <div className="flex justify-between items-center p-4 border-b bg-white">
               onClick={closeModal}
-              className="absolute -top-12 right-0 text-white hover:text-gray-300 transition-colors z-10"
-              aria-label="Close modal"
+                <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
+                {subtitle && <p className="text-sm text-gray-600 mt-1">{subtitle}</p>}
             >
               <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
+                className="p-2 hover:bg-gray-100 rounded-full transition-colors flex-shrink-0"
             </button>
-            
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             {/* Title */}
             <div className="absolute -top-12 left-0 text-white">
               <h3 className="text-lg font-medium">{selectedTitle}</h3>
@@ -1401,11 +1401,27 @@ export default function ComputisCaseStudy() {
               >
                 License
               </a>
-              <a
+            <div className="flex-1 overflow-auto bg-gray-50">
                 href="#"
                 className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] hover:text-[#9FA0A3] transition-all duration-300 hover:scale-105"
               >
-                Terms of Use
+                className="w-full h-auto object-contain"
+                style={{ maxHeight: 'calc(90vh - 100px)' }}
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                  e.target.nextSibling.style.display = 'flex';
+                }}
+              />
+              <div 
+                className="hidden w-full h-64 bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg items-center justify-center"
+              >
+                <div className="text-center">
+                  <svg className="w-12 h-12 text-gray-400 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                  <p className="text-gray-500">Image not available</p>
+                  <p className="text-sm text-gray-400 mt-1">{imageSrc}</p>
+                </div>
               </a>
             </div>
           </div>
