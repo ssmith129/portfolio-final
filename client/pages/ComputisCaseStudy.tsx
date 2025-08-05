@@ -1,7 +1,32 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 
 export default function ComputisCaseStudy() {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [selectedTitle, setSelectedTitle] = useState<string>("");
+
+  const openModal = (imageSrc: string, title: string) => {
+    setSelectedImage(imageSrc);
+    setSelectedTitle(title);
+    document.body.style.overflow = 'hidden'; // Prevent background scrolling
+  };
+
+  const closeModal = () => {
+    setSelectedImage(null);
+    setSelectedTitle("");
+    document.body.style.overflow = 'unset'; // Restore scrolling
+  };
+
+  // Close modal on escape key
+  React.useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') closeModal();
+    };
+    document.addEventListener('keydown', handleEscape);
+    return () => document.removeEventListener('keydown', handleEscape);
+  }, []);
+
   return (
     <div className="min-h-screen bg-[#F5F5F5]">
       {/* Navigation */}
@@ -1088,21 +1113,76 @@ export default function ComputisCaseStudy() {
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div className="bg-purple-50 p-6 rounded-[25px] border border-purple-200 transition-all duration-300 hover:border-purple-300 hover:scale-[1.02]">
-                  <h4 className="text-[18px] font-medium text-[#131417] mb-2">Classification Grid</h4>
-                  <p className="text-[16px] text-[#131417]">w/ AI confidence</p>
+                <div 
+                  className="bg-white p-6 rounded-[20px] shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer hover:scale-[1.02] group"
+                  onClick={() => openModal("/Classification Grid.png", "Classification Grid")}
+                >
+                  <div className="flex items-center justify-between mb-4">
+                    <h4 className="text-lg font-medium text-[#131417]">Classification Grid</h4>
+                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <svg className="w-5 h-5 text-[#9FA0A3]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                      </svg>
+                    </div>
+                  </div>
+                  <p className="text-sm text-[#9FA0A3] mb-4">w/ AI confidence</p>
+                  <div className="aspect-video bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg flex items-center justify-center">
+                    <span className="text-xs text-[#9FA0A3]">Click to enlarge</span>
+                  </div>
                 </div>
-                <div className="bg-orange-50 p-6 rounded-[25px] border border-orange-200 transition-all duration-300 hover:border-orange-300 hover:scale-[1.02]">
-                  <h4 className="text-[18px] font-medium text-[#131417] mb-2">Rule Builder</h4>
-                  <p className="text-[16px] text-[#131417]">Drag-Drop UI</p>
+
+                <div 
+                  className="bg-white p-6 rounded-[20px] shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer hover:scale-[1.02] group"
+                  onClick={() => openModal("/Rule Builder.png", "Rule Builder")}
+                >
+                  <div className="flex items-center justify-between mb-4">
+                    <h4 className="text-lg font-medium text-[#131417]">Rule Builder</h4>
+                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <svg className="w-5 h-5 text-[#9FA0A3]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                      </svg>
+                    </div>
+                  </div>
+                  <p className="text-sm text-[#9FA0A3] mb-4">Drag-Drop UI</p>
+                  <div className="aspect-video bg-gradient-to-br from-green-50 to-blue-50 rounded-lg flex items-center justify-center">
+                    <span className="text-xs text-[#9FA0A3]">Click to enlarge</span>
+                  </div>
                 </div>
-                <div className="bg-red-50 p-6 rounded-[25px] border border-red-200 transition-all duration-300 hover:border-red-300 hover:scale-[1.02]">
-                  <h4 className="text-[18px] font-medium text-[#131417] mb-2">FMV Dashboard</h4>
-                  <p className="text-[16px] text-[#131417]">w/ Red-Yellow-Gray Flags</p>
+
+                <div 
+                  className="bg-white p-6 rounded-[20px] shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer hover:scale-[1.02] group"
+                  onClick={() => openModal("/FMV Dashboard.png", "FMV Dashboard")}
+                >
+                  <div className="flex items-center justify-between mb-4">
+                    <h4 className="text-lg font-medium text-[#131417]">FMV Dashboard</h4>
+                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <svg className="w-5 h-5 text-[#9FA0A3]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                      </svg>
+                    </div>
+                  </div>
+                  <p className="text-sm text-[#9FA0A3] mb-4">w/ Red-Yellow-Gray Flags</p>
+                  <div className="aspect-video bg-gradient-to-br from-yellow-50 to-red-50 rounded-lg flex items-center justify-center">
+                    <span className="text-xs text-[#9FA0A3]">Click to enlarge</span>
+                  </div>
                 </div>
-                <div className="bg-teal-50 p-6 rounded-[25px] border border-teal-200 transition-all duration-300 hover:border-teal-300 hover:scale-[1.02]">
-                  <h4 className="text-[18px] font-medium text-[#131417] mb-2">Audit Log</h4>
-                  <p className="text-[16px] text-[#131417]">Timeline Drawer</p>
+
+                <div 
+                  className="bg-white p-6 rounded-[20px] shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer hover:scale-[1.02] group"
+                  onClick={() => openModal("/Audit Trail Drawer.png", "Audit Log")}
+                >
+                  <div className="flex items-center justify-between mb-4">
+                    <h4 className="text-lg font-medium text-[#131417]">Audit Log</h4>
+                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <svg className="w-5 h-5 text-[#9FA0A3]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                      </svg>
+                    </div>
+                  </div>
+                  <p className="text-sm text-[#9FA0A3] mb-4">Timeline Drawer</p>
+                  <div className="aspect-video bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg flex items-center justify-center">
+                    <span className="text-xs text-[#9FA0A3]">Click to enlarge</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1195,6 +1275,45 @@ export default function ComputisCaseStudy() {
           </div>
         </section>
       </div>
+
+      {/* Modal Overlay */}
+      {selectedImage && (
+        <div 
+          className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4 animate-in fade-in-0 duration-300"
+          onClick={closeModal}
+        >
+          <div 
+            className="relative max-w-7xl max-h-full animate-in zoom-in-95 duration-300"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Close Button */}
+            <button
+              onClick={closeModal}
+              className="absolute -top-12 right-0 text-white hover:text-gray-300 transition-colors z-10"
+              aria-label="Close modal"
+            >
+              <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+            
+            {/* Title */}
+            <div className="absolute -top-12 left-0 text-white">
+              <h3 className="text-lg font-medium">{selectedTitle}</h3>
+            </div>
+            
+            {/* Image */}
+            <img
+              src={selectedImage}
+              alt={selectedTitle}
+              className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl"
+              onError={(e) => {
+                e.currentTarget.src = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDQwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjRjVGNUY1Ii8+CjxwYXRoIGQ9Ik0yMDAgMTUwTDE3NSAxMjVIMTUwVjE3NUgxNzVMMjAwIDE1MFoiIGZpbGw9IiM5RkEwQTMiLz4KPHRLEHT0gZj0iIzlGQTBBMyIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiB4PSIyMDAiIHk9IjIwMCI+SW1hZ2UgTm90IEZvdW5kPC90ZXh0Pgo8L3N2Zz4K";
+              }}
+            />
+          </div>
+        </div>
+      )}
 
       {/* Footer */}
       <footer className="bg-[#131417] text-white animate-in fade-in-0 slide-in-from-bottom-8 duration-1000 delay-2900">
