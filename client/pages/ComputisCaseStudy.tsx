@@ -1298,9 +1298,10 @@ export default function ComputisCaseStudy() {
                 className="text-[18px] font-medium leading-[18px] tracking-[-0.18px] hover:text-[#9FA0A3] transition-all duration-300 hover:scale-105"
               >
                 Terms of Use
-              </a>
-            </div>
+            </a>
+          </div>
         </div>
+      </div>
       </footer>
     </div>
   );
