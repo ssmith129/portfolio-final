@@ -103,38 +103,36 @@ export default function ComputisCaseStudy() {
                 </div>
               </div>
 
-              <div className="bg-white rounded-[25px] p-6 shadow-sm hover:shadow-md transition-all duration-300 overflow-x-auto">
-                <h3 className="text-[20px] font-medium text-[#131417] mb-4">Key Metrics</h3>
-                <table className="w-full min-w-[500px]">
-                  <thead>
-                    <tr className="border-b border-gray-200">
-                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Metric</th>
-                      <th className="text-left py-4 px-4 text-[16px] font-medium text-[#131417]">Result</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">CPA Onboarding Time</td>
-                      <td className="py-4 px-4 text-[16px] font-medium text-green-600">↓ 45% (2.5h → 1.4h)</td>
-                    </tr>
-                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Demo-to-Conversion</td>
-                      <td className="py-4 px-4 text-[16px] font-medium text-blue-600">↑ 32%</td>
-                    </tr>
-                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Manual Classification Work</td>
-                      <td className="py-4 px-4 text-[16px] font-medium text-purple-600">↓ 85%</td>
-                    </tr>
-                    <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Error Detection Rate</td>
-                      <td className="py-4 px-4 text-[16px] font-medium text-orange-600">↑ 150%</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50 transition-colors duration-300">
-                      <td className="py-4 px-4 text-[16px] text-[#131417]">Enterprise Deals</td>
-                      <td className="py-4 px-4 text-[16px] font-medium text-indigo-600">3 closed in 6 months</td>
-                    </tr>
-                  </tbody>
-                </table>
+              <div className="space-y-4">
+                <h3 className="text-[20px] font-medium text-[#131417]">Key Metrics</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                  <div className="bg-green-50 p-6 rounded-[25px] border-2 border-green-200 hover:border-green-300 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
+                    <p className="text-[14px] font-medium text-green-700 mb-2">CPA Onboarding Time</p>
+                    <p className="text-[28px] font-bold text-green-600 mb-1">↓ 45%</p>
+                    <p className="text-[14px] text-green-600">2.5h → 1.4h</p>
+                  </div>
+
+                  <div className="bg-blue-50 p-6 rounded-[25px] border-2 border-blue-200 hover:border-blue-300 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
+                    <p className="text-[14px] font-medium text-blue-700 mb-2">Demo-to-Conversion</p>
+                    <p className="text-[28px] font-bold text-blue-600">↑ 32%</p>
+                  </div>
+
+                  <div className="bg-purple-50 p-6 rounded-[25px] border-2 border-purple-200 hover:border-purple-300 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
+                    <p className="text-[14px] font-medium text-purple-700 mb-2">Manual Classification Work</p>
+                    <p className="text-[28px] font-bold text-purple-600">↓ 85%</p>
+                  </div>
+
+                  <div className="bg-orange-50 p-6 rounded-[25px] border-2 border-orange-200 hover:border-orange-300 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02]">
+                    <p className="text-[14px] font-medium text-orange-700 mb-2">Error Detection Rate</p>
+                    <p className="text-[28px] font-bold text-orange-600">↑ 150%</p>
+                  </div>
+
+                  <div className="bg-indigo-50 p-6 rounded-[25px] border-2 border-indigo-200 hover:border-indigo-300 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02] sm:col-span-2 lg:col-span-1">
+                    <p className="text-[14px] font-medium text-indigo-700 mb-2">Enterprise Deals</p>
+                    <p className="text-[28px] font-bold text-indigo-600">3</p>
+                    <p className="text-[14px] text-indigo-600">closed in 6 months</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
